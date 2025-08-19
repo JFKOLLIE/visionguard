@@ -26,7 +26,7 @@
         "id": "4",
         "content": "Build the 1-product e-commerce store",
         "details": "Create a full-stack e-commerce website with: hero section addressing pain points, product benefits and usage guide, shopping cart functionality, order processing, contact information integration. Use provided business details: +1 2027737185, support@[domain], 11468 Marketplace Dr. N, Ste. 600-1024, Champlin MN 55316. Free shipping worldwide, 1-2 day processing, 7-10 day delivery.",
-        "status": "in_progress",
+        "status": "completed",
         "priority": "high"
       }
     }
