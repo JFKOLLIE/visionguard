@@ -1,0 +1,392 @@
+[
+  {
+    "query": "Person working at computer showing eye strain and fatigue, before image for blue light glasses benefits",
+    "image_info": {
+      "url": "https://www.visionworks.com/file/general/male-eye-strain-at-computer.jpg",
+      "file_path": "/workspace/imgs/digital_eye_strain_computer_worker_tired_eyes_before_blue_light_glasses.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 38042,
+      "width": 970,
+      "height": 585,
+      "total_pixels": 567450,
+      "basic_score": 0.8634600640856496
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 98.0,
+      "clarity_score": 95.0,
+      "watermark_score": 100.0,
+      "overall_score": 95.0,
+      "explanation": "The image is highly relevant to the search query and prompt, clearly depicting a person experiencing eye strain and fatigue while working on a computer in a dim environment. The quality is excellent with good clarity and no watermarks, making it an ideal 'before' image for blue light glasses benefits.",
+      "file_name": "digital_eye_strain_computer_worker_tired_eyes_before_blue_light_glasses.jpg",
+      "caption": "A young Asian man sits at a desk in a dimly lit room, intensely rubbing his tired eyes with one hand while holding a pair of glasses in the other. A laptop is open in front of him, suggesting prolonged computer use and digital eye strain. The scene effectively conveys fatigue and the need for eye relief from screen exposure, perfect as a 'before' image for blue light glasses.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Person working at computer showing eye strain and fatigue, before image for blue light glasses benefits",
+    "image_info": {
+      "url": "https://hendersonvision.com/wp-content/uploads/2023/02/woman-min-1024x683.jpg",
+      "file_path": "/workspace/imgs/young_woman_digital_eye_strain_computer_fatigue.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 54523,
+      "width": 1024,
+      "height": 683,
+      "total_pixels": 699392,
+      "basic_score": 0.8983275769718416
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 95.0,
+      "clarity_score": 90.0,
+      "watermark_score": 100.0,
+      "overall_score": 90.0,
+      "explanation": "The image perfectly captures a person experiencing eye strain and fatigue while working at a computer, directly addressing the search query and prompt. The clarity is excellent, and there are no watermarks. The composition and subject's expression are highly effective for the intended 'before image' use case.",
+      "file_name": "young_woman_digital_eye_strain_computer_fatigue.jpg",
+      "caption": "A young woman or teenager, wearing glasses on her head, sits at a computer desk, rubbing her tired eyes with both hands. Her expression conveys fatigue and digital eye strain, making this an ideal 'before' image to illustrate the benefits of blue light glasses or ergonomic breaks for computer workers.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Person working at computer showing eye strain and fatigue, before image for blue light glasses benefits",
+    "image_info": {
+      "url": "https://s3.amazonaws.com/static.organiclead.com/Site-46238cd3-f188-4241-b8f7-03f063f309ad/shutterstock_1880300533_1_.jpg",
+      "file_path": "/workspace/imgs/man_digital_eye_strain_computer_tired_eyes.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 45111,
+      "width": 1000,
+      "height": 665,
+      "total_pixels": 665000,
+      "basic_score": 0.8905919903492467
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 98.0,
+      "clarity_score": 95.0,
+      "watermark_score": 100.0,
+      "overall_score": 95.0,
+      "explanation": "The image perfectly matches the search query and prompt, depicting a person experiencing clear eye strain and fatigue while working at a computer. It is ideal as a 'before' image for promoting blue light glasses benefits. The image quality is excellent, with sharp focus, good lighting, and no watermarks.",
+      "file_name": "man_digital_eye_strain_computer_tired_eyes.jpg",
+      "caption": "A young Black man wearing glasses sits at a desk with a laptop, looking visibly pained and tired. He is holding his fingers to the bridge of his nose and around his eyes, indicating discomfort and digital eye strain from prolonged computer use in an office or home setting.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Person working at computer showing eye strain and fatigue, before image for blue light glasses benefits",
+    "image_info": {
+      "url": "https://laeyecare.net/wp-content/uploads/2022/11/How-to-Prevent-Digital-Eye-Strain-Hero-1024x672.jpeg",
+      "file_path": "/workspace/imgs/young_woman_digital_eye_strain_computer_fatigue_office.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 74638,
+      "width": 1024,
+      "height": 672,
+      "total_pixels": 688128,
+      "basic_score": 0.8981963370209954
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 100.0,
+      "clarity_score": 95.0,
+      "watermark_score": 100.0,
+      "overall_score": 95.0,
+      "explanation": "The image perfectly matches the search query and prompt. It clearly depicts a person (young woman) working at a computer, exhibiting signs of severe eye strain and fatigue by rubbing her eyes and holding her glasses. The image quality is excellent with good focus on the subject, appropriate lighting, and a professional composition suitable for a 'before' image for blue light glasses benefits. No watermarks are present.",
+      "file_name": "young_woman_digital_eye_strain_computer_fatigue_office.jpg",
+      "caption": "A young Caucasian woman in a light pink shirt sits at a desk with an open laptop, using one hand to rub her tired eyes and holding a pair of eyeglasses in the other. Her expression clearly conveys discomfort and fatigue, indicative of digital eye strain from prolonged computer use in a modern office environment with blurred colleagues in the background.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Person working at computer showing eye strain and fatigue, before image for blue light glasses benefits",
+    "image_info": {
+      "url": "https://invisioncare.com/wp-content/uploads/Digital-Eye-Strain.jpg",
+      "file_path": "/workspace/imgs/man-digital-eye-strain-computer-worker-tired-eyes.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 42997,
+      "width": 1000,
+      "height": 667,
+      "total_pixels": 667000,
+      "basic_score": 0.890772569614923
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 98.0,
+      "clarity_score": 95.0,
+      "watermark_score": 100.0,
+      "overall_score": 95.0,
+      "explanation": "The image is exceptionally relevant to the search query and prompt, clearly depicting a man experiencing eye strain and fatigue while working on a computer. The clarity is excellent, and there are no visible watermarks. The composition and lighting are professional, making it an ideal 'before' image for discussing blue light glasses benefits.",
+      "file_name": "man-digital-eye-strain-computer-worker-tired-eyes.jpg",
+      "caption": "A man in a grey suit jacket and black shirt sits at a table with a laptop, rubbing his tired eyes in a gesture of discomfort and fatigue. His glasses are pushed up on his forehead, emphasizing his strained expression. A coffee cup rests beside the laptop on the wooden table, suggesting a work or study environment and prolonged screen time. This image effectively captures the common issue of digital eye strain experienced by computer users.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Gaming setup with person wearing blue light glasses during extended gaming session",
+    "image_info": {
+      "url": "http://gunnar.com/cdn/shop/articles/Screenshot_2023-11-01_at_0.16.55.png?v=1698819443",
+      "file_path": "/workspace/imgs/gamer_blue_light_glasses_arcade_setup_neon_lights.jpg",
+      "img_format": "PNG",
+      "mode": "RGBA",
+      "file_size": 647154,
+      "width": 862,
+      "height": 538,
+      "total_pixels": 463756,
+      "basic_score": 0.8773710435183543
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 95.0,
+      "clarity_score": 90.0,
+      "watermark_score": 100.0,
+      "overall_score": 90.0,
+      "explanation": "The image is highly relevant to the search query, clearly showing a person wearing blue light glasses in what appears to be a gaming setup (arcade machine and neon lights). The clarity is excellent, with sharp focus and vibrant colors. There are no watermarks. Overall, the image is professionally composed and lit, effectively conveying the prompt's intent.",
+      "file_name": "gamer_blue_light_glasses_arcade_setup_neon_lights.jpg",
+      "caption": "A young man wearing stylish yellow-tinted blue light filtering glasses stands with his arms crossed, posing confidently in front of a vibrant arcade gaming machine. The scene is illuminated by dramatic blue and purple neon lights, creating an immersive and futuristic gaming environment. His casual attire, a grey and white raglan shirt, contrasts with the dynamic lighting, highlighting his focus on gaming.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "High-quality professional blue light blocking glasses with modern stylish frames for e-commerce hero image",
+    "image_info": {
+      "url": "https://m.media-amazon.com/images/I/51ZVZrlhSEL._UY1000_.jpg",
+      "file_path": "/workspace/imgs/modern_tortoise_shell_glasses_e-commerce_hero.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 25973,
+      "width": 1000,
+      "height": 1000,
+      "total_pixels": 1000000,
+      "basic_score": 0.9194804713520648
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 75.0,
+      "clarity_score": 95.0,
+      "watermark_score": 100.0,
+      "overall_score": 88.0,
+      "explanation": "The image clearly depicts a pair of high-quality glasses with stylish, modern tortoise shell frames on a clean white background, which is excellent for an e-commerce hero image. The 'professional' aspect is well-represented by the clean presentation and classic frame style. However, the image provides no visual indication that these are 'blue light' blocking glasses, which is a key part of the query and prompt, leading to a slight deduction in relevance.",
+      "file_name": "modern_tortoise_shell_glasses_e-commerce_hero.jpg",
+      "caption": "A pair of stylish oval-shaped glasses with a classic tortoise shell pattern on the frames and temples, set against a pristine white background. The clean, professional presentation highlights the modern design, ideal for an e-commerce product display.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "High-quality professional blue light blocking glasses with modern stylish frames for e-commerce hero image",
+    "image_info": {
+      "url": "https://m.media-amazon.com/images/I/71gYU4LigBL._UF894,1000_QL80_.jpg",
+      "file_path": "/workspace/imgs/modern_blue_light_blocking_glasses_black_clear_frames.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 48669,
+      "width": 894,
+      "height": 894,
+      "total_pixels": 799236,
+      "basic_score": 0.9090884009248054
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 100.0,
+      "clarity_score": 98.0,
+      "watermark_score": 100.0,
+      "overall_score": 97.0,
+      "explanation": "The image is perfectly relevant to the search query and prompt, showcasing two pairs of modern, stylish blue light blocking glasses. It boasts excellent clarity, is free of watermarks, and is composed professionally for an e-commerce hero image.",
+      "file_name": "modern_blue_light_blocking_glasses_black_clear_frames.jpg",
+      "caption": "Two pairs of blue light blocking glasses, one with sleek black frames and the other with clear, transparent frames, are displayed against a clean white background. A light blue product box is positioned beneath them, clearly stating \"HIGH TECH BLUE LIGHT BLOCKING.\" The glasses feature a modern, square design, presented in a high-quality, professional product shot ideal for e-commerce.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "High-quality professional blue light blocking glasses with modern stylish frames for e-commerce hero image",
+    "image_info": {
+      "url": "https://cdn.thewirecutter.com/wp-content/media/2020/12/bluelightblockingglasses-2048px-0030.jpg?auto=webp&quality=75&crop=1.91:1&width=1200",
+      "file_path": "/workspace/imgs/modern_blue_light_glasses_ecommerce_hero.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 78800,
+      "width": 1200,
+      "height": 628,
+      "total_pixels": 753600,
+      "basic_score": 0.9035942507551068
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 95.0,
+      "clarity_score": 95.0,
+      "watermark_score": 100.0,
+      "overall_score": 90.0,
+      "explanation": "The image is highly relevant, showcasing multiple modern and stylish blue light blocking glasses. It exhibits excellent clarity, is free of watermarks, and has a professional flat lay composition ideal for an e-commerce hero image.",
+      "file_name": "modern_blue_light_glasses_ecommerce_hero.jpg",
+      "caption": "A vibrant flat lay studio shot featuring five pairs of modern and stylish blue light blocking glasses, showcasing a variety of frame designs, colors, and materials. The glasses are artfully arranged on a clean, bright coral orange background, with subtle shadows adding depth. This composition highlights the contemporary appeal and professional quality of the eyewear, making it suitable for an e-commerce hero image.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Collection of different blue light glasses styles and frames showing variety and options",
+    "image_info": {
+      "url": "https://cdn.thewirecutter.com/wp-content/media/2020/12/bluelightblockingglasses-2048px-0030.jpg?auto=webp&quality=75&crop=1.91:1&width=1200",
+      "file_path": "/workspace/imgs/blue_light_glasses_collection_diverse_styles_frames.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 78800,
+      "width": 1200,
+      "height": 628,
+      "total_pixels": 753600,
+      "basic_score": 0.9035942507551068
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 98.0,
+      "clarity_score": 95.0,
+      "watermark_score": 100.0,
+      "overall_score": 95.0,
+      "explanation": "The image perfectly matches the search query and prompt by displaying a clear collection of multiple styles of glasses, which appear to be blue light blocking due to the lens tints. The clarity is excellent, with good lighting and focus on all items. There are no watermarks, and the overall composition is professional and visually appealing, effectively showcasing variety.",
+      "file_name": "blue_light_glasses_collection_diverse_styles_frames.jpg",
+      "caption": "An overhead flat lay shot showcasing a diverse collection of five pairs of blue light blocking glasses, featuring various frame styles and colors, neatly arranged on a vibrant coral background. The assortment includes rectangular, round, and half-rim designs in shades of green, black, tortoise, and gold, with lenses exhibiting the characteristic blue or orange tint of blue light filters. The clean composition highlights the variety and options available.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Collection of different blue light glasses styles and frames showing variety and options",
+    "image_info": {
+      "url": "https://dreamrecovery.io/cdn/shop/files/Screenshot2024-11-12at5.44.29AM-965242.png?v=1751045582&width=1946",
+      "file_path": "/workspace/imgs/day_night_blue_light_blocking_glasses_styles.jpg",
+      "img_format": "PNG",
+      "mode": "P",
+      "file_size": 117878,
+      "width": 974,
+      "height": 977,
+      "total_pixels": 951598,
+      "basic_score": 0.9176843937630448
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 90.0,
+      "clarity_score": 95.0,
+      "watermark_score": 75.0,
+      "overall_score": 90.0,
+      "explanation": "The image is highly relevant, showcasing two distinct styles of blue light blocking glasses with clear explanations for day and night use. The clarity is excellent, and the overall composition is professional, though a small brand logo is visible on one of the frames. It effectively presents variety and options.",
+      "file_name": "day_night_blue_light_blocking_glasses_styles.jpg",
+      "caption": "A comprehensive graphic showcasing two distinct styles of blue light blocking glasses: a tortoiseshell frame with yellow lenses for daytime use (blocking artificial blue light) and a clear frame with orange lenses for nighttime use (blocking blue/green light). The infographic highlights their purpose in relation to the visible light spectrum, screen protection, and wear times, illustrating variety and options within a blue light eyewear collection.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Collection of different blue light glasses styles and frames showing variety and options",
+    "image_info": {
+      "url": "https://m.media-amazon.com/images/I/81jTpAsG8fL._UF894,1000_QL80_.jpg",
+      "file_path": "/workspace/imgs/blue_light_glasses_collection_multiple_styles_madison_avenue.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 118713,
+      "width": 894,
+      "height": 894,
+      "total_pixels": 799236,
+      "basic_score": 0.9163557730735211
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 95.0,
+      "clarity_score": 85.0,
+      "watermark_score": 50.0,
+      "overall_score": 80.0,
+      "explanation": "The image is highly relevant, perfectly matching the search query and prompt by showcasing a collection of multiple blue light glasses styles on different models. Clarity is good, and the overall composition is professional and visually appealing for a product display. However, it contains prominent branding from 'Madison Avenue' and repeated text overlays indicating 'BLUE LIGHT GLASSES', which function as watermarks/labels.",
+      "file_name": "blue_light_glasses_collection_multiple_styles_madison_avenue.jpg",
+      "caption": "A dynamic collage featuring seven different women modeling various styles of Madison Avenue blue light glasses. The image showcases a diverse collection of contemporary frames, including cat-eye, square, and subtly rounded shapes, in different color patterns such as tortoiseshell and clear, worn by models with diverse appearances. Text overlays prominently label the product as 'BLUE LIGHT GLASSES'.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Collection of different blue light glasses styles and frames showing variety and options",
+    "image_info": {
+      "url": "https://m.media-amazon.com/images/I/61tfFIkBmHL._UF894,1000_QL80_.jpg",
+      "file_path": "/workspace/imgs/blue_light_glasses_collection_multi_style_frames.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 65555,
+      "width": 894,
+      "height": 896,
+      "total_pixels": 801024,
+      "basic_score": 0.9110350679038555
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 95.0,
+      "clarity_score": 98.0,
+      "watermark_score": 95.0,
+      "overall_score": 95.0,
+      "explanation": "The image is highly relevant, perfectly illustrating a collection of three distinct styles of glasses that visually align with common blue light filtering eyewear. The clarity is excellent, with sharp focus and professional lighting against a clean white background. There are no intrusive watermarks, only small product emblems on the frames themselves.",
+      "file_name": "blue_light_glasses_collection_multi_style_frames.jpg",
+      "caption": "A high-quality studio shot of three pairs of contemporary blue light filtering glasses, stacked vertically against a clean white background. The collection includes a classic black square frame, a stylish brown and white tortoiseshell pattern frame, and a modern clear transparent frame, showcasing a variety of popular styles suitable for different preferences. The lenses exhibit a subtle blue tint, indicative of blue light filtering technology.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Professional person comfortably working at computer wearing blue light glasses, after image showing relief",
+    "image_info": {
+      "url": "https://www.blaineeyeclinic.com/wp-content/uploads/shutterstock_2458972487.jpg",
+      "file_path": "/workspace/imgs/happy-professional-man-glasses-working-laptop-office.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 327642,
+      "width": 1000,
+      "height": 667,
+      "total_pixels": 667000,
+      "basic_score": 0.9183550677413825
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 80.0,
+      "clarity_score": 95.0,
+      "watermark_score": 100.0,
+      "overall_score": 90.0,
+      "explanation": "The image is highly relevant to most aspects of the search query and prompt, featuring a happy, professional person working comfortably at a computer and wearing glasses. The clarity and overall quality are excellent. However, the specific nuance of 'after image showing relief' is not strongly conveyed, as the subject appears generally happy rather than explicitly relieved, and there's no 'before' context.",
+      "file_name": "happy-professional-man-glasses-working-laptop-office.jpg",
+      "caption": "A smiling young man with curly hair and stylish glasses is comfortably engaged in work at a modern office. He is seated at a white desk with a silver laptop open in front of him, talking on a smartphone held to his ear. Dressed in a light blue denim shirt over a pink t-shirt, he appears cheerful and focused. In the background, a large window offers a bright view, and a second person is visible in a blurred, professional setting.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Professional person comfortably working at computer wearing blue light glasses, after image showing relief",
+    "image_info": {
+      "url": "http://paireyewear.com/cdn/shop/articles/alt-image_blue-light_PDP_twain_men_1024x1024_e48f27c1-9209-488b-a999-62d4be71f158.webp?v=1733162058",
+      "file_path": "/workspace/imgs/happy-man-computer-blue-light-glasses.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 106023,
+      "width": 1024,
+      "height": 661,
+      "total_pixels": 676864,
+      "basic_score": 0.8988084064854615
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 70.0,
+      "clarity_score": 100.0,
+      "watermark_score": 100.0,
+      "overall_score": 95.0,
+      "explanation": "The image clearly depicts a happy person wearing blue light glasses and working comfortably at a laptop, aligning well with the core of the search query. However, it does not explicitly convey the 'after image showing relief' aspect specified in the prompt. While the subject is engaged in work, his attire is casual, which might not fit a strict interpretation of 'professional'. Overall image quality, clarity, and lighting are excellent, with no watermarks.",
+      "file_name": "happy-man-computer-blue-light-glasses.jpg",
+      "caption": "A cheerful young man with dark, curly hair and a beard, wearing a green hoodie, a light blue denim jacket, and stylish green-rimmed blue light filtering glasses. He is smiling softly while looking down at a vibrant blue laptop, seemingly engrossed in work. He comfortably holds a matching blue mug, set against a bright, solid blue background, creating a visually appealing and focused composition.",
+      "recommend": true,
+      "error": ""
+    }
+  }
+]
