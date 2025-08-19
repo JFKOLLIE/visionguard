@@ -388,5 +388,915 @@
       "recommend": true,
       "error": ""
     }
+  },
+  {
+    "query": "Round vintage style frame blue light glasses on white background",
+    "image_info": {
+      "url": "https://m.media-amazon.com/images/I/517h17r+vgL._UF1000,1000_QL80_.jpg",
+      "file_path": "/workspace/imgs/round_vintage_black_blue_light_glasses_white_background.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 28767,
+      "width": 1000,
+      "height": 1000,
+      "total_pixels": 1000000,
+      "basic_score": 0.9197719233373367
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 98.0,
+      "clarity_score": 95.0,
+      "watermark_score": 100.0,
+      "overall_score": 95.0,
+      "explanation": "The image is an excellent match for both the search query and prompt. It clearly depicts round, black-framed glasses with a vintage style and visible blue light blocking properties on a clean white background. The clarity is superb, with sharp details and no watermarks.",
+      "file_name": "round_vintage_black_blue_light_glasses_white_background.jpg",
+      "caption": "A pair of classic round-frame eyeglasses with a matte black finish, designed to block blue light, neatly presented on a pristine white background. The lenses show a subtle blue anti-reflective coating.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Round vintage style frame blue light glasses on white background",
+    "image_info": {
+      "url": "https://m.media-amazon.com/images/I/51mb4aEA+yL._UY1000_.jpg",
+      "file_path": "/workspace/imgs/black_round_vintage_blue_light_glasses_white_background.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 26110,
+      "width": 1000,
+      "height": 1000,
+      "total_pixels": 1000000,
+      "basic_score": 0.9194947763395741
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 98.0,
+      "clarity_score": 95.0,
+      "watermark_score": 100.0,
+      "overall_score": 95.0,
+      "explanation": "The image perfectly matches the search query and prompt, featuring round, vintage-style black frames with a visible blue light tint on a pristine white background. The clarity is excellent, and there are no watermarks.",
+      "file_name": "black_round_vintage_blue_light_glasses_white_background.jpg",
+      "caption": "A single pair of black, round-frame, vintage-style blue light blocking glasses, featuring a subtle blue tint on the lenses, is precisely positioned on a clean white background. The temples are black with gold-colored hinge accents, and the overall design suggests a retro yet modern aesthetic, suitable for everyday wear or costume.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Round vintage style frame blue light glasses on white background",
+    "image_info": {
+      "url": "https://m.media-amazon.com/images/I/51yDme2cymL._UY1000_.jpg",
+      "file_path": "/workspace/imgs/round-vintage-blue-light-glasses-black-gold-white-background.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 37033,
+      "width": 1000,
+      "height": 1000,
+      "total_pixels": 1000000,
+      "basic_score": 0.9206306210746752
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 98.0,
+      "clarity_score": 95.0,
+      "watermark_score": 100.0,
+      "overall_score": 95.0,
+      "explanation": "The image perfectly matches the search query and prompt. It clearly displays two pairs of round-frame glasses, one black and one gold, with blue light filtering properties evident from the lens reflection and blue temple tips, all set against a clean white background. The image quality is excellent, with high clarity and no watermarks.",
+      "file_name": "round-vintage-blue-light-glasses-black-gold-white-background.jpg",
+      "caption": "A clean, top-down product photograph featuring two pairs of round-frame blue light blocking glasses. The upper pair has a matte black metal frame, while the lower pair features a shiny gold metal frame. Both pairs have clear lenses with a subtle blue tint, indicative of blue light filtering properties, and blue accents on the temple tips. The glasses are displayed neatly on a pristine white background.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Round vintage style frame blue light glasses on white background",
+    "image_info": {
+      "url": "https://m.media-amazon.com/images/I/51GMav28hKL._UY1000_.jpg",
+      "file_path": "/workspace/imgs/round_gold_vintage_blue_light_glasses_white_background.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 23835,
+      "width": 1000,
+      "height": 1000,
+      "total_pixels": 1000000,
+      "basic_score": 0.9192570432725317
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 100.0,
+      "clarity_score": 100.0,
+      "watermark_score": 100.0,
+      "overall_score": 100.0,
+      "explanation": "The image is perfectly relevant to both the search query and prompt, clearly displaying round-framed, vintage-style blue light glasses on a pristine white background. It is exceptionally clear, sharp, and free of any watermarks, demonstrating professional quality and composition.",
+      "file_name": "round_gold_vintage_blue_light_glasses_white_background.jpg",
+      "caption": "A detailed front-facing studio shot of a pair of round, gold-rimmed vintage-style glasses designed for blue light filtering. The lenses exhibit a subtle blue reflection, indicative of their protective coating, and the frames feature a classic thin metallic design with intricate bridge and nose pad details, all presented against a pure white background.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Round vintage style frame blue light glasses on white background",
+    "image_info": {
+      "url": "https://m.media-amazon.com/images/I/71ru5pcXhHL._UY1000_.jpg",
+      "file_path": "/workspace/imgs/black_round_vintage_blue_light_glasses_white_background.jpg_85",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 84098,
+      "width": 1000,
+      "height": 1000,
+      "total_pixels": 1000000,
+      "basic_score": 0.9254135670018048
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 95.0,
+      "clarity_score": 95.0,
+      "watermark_score": 45.0,
+      "overall_score": 85.0,
+      "explanation": "The image is highly relevant to the search query and prompt, featuring round-frame blue light glasses with a vintage aesthetic on a clean white background. Clarity and lighting are excellent. The main detractor is the prominent 'HJSTES' brand logo on the cleaning cloth, which impacts the watermark/logo score for a generic stock image.",
+      "file_name": "black_round_vintage_blue_light_glasses_white_background.jpg",
+      "caption": "A pair of stylish black round-frame reading glasses, featuring blue light filtering lenses and a +1.25 power indication, resting on a light grey cleaning cloth with the 'HJSTES' brand logo. The glasses are displayed on a pristine white background, showcasing their classic vintage-inspired design.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Modern clear transparent frame blue light glasses on white background for e-commerce",
+    "image_info": {
+      "url": "https://www.blockbluelight.com/cdn/shop/products/blockbluelight-blue-light-filter-computer-glasses-clear-lens-screentime-wayfarer-computer-glasses-crystal-29931000692910_1000x.jpg?v=1655852881",
+      "file_path": "/workspace/imgs/modern_clear_transparent_frame_glasses_white_background.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 13857,
+      "width": 1000,
+      "height": 578,
+      "total_pixels": 578000,
+      "basic_score": 0.866171669917526
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 95.0,
+      "clarity_score": 95.0,
+      "watermark_score": 100.0,
+      "overall_score": 95.0,
+      "explanation": "The image perfectly matches the visual criteria of the search query and prompt: modern, clear, transparent frame glasses on a pure white background, ideal for e-commerce. The image is crisp, well-lit, and professionally composed. The 'blue light' aspect is not visually verifiable, but the frame itself is highly relevant.",
+      "file_name": "modern_clear_transparent_frame_glasses_white_background.jpg",
+      "caption": "A single pair of modern, clear transparent frame eyeglasses with a rectangular shape, featuring clear lenses and visible internal metal components at the hinges. The glasses are presented against a pure white studio background, making them ideal for e-commerce product listings.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Modern clear transparent frame blue light glasses on white background for e-commerce",
+    "image_info": {
+      "url": "https://www.blockbluelight.com/cdn/shop/products/blockbluelight-blue-light-filter-computer-glasses-clear-lens-screentime-taylor-computer-glasses-crystal-30005335228590_1024x.jpg?v=1655852447",
+      "file_path": "/workspace/imgs/modern-clear-transparent-frame-blue-light-glasses-white-background-ecommerce.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 12600,
+      "width": 1024,
+      "height": 592,
+      "total_pixels": 606208,
+      "basic_score": 0.872746342072368
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 95.0,
+      "clarity_score": 98.0,
+      "watermark_score": 100.0,
+      "overall_score": 95.0,
+      "explanation": "The image is highly relevant to the search query and prompt, clearly showcasing modern, clear/transparent frame glasses on a white background, which is perfect for e-commerce. The clarity is excellent, with sharp details and no visible watermarks. The 'blue light' aspect is implied by the common association of such frames with this feature, though not directly verifiable from the image itself.",
+      "file_name": "modern-clear-transparent-frame-blue-light-glasses-white-background-ecommerce.jpg",
+      "caption": "A pair of modern, stylish clear transparent frame blue light blocking glasses displayed on a pristine white background. These minimalist eyewear frames offer a sleek design, ideal for daily wear and suitable for e-commerce product showcases.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Modern clear transparent frame blue light glasses on white background for e-commerce",
+    "image_info": {
+      "url": "https://m.media-amazon.com/images/I/511QyL+yDjS._UF894,1000_QL80_.jpg",
+      "file_path": "/workspace/imgs/modern-clear-transparent-frame-glasses-white-background.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 24285,
+      "width": 894,
+      "height": 894,
+      "total_pixels": 799236,
+      "basic_score": 0.9064595393182207
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 95.0,
+      "clarity_score": 95.0,
+      "watermark_score": 100.0,
+      "overall_score": 95.0,
+      "explanation": "The image perfectly matches the search query and prompt, featuring modern clear transparent frame glasses on a clean white background, ideal for e-commerce. The clarity is excellent, and there are no watermarks. The overall professional quality and composition are outstanding.",
+      "file_name": "modern-clear-transparent-frame-glasses-white-background.jpg",
+      "caption": "A sleek and modern pair of clear transparent frame glasses, commonly used as blue light filtering or reading glasses, photographed against a crisp white background. The image is clean, well-lit, and professionally composed, making it ideal for e-commerce product listings and showcasing the contemporary design.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Modern clear transparent frame blue light glasses on white background for e-commerce",
+    "image_info": {
+      "url": "https://m.media-amazon.com/images/I/41zr5eidW1L._UF894,1000_QL80_.jpg",
+      "file_path": "/workspace/imgs/modern-clear-transparent-frame-blue-light-glasses-ecommerce.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 11752,
+      "width": 800,
+      "height": 1000,
+      "total_pixels": 800000,
+      "basic_score": 0.8931793548232214
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 98.0,
+      "clarity_score": 98.0,
+      "watermark_score": 100.0,
+      "overall_score": 97.0,
+      "explanation": "The image perfectly matches the search query and prompt, featuring modern, clear, transparent frame glasses on a pure white background, ideal for e-commerce. The clarity is excellent, and there are no watermarks.",
+      "file_name": "modern-clear-transparent-frame-blue-light-glasses-ecommerce.jpg",
+      "caption": "A sleek pair of modern clear and transparent frame glasses, designed for blue light blocking, presented head-on against a crisp white background. The studio-quality lighting highlights the contemporary aesthetic and transparent nature of the frames, making it ideal for e-commerce product display.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Modern clear transparent frame blue light glasses on white background for e-commerce",
+    "image_info": {
+      "url": "https://m.media-amazon.com/images/I/51nKfsni2-L._UY1000_.jpg",
+      "file_path": "/workspace/imgs/modern-clear-frame-blue-light-glasses-transparent-white-background.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 24443,
+      "width": 1000,
+      "height": 1000,
+      "total_pixels": 1000000,
+      "basic_score": 0.9193206169491979
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 95.0,
+      "clarity_score": 100.0,
+      "watermark_score": 90.0,
+      "overall_score": 95.0,
+      "explanation": "The image is highly relevant to the search query, perfectly showcasing modern clear-frame, transparent glasses on a clean white background, ideal for e-commerce. The clarity and professional presentation are excellent. A slight deduction in watermark score is made due to small text/branding visible on the inside of the temple arms, though it is part of the product and not an image overlay.",
+      "file_name": "modern-clear-frame-blue-light-glasses-transparent-white-background.jpg",
+      "caption": "A professional product photograph of a pair of modern, clear, transparent-framed glasses, typically used for blue light protection, positioned against a pristine white background. The contemporary rectangular frames are made from a translucent material, allowing light to pass through, and the lenses appear clear. A soft, natural shadow is cast to the right, adding depth and dimension to the composition, making it an ideal image for e-commerce product listings.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Stylish cat eye frame blue light glasses for women on white background",
+    "image_info": {
+      "url": "https://m.media-amazon.com/images/I/61hF1uwpnOL._UY900_.jpg",
+      "file_path": "/workspace/imgs/stylish_cat_eye_blue_light_glasses_women_black_clear.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 48548,
+      "width": 900,
+      "height": 900,
+      "total_pixels": 810000,
+      "basic_score": 0.9103279621362789
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 98.0,
+      "clarity_score": 95.0,
+      "watermark_score": 100.0,
+      "overall_score": 95.0,
+      "explanation": "The image is highly relevant, featuring two pairs of stylish cat-eye glasses (one black, one clear) with a visible blue light tint on a plain white background, perfectly matching the search query and prompt. The clarity is excellent, with sharp details and good lighting. There are no watermarks. The overall presentation is professional and clean, making it ideal for product display.",
+      "file_name": "stylish_cat_eye_blue_light_glasses_women_black_clear.jpg",
+      "caption": "Two pairs of stylish cat-eye frame glasses, one with a glossy black frame and the other with a clear transparent frame, are displayed on a clean white background. Both pairs feature lenses with a subtle blue tint, indicative of blue light blocking capabilities, making them suitable for women seeking fashionable and functional eyewear.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Stylish cat eye frame blue light glasses for women on white background",
+    "image_info": {
+      "url": "https://m.media-amazon.com/images/I/71d3uP3xfrL._UY1000_.jpg",
+      "file_path": "/workspace/imgs/stylish-cat-eye-blue-light-glasses-woman-white-background.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 108189,
+      "width": 1000,
+      "height": 1000,
+      "total_pixels": 1000000,
+      "basic_score": 0.9277873938079245
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 100.0,
+      "clarity_score": 95.0,
+      "watermark_score": 100.0,
+      "overall_score": 95.0,
+      "explanation": "The image perfectly matches the search query and prompt. It clearly displays stylish cat-eye blue light glasses worn by a woman on a clean white background. The image is sharp, well-lit, and professionally composed with no visible watermarks.",
+      "file_name": "stylish-cat-eye-blue-light-glasses-woman-white-background.jpg",
+      "caption": "A close-up studio portrait of a woman showcasing stylish cat-eye blue light blocking glasses with a distinctive tortoise shell frame against a crisp white background. The lenses exhibit a subtle blue reflection, highlighting their protective qualities.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Stylish cat eye frame blue light glasses for women on white background",
+    "image_info": {
+      "url": "https://m.media-amazon.com/images/I/81o-tU8oFOL._UF894,1000_QL80_.jpg",
+      "file_path": "/workspace/imgs/stylish-womens-cat-eye-blue-light-glasses-white-background.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 113316,
+      "width": 894,
+      "height": 894,
+      "total_pixels": 799236,
+      "basic_score": 0.9158118139855157
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 90.0,
+      "clarity_score": 98.0,
+      "watermark_score": 100.0,
+      "overall_score": 95.0,
+      "explanation": "The image is highly relevant to the search query, featuring stylish cat-eye glasses on a woman against a white background. While the 'blue light' feature isn't explicitly visible, the subtle lens tint could imply it. The clarity is excellent, and there are no watermarks. The overall composition and professional quality are very high.",
+      "file_name": "stylish-womens-cat-eye-blue-light-glasses-white-background.jpg",
+      "caption": "A close-up studio shot of a young woman with blonde hair wearing stylish translucent peach-toned cat-eye glasses, featuring a subtle logo on the temple. Her eyes are enhanced with mascara and eyeliner, and the image is set against a clean white background, showcasing the modern eyewear.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Premium gaming blue light glasses with black frame for e-commerce",
+    "image_info": {
+      "url": "https://m.media-amazon.com/images/I/613b3kJ5jzL._UY1000_.jpg",
+      "file_path": "/workspace/imgs/gunnar_premium_black_gaming_blue_light_glasses.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 21225,
+      "width": 1000,
+      "height": 1000,
+      "total_pixels": 1000000,
+      "basic_score": 0.9189838158564578
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 100.0,
+      "clarity_score": 95.0,
+      "watermark_score": 100.0,
+      "overall_score": 95.0,
+      "explanation": "The image is perfectly relevant to the search query and prompt, showcasing premium black-framed blue light gaming glasses. The clarity is excellent, and the clean white background makes it ideal for e-commerce. There are no external watermarks, and the product quality is very high.",
+      "file_name": "gunnar_premium_black_gaming_blue_light_glasses.jpg",
+      "caption": "A sleek pair of black-framed Gunnar Optiks blue light blocking glasses, featuring signature yellow-tinted lenses designed to reduce digital eye strain during long gaming sessions. The premium eyewear is displayed against a clean white background, making it suitable for e-commerce product listings.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Premium gaming blue light glasses with black frame for e-commerce",
+    "image_info": {
+      "url": "https://m.media-amazon.com/images/I/51SsPlIZQXL._UY1000_.jpg",
+      "file_path": "/workspace/imgs/premium_black_gaming_blue_light_glasses.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 20886,
+      "width": 1000,
+      "height": 1000,
+      "total_pixels": 1000000,
+      "basic_score": 0.9189482896458782
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 90.0,
+      "clarity_score": 95.0,
+      "watermark_score": 100.0,
+      "overall_score": 90.0,
+      "explanation": "The image is highly relevant, depicting black-framed glasses with a visible blue light tint suitable for gaming. The isolated white background makes it ideal for e-commerce. Clarity and resolution are excellent, and there are no watermarks (the brand logo is part of the product).",
+      "file_name": "premium_black_gaming_blue_light_glasses.jpg",
+      "caption": "A pair of sleek, black-framed blue light blocking glasses, designed for gaming and extended screen use, shown in a clean, professional e-commerce product shot on a pure white background. The rectangular lenses exhibit a subtle blue reflection, indicating their blue light filtering capabilities, and the left temple arm features a small, silver-colored brand logo. The glasses are positioned at a slight angle, showcasing their modern design.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Premium gaming blue light glasses with black frame for e-commerce",
+    "image_info": {
+      "url": "http://glassyeyewear.com/cdn/shop/products/MikemoPremiumGamer-MatteBlackoutClear_34_Shopify.jpg?v=1621021008",
+      "file_path": "/workspace/imgs/premium-black-blue-light-gaming-glasses.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 37123,
+      "width": 1000,
+      "height": 700,
+      "total_pixels": 700000,
+      "basic_score": 0.8951726072263667
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 95.0,
+      "clarity_score": 100.0,
+      "watermark_score": 100.0,
+      "overall_score": 95.0,
+      "explanation": "The image is highly relevant, depicting black-framed glasses with a blue light filtering tint, aligning well with 'premium black blue light glasses' for e-commerce. The image quality is excellent, with sharp focus, professional lighting, and a clean white background, making it ideal for product listings. There are no external watermarks on the image itself, only brand logos as part of the product design.",
+      "file_name": "premium-black-blue-light-gaming-glasses.jpg",
+      "caption": "A high-quality, professional studio shot of a pair of black-framed blue light filtering glasses, suitable for gaming or everyday computer use, displayed on a clean white background. The lenses show a subtle blue tint, indicative of blue light protection.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Premium gaming blue light glasses with black frame for e-commerce",
+    "image_info": {
+      "url": "http://glassyeyewear.com/cdn/shop/products/timtim-black-gamer_074cc06c-b755-4345-9a28-f27f3d85032b.jpg?v=1598487293",
+      "file_path": "/workspace/imgs/premium_black_blue_light_gaming_glasses.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 36991,
+      "width": 1000,
+      "height": 700,
+      "total_pixels": 700000,
+      "basic_score": 0.8951579900241057
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 95.0,
+      "clarity_score": 98.0,
+      "watermark_score": 100.0,
+      "overall_score": 95.0,
+      "explanation": "The image is highly relevant to the search query, showcasing premium black, round-framed blue light glasses. The clarity is excellent, with sharp details and professional lighting, making it ideal for e-commerce. There are no external watermarks; the 'S' logo and 'GLASSY' text are discreet product branding.",
+      "file_name": "premium_black_blue_light_gaming_glasses.jpg",
+      "caption": "A sleek pair of black, round-framed blue light blocking glasses, featuring a subtle blue tint on the lenses, typically used for reducing eye strain during digital screen use and gaming. The glasses are presented on a clean white background, highlighting their premium black frame and a discreet gold 'S' logo on the temple for branding.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Professional classic black frame blue light glasses on white background for e-commerce",
+    "image_info": {
+      "url": "https://m.media-amazon.com/images/I/61e2hOHPvxL._UY1000_.jpg",
+      "file_path": "/workspace/imgs/classic_black_round_blue_light_glasses_case_white_background.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 46284,
+      "width": 1000,
+      "height": 1000,
+      "total_pixels": 1000000,
+      "basic_score": 0.9215852287421787
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 98.0,
+      "clarity_score": 95.0,
+      "watermark_score": 100.0,
+      "overall_score": 95.0,
+      "explanation": "The image perfectly matches the search query and prompt. It features classic black-framed blue light blocking glasses presented professionally on a clean white background, ideal for e-commerce. The clarity is excellent, and there are no intrusive watermarks.",
+      "file_name": "classic_black_round_blue_light_glasses_case_white_background.jpg",
+      "caption": "A pair of classic round black-framed blue light blocking glasses displayed prominently on a pristine white background. The glasses are accompanied by their matching black faux leather protective case, which features a gold-toned button closure and an attached black carabiner clip. The lenses of the eyeglasses show a subtle blue reflection, indicative of their blue light filtering capabilities, and the overall presentation is clean and professional.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Professional classic black frame blue light glasses on white background for e-commerce",
+    "image_info": {
+      "url": "https://m.media-amazon.com/images/I/516+wUEv9EL._UF894,1000_QL80_.jpg",
+      "file_path": "/workspace/imgs/classic_black_frame_blue_light_glasses_white_background.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 22813,
+      "width": 894,
+      "height": 894,
+      "total_pixels": 799236,
+      "basic_score": 0.9062993273072183
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 95.0,
+      "clarity_score": 100.0,
+      "watermark_score": 100.0,
+      "overall_score": 98.0,
+      "explanation": "The image perfectly matches the search query and prompt. It features classic black-framed glasses presented professionally on a clean white background, ideal for e-commerce. The clarity is excellent, and there are no watermarks. While the blue light blocking feature isn't visually explicit, the clear lenses are consistent with this product type.",
+      "file_name": "classic_black_frame_blue_light_glasses_white_background.jpg",
+      "caption": "A pair of modern classic black-framed blue light blocking glasses, featuring a sleek rectangular silhouette and clear lenses, professionally photographed against a pristine white background. The spectacles are artfully positioned to highlight the design of the sturdy frames and temples, making them ideal for e-commerce product listings.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Professional classic black frame blue light glasses on white background for e-commerce",
+    "image_info": {
+      "url": "https://m.media-amazon.com/images/I/517h17r+vgL._UF1000,1000_QL80_.jpg",
+      "file_path": "/workspace/imgs/professional_classic_black_frame_blue_light_glasses.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 28767,
+      "width": 1000,
+      "height": 1000,
+      "total_pixels": 1000000,
+      "basic_score": 0.9197719233373367
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 98.0,
+      "clarity_score": 98.0,
+      "watermark_score": 100.0,
+      "overall_score": 97.0,
+      "explanation": "The image is highly relevant to the search query and prompt, featuring classic black frame glasses with a subtle blue light reflection indicative of blue light blocking properties, presented professionally on a white background, ideal for e-commerce. The clarity is excellent, and there are no watermarks.",
+      "file_name": "professional_classic_black_frame_blue_light_glasses.jpg",
+      "caption": "A pair of classic black, round-frame eyeglasses with clear lenses that subtly reflect blue light, indicating blue light blocking capabilities. The glasses are professionally photographed in a studio setting, isolated against a pristine white background, making them ideal for e-commerce product listings. The design is timeless and suitable for a professional aesthetic.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Professional classic black frame blue light glasses on white background for e-commerce",
+    "image_info": {
+      "url": "https://m.media-amazon.com/images/I/6109rZZP6OL._UF894,1000_QL80_.jpg",
+      "file_path": "/workspace/imgs/classic_black_frame_blue_light_glasses_white_background.jpg_fb",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 21140,
+      "width": 894,
+      "height": 894,
+      "total_pixels": 799236,
+      "basic_score": 0.906117034016348
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 95.0,
+      "clarity_score": 100.0,
+      "watermark_score": 100.0,
+      "overall_score": 98.0,
+      "explanation": "The image is highly relevant to both the search query and prompt, featuring professional classic black frame glasses on a clean white background, perfect for e-commerce. The clarity is excellent, and there are no watermarks. While 'blue light blocking' isn't visually confirmable, the style is appropriate for such a product.",
+      "file_name": "classic_black_frame_blue_light_glasses_white_background.jpg",
+      "caption": "A pair of sleek, classic black frame eyeglasses with clear lenses, presented against a pristine white background. The full-rim square frames feature a matte black finish and subtle silver-toned accents at the temples, providing a professional and timeless aesthetic. The image is a high-quality product shot, ideal for e-commerce listings.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Professional classic black frame blue light glasses on white background for e-commerce",
+    "image_info": {
+      "url": "https://m.media-amazon.com/images/I/61zJwLCAkPL._UF894,1000_QL80_.jpg",
+      "file_path": "/workspace/imgs/classic_black_frame_blue_light_glasses_white_background.jpg_de",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 30124,
+      "width": 894,
+      "height": 894,
+      "total_pixels": 799236,
+      "basic_score": 0.9070933821642722
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 95.0,
+      "clarity_score": 98.0,
+      "watermark_score": 75.0,
+      "overall_score": 92.0,
+      "explanation": "The image is highly relevant to the search query, featuring classic black frame glasses presented professionally on a clean white background, ideal for e-commerce. Clarity is excellent with sharp focus and good lighting. A brand logo 'Marsblade' is debossed on the glasses case; while not an overlay watermark, it is a visible brand identifier which slightly impacts the watermark score for generic use, but is acceptable for branded e-commerce listings.",
+      "file_name": "classic_black_frame_blue_light_glasses_white_background.jpg",
+      "caption": "A pair of classic black frame, browline-style glasses with clear lenses, suitable for blue light blocking, elegantly displayed on a sleek black protective case. The product is professionally photographed against a pure white background, ensuring a clean and appealing presentation ideal for e-commerce platforms. The image highlights the contemporary design and professional aesthetic of the eyewear.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Premium metal frame blue light glasses on white background for e-commerce",
+    "image_info": {
+      "url": "https://m.media-amazon.com/images/I/61uaWEa4d7L._UY1000_.jpg",
+      "file_path": "/workspace/imgs/black-gold-round-metal-frame-blue-light-blocking-glasses.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 40031,
+      "width": 1000,
+      "height": 1000,
+      "total_pixels": 1000000,
+      "basic_score": 0.9209407327654319
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 95.0,
+      "clarity_score": 95.0,
+      "watermark_score": 100.0,
+      "overall_score": 95.0,
+      "explanation": "The image is highly relevant to the search query, showcasing two pairs of metal-frame blue light glasses. The clarity is excellent, with sharp details on the frames and lenses. There are no watermarks. The pure white background and professional lighting make it ideal for e-commerce, perfectly matching the prompt's requirements.",
+      "file_name": "black-gold-round-metal-frame-blue-light-blocking-glasses.jpg",
+      "caption": "Two pairs of round-frame blue light blocking glasses with metal frames, one in sleek black and the other in elegant gold, displayed against a clean white background. The lenses exhibit a subtle blue reflection, indicating their blue light filtering capabilities, making them suitable for eye protection during screen use. Ideal for e-commerce product display.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Premium metal frame blue light glasses on white background for e-commerce",
+    "image_info": {
+      "url": "https://m.media-amazon.com/images/I/71QRJD8CUuL._UY1000_.jpg",
+      "file_path": "/workspace/imgs/premium_metal_round_gold_black_glasses_white_background.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 57738,
+      "width": 1000,
+      "height": 1000,
+      "total_pixels": 1000000,
+      "basic_score": 0.9227575495553755
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 90.0,
+      "clarity_score": 100.0,
+      "watermark_score": 100.0,
+      "overall_score": 98.0,
+      "explanation": "The image is highly relevant to the search query, featuring premium metal-frame glasses on a perfect white background, ideal for e-commerce. The clarity, lighting, and composition are excellent. The 'blue light' aspect cannot be visually confirmed from the image itself, but the style is very common for such products.",
+      "file_name": "premium_metal_round_gold_black_glasses_white_background.jpg",
+      "caption": "Two pairs of stylish, premium round metal-frame eyeglasses are displayed against a clean white background. The top pair features a sleek gold-colored frame, while the bottom pair has a matte black finish. Both pairs showcase clear, non-tinted lenses, subtle nose pads, and thin temples, designed for a modern and minimalist aesthetic.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Premium metal frame blue light glasses on white background for e-commerce",
+    "image_info": {
+      "url": "https://m.media-amazon.com/images/I/71MlRRwh55L._UY1000_.jpg",
+      "file_path": "/workspace/imgs/premium_metal_frame_blue_light_glasses_ecommerce.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 105854,
+      "width": 1000,
+      "height": 1000,
+      "total_pixels": 1000000,
+      "basic_score": 0.9275596298603226
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 95.0,
+      "clarity_score": 92.0,
+      "watermark_score": 100.0,
+      "overall_score": 93.0,
+      "explanation": "The image perfectly matches the search query and prompt, featuring metal frame blue light glasses on a clean white background, ideal for e-commerce. The clarity is excellent, showcasing product details, and there are no external watermarks. The branding on the case is part of the product itself, not an image watermark.",
+      "file_name": "premium_metal_frame_blue_light_glasses_ecommerce.jpg",
+      "caption": "A pair of sleek, modern premium metal-frame blue light blocking glasses with gray frames and carbon fiber detailing on the temples, displayed on a black textured case, against a pure white background. The lenses show a characteristic blue reflection from the anti-blue light coating.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Premium metal frame blue light glasses on white background for e-commerce",
+    "image_info": {
+      "url": "https://m.media-amazon.com/images/I/71DSvZBdiTS._UY1000_.jpg",
+      "file_path": "/workspace/imgs/premium-black-metal-frame-blue-light-glasses-set-white-background.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 75358,
+      "width": 1000,
+      "height": 1000,
+      "total_pixels": 1000000,
+      "basic_score": 0.9245395545308285
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 95.0,
+      "clarity_score": 100.0,
+      "watermark_score": 100.0,
+      "overall_score": 98.0,
+      "explanation": "The image perfectly matches the prompt, showcasing three pairs of black metal frame glasses on a clean white background, ideal for e-commerce. The clarity, lighting, and composition are excellent. It assumes the glasses are blue light filtering as specified in the prompt.",
+      "file_name": "premium-black-metal-frame-blue-light-glasses-set-white-background.jpg",
+      "caption": "Three pairs of sleek, rectangular black metal frame glasses are neatly arranged and displayed against a crisp, pure white background, ideal for e-commerce product listings. The minimalist design features clear lenses, sturdy black temples, and comfortable nose pads, presenting a modern and professional aesthetic. These glasses are designed for superior visual comfort and are presumed to be blue light blocking, making them perfect for reducing eye strain from digital screens.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Premium metal frame blue light glasses on white background for e-commerce",
+    "image_info": {
+      "url": "https://m.media-amazon.com/images/I/61fqeRbvezL._UY1000_.jpg",
+      "file_path": "/workspace/imgs/premium-metal-aviator-blue-light-glasses-white-background-ecommerce.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 71033,
+      "width": 1000,
+      "height": 1000,
+      "total_pixels": 1000000,
+      "basic_score": 0.9241045933257316
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 95.0,
+      "clarity_score": 95.0,
+      "watermark_score": 90.0,
+      "overall_score": 95.0,
+      "explanation": "The image is highly relevant to the search query, showcasing premium-looking metal frame glasses on a clean white background, perfect for e-commerce. The clarity, lighting, and composition are excellent. The brand logo 'Cyxus' on the case is part of the product's branding rather than an intrusive watermark.",
+      "file_name": "premium-metal-aviator-blue-light-glasses-white-background-ecommerce.jpg",
+      "caption": "A sleek pair of black metal-frame aviator-style glasses, likely for blue light blocking, resting on a matching black faux leather case with the 'Cyxus' brand logo. The product is professionally photographed against a clean white background, ideal for e-commerce display.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Professional rectangular frame blue light glasses for men on white background for e-commerce",
+    "image_info": {
+      "url": "https://m.media-amazon.com/images/I/51Ijskv0+aL._UY1000_.jpg",
+      "file_path": "/workspace/imgs/black_rectangular_mens_glasses_white_background_ecommerce.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 18119,
+      "width": 1000,
+      "height": 1000,
+      "total_pixels": 1000000,
+      "basic_score": 0.9186579906248763
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 95.0,
+      "clarity_score": 95.0,
+      "watermark_score": 100.0,
+      "overall_score": 95.0,
+      "explanation": "The image is highly relevant to both the search query and prompt, depicting professional rectangular frame glasses on a clean white background, ideal for e-commerce. Clarity is excellent, with sharp details and good lighting. There are no intrusive watermarks or logos. While the 'blue light' feature cannot be visually confirmed, the overall quality and style are perfect for the intended purpose.",
+      "file_name": "black_rectangular_mens_glasses_white_background_ecommerce.jpg",
+      "caption": "A high-quality studio photograph of a pair of men's rectangular frame glasses featuring a matte black metal frame and clear, non-prescription lenses. The glasses are displayed on a pristine white background, angled slightly to showcase their sleek, professional design and the sturdy construction of the temple arms. This image is well-suited for e-commerce listings, highlighting the product clearly and attractively.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Professional rectangular frame blue light glasses for men on white background for e-commerce",
+    "image_info": {
+      "url": "https://m.media-amazon.com/images/I/51R1MGJ7E-L._UF894,1000_QL80_.jpg",
+      "file_path": "/workspace/imgs/professional-rectangular-blue-light-glasses-men.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 62747,
+      "width": 894,
+      "height": 894,
+      "total_pixels": 799236,
+      "basic_score": 0.9105838993271638
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 95.0,
+      "clarity_score": 95.0,
+      "watermark_score": 100.0,
+      "overall_score": 95.0,
+      "explanation": "The image highly matches the search query and prompt. It features four pairs of professional-looking rectangular frame glasses suitable for men, displayed on a clean white background, ideal for e-commerce. The clarity is excellent, with sharp focus and good lighting. There are no watermarks, only product information printed on the frames themselves.",
+      "file_name": "professional-rectangular-blue-light-glasses-men.jpg",
+      "caption": "A set of four pairs of rectangular frame reading glasses, suitable for men, displayed against a pristine white background. The collection includes frames in black, classic tortoise shell, matte navy blue, and a subtle matte grey, each featuring clear lenses, often associated with blue light blocking. The simple, clean design and professional presentation make them ideal for e-commerce product listings.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Professional rectangular frame blue light glasses for men on white background for e-commerce",
+    "image_info": {
+      "url": "https://m.media-amazon.com/images/I/712g1vElq1L._UF894,1000_QL80_.jpg",
+      "file_path": "/workspace/imgs/professional_rectangular_blue_light_glasses_men.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 68029,
+      "width": 894,
+      "height": 894,
+      "total_pixels": 799236,
+      "basic_score": 0.9111406505277613
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 90.0,
+      "clarity_score": 95.0,
+      "watermark_score": 75.0,
+      "overall_score": 90.0,
+      "explanation": "The image is highly relevant, depicting professional-looking rectangular frame glasses on a clean white background, suitable for e-commerce. Clarity and composition are excellent. The presence of the 'ZANYLEN' brand name and slogan on the product box, while part of the packaging, acts as branding, slightly reducing the watermark score for general unbranded use cases, but it's not a superimposed watermark.",
+      "file_name": "professional_rectangular_blue_light_glasses_men.jpg",
+      "caption": "A pair of stylish semi-rimless rectangular blue light blocking glasses with black frames and gold-tone metal accents, displayed resting on its brown cardboard packaging box, against a clean white background. The box prominently features the brand name 'ZANYLEN' and a slogan.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Professional rectangular frame blue light glasses for men on white background for e-commerce",
+    "image_info": {
+      "url": "https://m.media-amazon.com/images/I/61gd3Cz2GOS._UY1000_.jpg",
+      "file_path": "/workspace/imgs/professional_mens_rectangular_blue_light_glasses.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 53096,
+      "width": 1000,
+      "height": 1000,
+      "total_pixels": 1000000,
+      "basic_score": 0.9222837377578288
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 95.0,
+      "clarity_score": 95.0,
+      "watermark_score": 100.0,
+      "overall_score": 95.0,
+      "explanation": "The image perfectly aligns with the prompt, showcasing professional rectangular-frame glasses on a clean white background, ideal for e-commerce. The clarity is excellent, and there are no obstructive watermarks. The subtle product specifications visible on the frames are typical for e-commerce product shots and not considered intrusive watermarks. The only slight ambiguity is whether the lenses are explicitly blue light filtering, as this cannot be discerned visually, but assuming they are, the relevance is very high.",
+      "file_name": "professional_mens_rectangular_blue_light_glasses.jpg",
+      "caption": "Three pairs of professional half-rim rectangular eyeglasses for men, featuring a sleek, modern design. The frames are displayed in three distinct colors: matte black, gunmetal grey, and dark brown, arranged vertically against a pristine white background. Each pair includes clear lenses and detailed temples, making them suitable for business or everyday wear and perfectly presented for e-commerce product listings.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Professional rectangular frame blue light glasses for men on white background for e-commerce",
+    "image_info": {
+      "url": "https://m.media-amazon.com/images/I/81amcwfANgL._UF894,1000_QL80_.jpg",
+      "file_path": "/workspace/imgs/professional-mens-rectangular-glasses-white-background.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 87847,
+      "width": 894,
+      "height": 894,
+      "total_pixels": 799236,
+      "basic_score": 0.9132077599275961
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 92.0,
+      "clarity_score": 98.0,
+      "watermark_score": 100.0,
+      "overall_score": 95.0,
+      "explanation": "The image is highly relevant, featuring a man wearing professional-looking rectangular frame glasses on a clean white background, ideal for e-commerce. The only aspect not visually verifiable is if they are 'blue light glasses', as the lenses appear clear, though many blue light glasses have clear lenses. Clarity, lighting, and composition are excellent.",
+      "file_name": "professional-mens-rectangular-glasses-white-background.jpg",
+      "caption": "A close-up studio shot of a well-groomed man with dark, curly hair and a beard, wearing sleek black rectangular frame glasses. He is dressed in a professional suit jacket, subtly visible. The image is brightly lit against a pure white background, showcasing the eyeglasses clearly for e-commerce purposes.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Oversized unisex blue light glasses with large frames on white background for e-commerce",
+    "image_info": {
+      "url": "https://m.media-amazon.com/images/I/61+6Ifri2RL._UY1000_.jpg",
+      "file_path": "/workspace/imgs/oversized_unisex_tortoiseshell_blue_light_glasses_white_background.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 34297,
+      "width": 1000,
+      "height": 1000,
+      "total_pixels": 1000000,
+      "basic_score": 0.9203469898721462
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 95.0,
+      "clarity_score": 95.0,
+      "watermark_score": 100.0,
+      "overall_score": 93.0,
+      "explanation": "The image is highly relevant, depicting oversized, large-framed, unisex-style glasses on a clean white background, perfectly suiting the e-commerce prompt. The clarity is excellent, with sharp focus and professional lighting. There are no watermarks. The overall composition and quality are very high, making it ideal for product listings. While the 'blue light' aspect isn't visually demonstrable in the photo (which is common for these products), all other visual criteria are met or exceeded.",
+      "file_name": "oversized_unisex_tortoiseshell_blue_light_glasses_white_background.jpg",
+      "caption": "A pair of stylish oversized unisex blue light blocking glasses featuring a distinctive tortoiseshell pattern and thick, square frames. The glasses are presented against a clean white background, showcasing their modern design and suitability for e-commerce product display. The clear lenses suggest blue light filtering capabilities, ideal for digital screen protection.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Oversized unisex blue light glasses with large frames on white background for e-commerce",
+    "image_info": {
+      "url": "https://m.media-amazon.com/images/I/51XUc4wvT8L._UY1000_.jpg",
+      "file_path": "/workspace/imgs/oversized-clear-frame-unisex-blue-light-glasses-white-background.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 20743,
+      "width": 1000,
+      "height": 1000,
+      "total_pixels": 1000000,
+      "basic_score": 0.918933301046777
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 85.0,
+      "clarity_score": 95.0,
+      "watermark_score": 100.0,
+      "overall_score": 90.0,
+      "explanation": "The image clearly displays a pair of large, unisex clear-frame glasses on a white background, which aligns well with the prompt for e-commerce. The clarity and lack of watermarks are excellent. While the 'oversized' aspect is somewhat subjective and the 'blue light' filtering feature isn't visually confirmed from the lenses, the style is typical for such products, making it highly relevant for the given query and prompt.",
+      "file_name": "oversized-clear-frame-unisex-blue-light-glasses-white-background.jpg",
+      "caption": "A professional studio shot of a pair of oversized, clear-frame unisex blue light blocking glasses featuring large, stylish square frames. The transparent acetate frames include subtle metallic detailing at the hinges, and the clear lenses are designed to filter harmful blue light. Presented on a clean white background, this image is ideal for e-commerce product listings, showcasing the modern and versatile eyewear suitable for both men and women.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Oversized unisex blue light glasses with large frames on white background for e-commerce",
+    "image_info": {
+      "url": "https://m.media-amazon.com/images/I/51e5faSxzeL._UY1000_.jpg",
+      "file_path": "/workspace/imgs/oversized_unisex_brown_frame_glasses_ecommerce.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 27437,
+      "width": 1000,
+      "height": 1000,
+      "total_pixels": 1000000,
+      "basic_score": 0.9196332615095107
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 65.0,
+      "clarity_score": 95.0,
+      "watermark_score": 100.0,
+      "overall_score": 88.0,
+      "explanation": "The image provides excellent clarity and is professionally composed for e-commerce, showcasing oversized, large-framed, unisex glasses on a clean white background. However, the frames are translucent brown/tan, which is a significant visual mismatch for the 'blue light glasses' aspect of the search query, as users might implicitly expect blue-colored frames or a visible blue tint from the lenses. The blue light filtering functionality itself is not visually verifiable.",
+      "file_name": "oversized_unisex_brown_frame_glasses_ecommerce.jpg",
+      "caption": "A crisp e-commerce photograph of a pair of oversized, unisex eyeglasses featuring large, translucent brown acetate frames with subtle glitter detailing on the upper corners. The glasses are designed with slim, gold-toned metal temples and clear lenses, presented on a clean white background.",
+      "recommend": true,
+      "error": ""
+    }
   }
 ]

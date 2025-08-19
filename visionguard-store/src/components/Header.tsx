@@ -8,6 +8,13 @@ export function Header() {
   const { getCartCount } = useCart()
   const cartCount = getCartCount()
 
+  const scrollToSection = (sectionId: string) => {
+    const element = document.getElementById(sectionId)
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' })
+    }
+  }
+
   return (
     <header className="bg-white shadow-sm border-b border-gray-100 sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -25,18 +32,18 @@ export function Header() {
             <Link to="/" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">
               Home
             </Link>
-            <Link to="/#products" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">
+            <button onClick={() => scrollToSection('products')} className="text-gray-700 hover:text-blue-600 font-medium transition-colors">
               Products
-            </Link>
-            <Link to="/#benefits" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">
+            </button>
+            <button onClick={() => scrollToSection('benefits')} className="text-gray-700 hover:text-blue-600 font-medium transition-colors">
               Benefits
-            </Link>
-            <Link to="/#reviews" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">
+            </button>
+            <button onClick={() => scrollToSection('reviews')} className="text-gray-700 hover:text-blue-600 font-medium transition-colors">
               Reviews
-            </Link>
-            <Link to="/#contact" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">
+            </button>
+            <button onClick={() => scrollToSection('contact')} className="text-gray-700 hover:text-blue-600 font-medium transition-colors">
               Contact
-            </Link>
+            </button>
             <Link to="/admin/login" className="text-gray-500 hover:text-blue-600 font-medium transition-colors text-sm">
               Admin
             </Link>
@@ -74,34 +81,30 @@ export function Header() {
               >
                 Home
               </Link>
-              <Link 
-                to="/#products" 
-                className="text-gray-700 hover:text-blue-600 font-medium transition-colors"
-                onClick={() => setIsMenuOpen(false)}
+              <button 
+                onClick={() => { scrollToSection('products'); setIsMenuOpen(false); }}
+                className="text-gray-700 hover:text-blue-600 font-medium transition-colors text-left"
               >
                 Products
-              </Link>
-              <Link 
-                to="/#benefits" 
-                className="text-gray-700 hover:text-blue-600 font-medium transition-colors"
-                onClick={() => setIsMenuOpen(false)}
+              </button>
+              <button 
+                onClick={() => { scrollToSection('benefits'); setIsMenuOpen(false); }}
+                className="text-gray-700 hover:text-blue-600 font-medium transition-colors text-left"
               >
                 Benefits
-              </Link>
-              <Link 
-                to="/#reviews" 
-                className="text-gray-700 hover:text-blue-600 font-medium transition-colors"
-                onClick={() => setIsMenuOpen(false)}
+              </button>
+              <button 
+                onClick={() => { scrollToSection('reviews'); setIsMenuOpen(false); }}
+                className="text-gray-700 hover:text-blue-600 font-medium transition-colors text-left"
               >
                 Reviews
-              </Link>
-              <Link 
-                to="/#contact" 
-                className="text-gray-700 hover:text-blue-600 font-medium transition-colors"
-                onClick={() => setIsMenuOpen(false)}
+              </button>
+              <button 
+                onClick={() => { scrollToSection('contact'); setIsMenuOpen(false); }}
+                className="text-gray-700 hover:text-blue-600 font-medium transition-colors text-left"
               >
                 Contact
-              </Link>
+              </button>
               <Link 
                 to="/admin/login" 
                 className="text-gray-500 hover:text-blue-600 font-medium transition-colors text-sm"
