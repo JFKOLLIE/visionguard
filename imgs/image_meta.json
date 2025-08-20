@@ -1298,5 +1298,395 @@
       "recommend": true,
       "error": ""
     }
+  },
+  {
+    "query": "Gaming setup with person wearing blue light glasses for extended gaming sessions",
+    "image_info": {
+      "url": "https://cdn.shopify.com/s/files/1/2212/5849/files/gaming-blue-light-glass.jpg?v=1749038726",
+      "file_path": "/workspace/imgs/gamer_blue_light_glasses_gaming_setup.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 121754,
+      "width": 1024,
+      "height": 696,
+      "total_pixels": 712704,
+      "basic_score": 0.9076689058209556
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 95.0,
+      "clarity_score": 90.0,
+      "watermark_score": 100.0,
+      "overall_score": 90.0,
+      "explanation": "The image is highly relevant to both the search query and prompt, clearly showing a person wearing glasses and headphones while gaming at a modern setup. The blue lighting enhances the 'extended gaming sessions' vibe. The image is very clear, well-composed, and free of watermarks.",
+      "file_name": "gamer_blue_light_glasses_gaming_setup.jpg",
+      "caption": "A person from behind, wearing dark-rimmed glasses and gaming headphones with a microphone, intensely plays a video game on a computer monitor in a dimly lit room. The screen displays a futuristic first-person shooter or space game with glowing elements. The room is illuminated by ambient blue and orange LED lights, creating an immersive gaming atmosphere. The gamer is focused on the keyboard and mouse, indicating an active gaming session.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Gaming setup with person wearing blue light glasses for extended gaming sessions",
+    "image_info": {
+      "url": "http://fumba.store/cdn/shop/products/41YBDkwx3ZL_grande.jpg?v=1706608780",
+      "file_path": "/workspace/imgs/female_gamer_blue_light_glasses_headset_gaming.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 19512,
+      "width": 500,
+      "height": 500,
+      "total_pixels": 250000,
+      "basic_score": 0.7667542057770599
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 95.0,
+      "clarity_score": 95.0,
+      "watermark_score": 100.0,
+      "overall_score": 90.0,
+      "explanation": "The image is highly relevant, depicting a person wearing blue light glasses and headphones in an environment strongly suggestive of a gaming setup, illuminated by characteristic purple and pink lighting. The clarity and focus are excellent, and there are no watermarks. While the full gaming rig isn't explicitly visible, the mood and accessories perfectly align with the query and prompt.",
+      "file_name": "female_gamer_blue_light_glasses_headset_gaming.jpg",
+      "caption": "A close-up portrait of a focused young woman wearing black-rimmed orange-tinted blue light glasses and black over-ear headphones. Her face is illuminated by vibrant purple and pink ambient light, creating a dynamic gaming or tech setup atmosphere. Her intense gaze suggests deep concentration during an extended gaming session.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Gaming setup with person wearing blue light glasses for extended gaming sessions",
+    "image_info": {
+      "url": "http://www.baxterblue.com.au/cdn/shop/articles/blue-light-glasses-for-gamers-and-tech-enthusiasts-a-must-have-gaming-accessory-861053_1024x1024.jpg?v=1705328937",
+      "file_path": "/workspace/imgs/female-gamer-blue-light-glasses-gaming-setup.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 28117,
+      "width": 438,
+      "height": 438,
+      "total_pixels": 191844,
+      "basic_score": 0.745585152133218
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 95.0,
+      "clarity_score": 88.0,
+      "watermark_score": 100.0,
+      "overall_score": 92.0,
+      "explanation": "The image is highly relevant to the search query and prompt, clearly showing a person gaming with headphones and glasses in an atmospheric setup. It boasts excellent clarity, professional composition, and no watermarks.",
+      "file_name": "female-gamer-blue-light-glasses-gaming-setup.jpg",
+      "caption": "A focused young woman, wearing headphones and glasses, is deeply immersed in a gaming session at her computer desk. The scene is lit by atmospheric blue and red ambient lighting, highlighting her hands as she uses a gaming mouse with a glowing green ring and a keyboard. She is dressed in a dark strapless top, and the setup clearly conveys an environment for extended gaming.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Before and after comparison - tired eyes vs comfortable eyes with blue light glasses",
+    "image_info": {
+      "url": "https://i.pcmag.com/imagery/articles/04ZWPAmULa1kgjRVNQM3Yg8-1.fit_lim.v1584961776.jpg",
+      "file_path": "/workspace/imgs/man_blue_light_glasses_before_after_eye_comfort.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 108369,
+      "width": 1280,
+      "height": 720,
+      "total_pixels": 921600,
+      "basic_score": 0.9307381177370944
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 90.0,
+      "clarity_score": 95.0,
+      "watermark_score": 100.0,
+      "overall_score": 90.0,
+      "explanation": "The image is highly relevant as it presents a clear 'before and after' comparison for blue light blocking glasses. The left side visually demonstrates the blue light filtering effect with the characteristic blue reflection, representing 'comfortable blue light glasses'. The right side shows clear lenses, representing the 'before' state or potential 'tired eyes' from unfiltered light. The image is sharp, well-lit, and professionally composed without any watermarks.",
+      "file_name": "man_blue_light_glasses_before_after_eye_comfort.jpg",
+      "caption": "A 'before and after' comparison demonstrating the effect of blue light filtering glasses. The left side shows a man wearing glasses with lenses reflecting a blue tint, indicating blue light protection for comfortable eyes. The right side shows the same man with clear lenses, representing eyes without blue light filtering, which could lead to fatigue.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Before and after comparison - tired eyes vs comfortable eyes with blue light glasses",
+    "image_info": {
+      "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/2d49b839-df85-4014-ab58-898eab350970.__CR0,0,970,600_PT0_SX970_V1___.jpg",
+      "file_path": "/workspace/imgs/blue_light_glasses_before_after_spectrum_infographic.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 521698,
+      "width": 970,
+      "height": 600,
+      "total_pixels": 582000,
+      "basic_score": 0.909748059164174
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 90.0,
+      "clarity_score": 95.0,
+      "watermark_score": 100.0,
+      "overall_score": 90.0,
+      "explanation": "The image provides a clear 'Before' and 'After' comparison of a scene with and without the implied effect of blue light filtering glasses, transitioning from a harsh blue tint to a warmer, natural tone. The detailed infographic below further explains the distinction between harmful blue light (associated with issues like cataracts, AMD, and sleep cycle disruption) and beneficial light, directly supporting the concept of eye comfort and health related to blue light exposure. While it doesn't show eyes explicitly, the visual demonstration effectively conveys the benefit of blue light filtration, which aligns with preventing tired eyes and promoting comfort.",
+      "file_name": "blue_light_glasses_before_after_spectrum_infographic.jpg",
+      "caption": "A comprehensive image demonstrating the visual impact of blue light filtering glasses, featuring a 'Before' and 'After' split comparison of a lake and mountain landscape. The 'Before' side displays a pronounced cool, blue tint, while the 'After' side, indicating the effect of the glasses, presents a warmer, more natural color rendition. Below the visual comparison, an infographic details the light spectrum, categorizing UV and specific blue light wavelengths as 'Harmful Light' (linked to conditions like cataract, AMD, and sleep/wake cycle disruption) and other visible light as 'Beneficial Light,' explaining the science behind blue light protection.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Happy relaxed person wearing blue light glasses while working comfortably at computer - lifestyle photo",
+    "image_info": {
+      "url": "https://riverheightseyecare.com/wp-content/uploads/2021/08/Child-blue-light-glasses-2-1024x672.jpeg",
+      "file_path": "/workspace/imgs/young-boy-blue-light-glasses-laptop-concentration.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 69881,
+      "width": 1024,
+      "height": 672,
+      "total_pixels": 688128,
+      "basic_score": 0.8976819433179063
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 78.0,
+      "clarity_score": 95.0,
+      "watermark_score": 100.0,
+      "overall_score": 88.0,
+      "explanation": "The image is highly relevant as it depicts a young boy wearing blue light glasses while working on a laptop, aligning well with the core aspects of the query and prompt. The clarity, focus, and professional quality are excellent with no watermarks. However, the boy's expression conveys concentration rather than being explicitly 'happy' or 'relaxed,' which slightly reduces its perfect alignment with the emotional tone requested in the prompt.",
+      "file_name": "young-boy-blue-light-glasses-laptop-concentration.jpg",
+      "caption": "A young Asian boy with black hair and black-rimmed blue light blocking glasses is intensely focused on working or studying on a gold-colored laptop. He is wearing a blue denim shirt and is seated at a desk, with a notebook and pencil visible in the blurred foreground. The background is softly blurred, indicating an indoor setting such as a home, school, or office environment.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Happy relaxed person wearing blue light glasses while working comfortably at computer - lifestyle photo",
+    "image_info": {
+      "url": "https://www.clearly.ca/thelook/wp-content/uploads/2022/07/2021-05_2021-05_BLUEREFLECT-PLUS-0448-1050x700.jpg",
+      "file_path": "/workspace/imgs/person-blue-light-glasses-working-laptop-comfortable-lifestyle.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 67162,
+      "width": 1050,
+      "height": 700,
+      "total_pixels": 735000,
+      "basic_score": 0.9059738118840823
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 95.0,
+      "clarity_score": 95.0,
+      "watermark_score": 100.0,
+      "overall_score": 92.0,
+      "explanation": "The image is highly relevant to the search query and prompt, featuring a person wearing blue light glasses and working comfortably on a laptop in a relaxed, lifestyle setting. The clarity is excellent, with sharp focus and good lighting. There are no watermarks. The overall composition and aesthetic quality are very professional.",
+      "file_name": "person-blue-light-glasses-working-laptop-comfortable-lifestyle.jpg",
+      "caption": "A young man with dark curly hair and light yellow-tinted glasses (suggesting blue light filtering) is comfortably seated indoors, engrossed in working on a silver laptop. He uses a beige pillow on his lap for support. Dressed in a dark teal polo shirt and dark pants, he is illuminated by striking sunbeams filtering through a window on the right, which cast patterns across his screen and the room. The background features a textured light grey wall with a minimalist circular art piece, a window with sheer curtains, and hints of a modern home interior, creating a relaxed, contemporary lifestyle scene.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Happy relaxed person wearing blue light glasses while working comfortably at computer - lifestyle photo",
+    "image_info": {
+      "url": "https://www.carecredit.com/sites/cc/image/blue-light-glasses.jpg",
+      "file_path": "/workspace/imgs/happy_man_working_laptop_glasses_home_office.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 102017,
+      "width": 1216,
+      "height": 811,
+      "total_pixels": 986176,
+      "basic_score": 0.934181966613266
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 90.0,
+      "clarity_score": 100.0,
+      "watermark_score": 100.0,
+      "overall_score": 95.0,
+      "explanation": "The image is highly relevant to the search query and prompt, depicting a happy, relaxed man working comfortably at a computer. The person is wearing glasses, which visually aligns with 'blue light glasses' though not explicitly verifiable. The image quality is excellent, with sharp focus, good lighting, and no watermarks. The composition is professional and aesthetically pleasing.",
+      "file_name": "happy_man_working_laptop_glasses_home_office.jpg",
+      "caption": "A happy and relaxed young man with a beard and round glasses is depicted working comfortably at a bright white desk. He is looking at a silver laptop screen and writing notes in an open notebook with a pen, indicating productivity. A light brown mug is also visible on the desk. The background features blurred white bookshelves, suggesting a modern home office or study environment.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Happy relaxed person wearing blue light glasses while working comfortably at computer - lifestyle photo",
+    "image_info": {
+      "url": "https://riverheightseyecare.com/wp-content/uploads/2021/08/blue-light-glasses-computer-gaming-2-1024x672.jpeg",
+      "file_path": "/workspace/imgs/man-blue-light-glasses-working-computer-comfortable.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 44572,
+      "width": 1024,
+      "height": 672,
+      "total_pixels": 688128,
+      "basic_score": 0.8949119627970117
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 95.0,
+      "clarity_score": 95.0,
+      "watermark_score": 100.0,
+      "overall_score": 95.0,
+      "explanation": "The image perfectly matches the search query and prompt, depicting a person wearing blue light glasses comfortably working on a computer in a relaxed, lifestyle setting. The clarity is excellent, there are no watermarks, and the overall composition, lighting, and professional quality are outstanding.",
+      "file_name": "man-blue-light-glasses-working-computer-comfortable.jpg",
+      "caption": "A young man with dark hair and glasses is intensely focused on a computer screen in a dimly lit room, illuminated by vibrant blue and pink ambient lighting. He is wearing headphones and has his hands on a keyboard and mouse, indicating he is comfortably working or gaming. The scene conveys a relaxed and modern lifestyle setup.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Happy relaxed person wearing blue light glasses while working comfortably at computer - lifestyle photo",
+    "image_info": {
+      "url": "https://drdecarlo.net/wp-content/uploads/2024/09/blue-light-glasses.webp",
+      "file_path": "/workspace/imgs/man-blue-light-glasses-working-laptop-home-office.jpg",
+      "img_format": "WEBP",
+      "mode": "RGB",
+      "file_size": 26704,
+      "width": 1200,
+      "height": 700,
+      "total_pixels": 840000,
+      "basic_score": 0.924473185577872
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 90.0,
+      "clarity_score": 80.0,
+      "watermark_score": 100.0,
+      "overall_score": 75.0,
+      "explanation": "The image is highly relevant to the search query, accurately depicting a person wearing blue light glasses and working on a computer in a comfortable setting. Clarity is good, with sharp details, though it exhibits some subtle AI generation artifacts, particularly in the hands and the overly intense blue glow from the glasses. There are no watermarks. Overall composition and lighting are professional and appealing, despite the minor AI tells.",
+      "file_name": "man-blue-light-glasses-working-laptop-home-office.jpg",
+      "caption": "A focused young man with light hair, wearing a white V-neck shirt, intently works on a silver laptop at a desk. He is wearing modern blue light filtering glasses that glow vibrantly blue. The setting appears to be a comfortable home office or living space, with natural light streaming through large windows in the background, a dark grey couch, and a desk lamp visible. A smartphone or tablet rests on the desk beside his laptop.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Close-up demonstration of blue light filtering through glasses lens with computer screen reflection",
+    "image_info": {
+      "url": "https://www.insidehook.com/wp-content/uploads/2023/08/glasses-blue.jpg?resize=750%2C500",
+      "file_path": "/workspace/imgs/blue-light-glasses-computer-screen-reflection-eye-close-up.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 54714,
+      "width": 750,
+      "height": 500,
+      "total_pixels": 375000,
+      "basic_score": 0.8141137150368342
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 100.0,
+      "clarity_score": 95.0,
+      "watermark_score": 100.0,
+      "overall_score": 98.0,
+      "explanation": "The image perfectly matches the search query and prompt, providing a clear, high-quality close-up demonstration of blue light filtering glasses with a distinct computer screen reflection. There are no watermarks, and the composition is excellent for its intended purpose.",
+      "file_name": "blue-light-glasses-computer-screen-reflection-eye-close-up.jpg",
+      "caption": "A detailed close-up shot of a person's eye behind black-framed glasses, clearly showcasing the blue light filtering properties of the lenses. A prominent reflection of a computer screen is visible on the lens surface and within the pupil, illustrating the protective function of blue light blocking eyewear against digital eye strain.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Close-up demonstration of blue light filtering through glasses lens with computer screen reflection",
+    "image_info": {
+      "url": "https://safevision.com/wp-content/uploads/2023/10/len-coatings.jpg",
+      "file_path": "/workspace/imgs/blue_light_glasses_screen_reflection_eye.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 39914,
+      "width": 1200,
+      "height": 767,
+      "total_pixels": 920400,
+      "basic_score": 0.923600613463113
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 95.0,
+      "clarity_score": 95.0,
+      "watermark_score": 100.0,
+      "overall_score": 95.0,
+      "explanation": "The image is highly relevant to the search query and prompt, perfectly demonstrating a close-up of an eye with glasses reflecting blue and green light from a digital screen. Clarity is excellent, with sharp focus on the eye and lenses. There are no watermarks, and the overall composition, lighting, and professional quality are outstanding.",
+      "file_name": "blue_light_glasses_screen_reflection_eye.jpg",
+      "caption": "A striking close-up photograph of a person's eye, seen through eyeglasses, with prominent blue and green light reflections on the lens and within the iris. The reflection suggests light from a digital screen, such as a computer or smartphone, emphasizing the concept of blue light exposure and the protective role of blue light filtering glasses. The dark background enhances the vividness of the screen's glow.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Close-up demonstration of blue light filtering through glasses lens with computer screen reflection",
+    "image_info": {
+      "url": "https://i.ytimg.com/vi/s0ly1zM3q14/maxresdefault.jpg",
+      "file_path": "/workspace/imgs/blue_light_glasses_vs_regular_computer_screen_reflection_comparison.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 127201,
+      "width": 1280,
+      "height": 720,
+      "total_pixels": 921600,
+      "basic_score": 0.9325821506930351
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 100.0,
+      "clarity_score": 95.0,
+      "watermark_score": 100.0,
+      "overall_score": 95.0,
+      "explanation": "The image is perfectly relevant, offering a clear side-by-side demonstration of blue light filtering glasses versus regular glasses, with visible computer screen reflections. The close-up shot, sharp focus, and professional composition enhance its quality. There are no watermarks.",
+      "file_name": "blue_light_glasses_vs_regular_computer_screen_reflection_comparison.jpg",
+      "caption": "A split-screen close-up image showing a man demonstrating the effect of blue light filtering glasses for computer use. On the left, he wears clear prescription glasses, with a prominent reflection of a computer screen in the lenses. On the right, the same man wears amber-tinted blue light blocking glasses, showcasing the filtering effect, with the text 'BLUE LIGHT' above. The image effectively compares vision with and without blue light filtration.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Close-up demonstration of blue light filtering through glasses lens with computer screen reflection",
+    "image_info": {
+      "url": "https://rosemaryravinal.com/wp-content/uploads/2021/03/1-1.jpg",
+      "file_path": "/workspace/imgs/woman_blue_light_glasses_reflection_filter_demonstration.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 119914,
+      "width": 1280,
+      "height": 720,
+      "total_pixels": 921600,
+      "basic_score": 0.9318726183073316
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 90.0,
+      "clarity_score": 95.0,
+      "watermark_score": 85.0,
+      "overall_score": 90.0,
+      "explanation": "The image provides a highly relevant 'BEFORE' and 'AFTER' close-up demonstration of glare reduction on glasses lenses, directly addressing the 'reflection' aspect of the prompt. While 'blue light' and 'computer screen' are not explicitly depicted, the visual effect strongly implies the filtering action sought. The image is sharp, well-composed, and the informational overlays are functional for the demonstration.",
+      "file_name": "woman_blue_light_glasses_reflection_filter_demonstration.jpg",
+      "caption": "A compelling side-by-side comparison illustrating the effectiveness of lens filtering. The 'BEFORE' image shows a woman wearing glasses with noticeable glare and reflections on her lenses, while the 'AFTER' image features the same woman with significantly reduced reflections, highlighting the anti-glare or blue light filtering capabilities of the eyewear. This close-up view clearly demonstrates the visual improvement in lens clarity.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Professional person with tired red strained eyes from computer screen before using blue light glasses - lifestyle photo",
+    "image_info": {
+      "url": "https://drdecarlo.net/wp-content/uploads/2023/04/how-blood-shot-eyes-can-be-syndrome-featured.jpg",
+      "file_path": "/workspace/imgs/professional_man_digital_eye_strain_red_eyes_computer.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 80498,
+      "width": 1200,
+      "height": 700,
+      "total_pixels": 840000,
+      "basic_score": 0.9201416706682656
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 95.0,
+      "clarity_score": 98.0,
+      "watermark_score": 100.0,
+      "overall_score": 95.0,
+      "explanation": "The image is highly relevant, depicting a professional person showing signs of digital eye strain from a computer screen, clearly illustrated by the red, strained eye overlay. All core elements of the search query are present, and it largely fulfills the prompt, representing the 'before' state. The image quality, clarity, and composition are excellent.",
+      "file_name": "professional_man_digital_eye_strain_red_eyes_computer.jpg",
+      "caption": "A professional man with a beard, dressed in a white shirt, sits at a wooden desk looking fatigued and stressed, resting his hand on his forehead while gazing at a laptop. An inset close-up in the upper left corner showcases a bloodshot and strained eye, visually representing the effects of prolonged screen use and digital eye strain. A white coffee cup and a smartphone are also visible on the desk, against a blurred modern office or lounge background.",
+      "recommend": true,
+      "error": ""
+    }
   }
 ]

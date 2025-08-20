@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { useNavigate, Link } from 'react-router-dom'
 import { Eye, Lock, Mail, AlertCircle } from 'lucide-react'
 import { useAuth } from '@/contexts/AuthContext'
+import { supabase } from '@/lib/supabase'
 import toast from 'react-hot-toast'
 
 export function AdminLoginPage() {
@@ -16,13 +17,23 @@ export function AdminLoginPage() {
     setLoading(true)
 
     try {
-      const { error } = await signIn(email, password)
+      // Use the secure admin login endpoint
+      const { data, error } = await supabase.functions.invoke('admin-login', {
+        body: { email, password }
+      })
+      
       if (error) {
         throw error
       }
+      
+      // Store admin session in localStorage
+      localStorage.setItem('admin_session', JSON.stringify(data.data.session))
+      localStorage.setItem('admin_user', JSON.stringify(data.data.user))
+      
       toast.success('Successfully signed in!')
       navigate('/admin/dashboard')
     } catch (error: any) {
+      console.error('Admin login error:', error)
       toast.error(error.message || 'Failed to sign in')
     } finally {
       setLoading(false)
