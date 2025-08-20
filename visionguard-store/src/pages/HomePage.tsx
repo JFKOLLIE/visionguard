@@ -178,7 +178,7 @@ export function HomePage() {
                 alt="Comfortable Work with Blue Light Glasses" 
                 className="w-full h-80 object-cover rounded-2xl shadow-lg"
               />
-              <div className="absolute inset-0 bg-green-500 bg-opacity-20 rounded-2xl flex items-center justify-center">
+              <div className="absolute bottom-0 left-0 right-0 bg-green-500 bg-opacity-20 rounded-b-2xl flex items-end justify-center pb-6">
                 <div className="bg-white p-4 rounded-lg shadow-lg text-center">
                   <h3 className="text-xl font-bold text-green-600 mb-2">✅ WITH ANTI-BLUE LIGHT</h3>
                   <ul className="text-sm text-gray-700">
@@ -291,14 +291,16 @@ export function HomePage() {
             
             <div className="relative max-w-4xl mx-auto mb-8">
               <div className="aspect-w-16 aspect-h-9 rounded-2xl overflow-hidden shadow-2xl">
-                <iframe
-                  src="https://www.youtube.com/embed/qa-MczSpIQw?rel=0&modestbranding=1"
-                  title="Blue Light Blocking Glasses Demonstration"
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                  className="w-full h-96 rounded-2xl"
-                ></iframe>
+                <div className="relative w-full h-0" style={{paddingBottom: '56.25%'}}>
+                  <iframe
+                    src="https://www.youtube.com/embed/qa-MczSpIQw?rel=0&modestbranding=1&autoplay=0"
+                    title="Blue Light Blocking Glasses Demonstration"
+                    frameBorder="0"
+                    allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowFullScreen
+                    className="absolute top-0 left-0 w-full h-full rounded-2xl"
+                  ></iframe>
+                </div>
               </div>
             </div>
             
@@ -605,8 +607,8 @@ export function HomePage() {
               </div>
               <h3 className="text-xl font-semibold text-gray-900">Email Support</h3>
               <p className="text-gray-600">Get detailed answers to your questions</p>
-              <a href="mailto:support@visionguardglasses.com" className="text-blue-600 hover:text-blue-700 font-semibold">
-                support@visionguardglasses.com
+              <a href="mailto:support@visionguardglasses.store" className="text-blue-600 hover:text-blue-700 font-semibold">
+                support@visionguardglasses.store
               </a>
             </div>
 

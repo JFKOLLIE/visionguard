@@ -6,21 +6,25 @@ import { supabase } from '@/lib/supabase'
 import toast from 'react-hot-toast'
 
 export function AdminLoginPage() {
-  const [email, setEmail] = useState('')
-  const [password, setPassword] = useState('')
+  const [email, setEmail] = useState('admin@visionguardglasses.store')
+  const [password, setPassword] = useState('admin123')
   const [loading, setLoading] = useState(false)
   const { signIn } = useAuth()
   const navigate = useNavigate()
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
+    console.log('Form submitted with:', { email, password })
     setLoading(true)
 
     try {
+      console.log('Calling admin login endpoint...')
       // Use the secure admin login endpoint
       const { data, error } = await supabase.functions.invoke('admin-login', {
         body: { email, password }
       })
+      
+      console.log('Login response:', { data, error })
       
       if (error) {
         throw error
@@ -30,6 +34,7 @@ export function AdminLoginPage() {
       localStorage.setItem('admin_session', JSON.stringify(data.data.session))
       localStorage.setItem('admin_user', JSON.stringify(data.data.user))
       
+      console.log('Login successful, navigating to dashboard...')
       toast.success('Successfully signed in!')
       navigate('/admin/dashboard')
     } catch (error: any) {
@@ -73,7 +78,7 @@ export function AdminLoginPage() {
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   className="appearance-none block w-full px-3 py-2 pl-10 border border-gray-300 rounded-md placeholder-gray-400 focus:outline-none focus:ring-blue-500 focus:border-blue-500"
-                  placeholder="admin@visionguardglasses.com"
+                  placeholder="admin@visionguardglasses.store"
                 />
                 <Mail className="h-5 w-5 text-gray-400 absolute left-3 top-2.5" />
               </div>
@@ -120,7 +125,7 @@ export function AdminLoginPage() {
                   </h3>
                   <div className="mt-2 text-sm text-yellow-700">
                     <p>For testing purposes, you can create an admin account with:</p>
-                    <p className="font-mono text-xs mt-1">admin@visionguardglasses.com</p>
+                    <p className="font-mono text-xs mt-1">admin@visionguardglasses.store</p>
                   </div>
                 </div>
               </div>

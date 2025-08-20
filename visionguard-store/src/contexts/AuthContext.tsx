@@ -18,7 +18,7 @@ type AuthContextType = {
 const AuthContext = createContext<AuthContextType | undefined>(undefined)
 
 // Admin emails - in production, this would be managed through database roles
-const ADMIN_EMAILS = ['admin@visionguardglasses.com', 'support@visionguardglasses.com']
+const ADMIN_EMAILS = ['admin@visionguardglasses.store', 'support@visionguardglasses.store']
 
 export function AuthProvider({ children }: { children: ReactNode }) {
   const [user, setUser] = useState<User | null>(null)

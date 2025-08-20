@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import { Shield, Truck, Mail, Phone, MapPin } from 'lucide-react'
 
 export function Footer() {
@@ -48,7 +49,7 @@ export function Footer() {
             <div className="space-y-3 text-sm">
               <div className="flex items-center space-x-2">
                 <Mail className="h-4 w-4 text-blue-400" />
-                <span className="text-gray-300">support@visionguardglasses.com</span>
+                <span className="text-gray-300">support@visionguardglasses.store</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Phone className="h-4 w-4 text-blue-400" />
@@ -80,6 +81,9 @@ export function Footer() {
                 <Shield className="h-4 w-4" />
                 <span>30-Day Guarantee</span>
               </span>
+              <Link to="/admin/login" className="text-gray-500 hover:text-gray-400 text-xs ml-4 opacity-50">
+                Admin Portal
+              </Link>
             </div>
           </div>
         </div>

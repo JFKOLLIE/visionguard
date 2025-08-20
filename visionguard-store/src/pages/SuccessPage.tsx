@@ -158,8 +158,8 @@ export function SuccessPage() {
               </div>
               <h3 className="text-lg font-semibold text-gray-900 mb-2">Email Support</h3>
               <p className="text-gray-600 mb-3">Get detailed answers to your questions</p>
-              <a href="mailto:support@visionguardglasses.com" className="text-blue-600 hover:text-blue-700 font-semibold">
-                support@visionguardglasses.com
+              <a href="mailto:support@visionguardglasses.store" className="text-blue-600 hover:text-blue-700 font-semibold">
+                support@visionguardglasses.store
               </a>
             </div>
 

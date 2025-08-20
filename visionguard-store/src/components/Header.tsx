@@ -44,9 +44,7 @@ export function Header() {
             <button onClick={() => scrollToSection('contact')} className="text-gray-700 hover:text-blue-600 font-medium transition-colors">
               Contact
             </button>
-            <Link to="/admin/login" className="text-gray-500 hover:text-blue-600 font-medium transition-colors text-sm">
-              Admin
-            </Link>
+
           </nav>
 
           {/* Cart Icon */}
@@ -105,13 +103,7 @@ export function Header() {
               >
                 Contact
               </button>
-              <Link 
-                to="/admin/login" 
-                className="text-gray-500 hover:text-blue-600 font-medium transition-colors text-sm"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                Admin
-              </Link>
+
             </nav>
           </div>
         )}
