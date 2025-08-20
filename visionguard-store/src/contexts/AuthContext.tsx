@@ -29,6 +29,37 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     async function loadUser() {
       setLoading(true)
       try {
+        // First check for admin session in localStorage
+        const adminSession = localStorage.getItem('admin_session')
+        const adminUser = localStorage.getItem('admin_user')
+        
+        if (adminSession && adminUser) {
+          try {
+            const sessionData = JSON.parse(adminSession)
+            const userData = JSON.parse(adminUser)
+            
+            // Check if session is still valid (not expired)
+            if (sessionData.expires_at && new Date(sessionData.expires_at) > new Date()) {
+              setUser({
+                id: userData.id,
+                email: userData.email,
+                role: 'admin'
+              })
+              setLoading(false)
+              return
+            } else {
+              // Session expired, clean up
+              localStorage.removeItem('admin_session')
+              localStorage.removeItem('admin_user')
+            }
+          } catch (error) {
+            console.error('Error parsing admin session:', error)
+            localStorage.removeItem('admin_session')
+            localStorage.removeItem('admin_user')
+          }
+        }
+        
+        // Fallback to regular Supabase auth if no admin session
         const { data: { user } } = await supabase.auth.getUser()
         if (user) {
           setUser({
@@ -69,6 +100,10 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   }
 
   async function signOut() {
+    // Clear admin session data
+    localStorage.removeItem('admin_session')
+    localStorage.removeItem('admin_user')
+    
     const result = await supabase.auth.signOut()
     setUser(null)
     return result

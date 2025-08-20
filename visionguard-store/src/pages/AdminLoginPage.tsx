@@ -14,29 +14,34 @@ export function AdminLoginPage() {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
-    console.log('Form submitted with:', { email, password })
     setLoading(true)
 
     try {
-      console.log('Calling admin login endpoint...')
       // Use the secure admin login endpoint
-      const { data, error } = await supabase.functions.invoke('admin-login', {
+      const response = await supabase.functions.invoke('admin-login', {
         body: { email, password }
       })
       
-      console.log('Login response:', { data, error })
+      console.log('Full response:', response)
       
-      if (error) {
-        throw error
+      if (response.error) {
+        throw response.error
+      }
+      
+      // Check if we have the expected data structure
+      if (!response.data || !response.data.data || !response.data.data.session) {
+        console.error('Unexpected response structure:', response)
+        throw new Error('Invalid response from login service')
       }
       
       // Store admin session in localStorage
-      localStorage.setItem('admin_session', JSON.stringify(data.data.session))
-      localStorage.setItem('admin_user', JSON.stringify(data.data.user))
+      localStorage.setItem('admin_session', JSON.stringify(response.data.data.session))
+      localStorage.setItem('admin_user', JSON.stringify(response.data.data.user))
       
-      console.log('Login successful, navigating to dashboard...')
+      console.log('Session stored, redirecting...')
       toast.success('Successfully signed in!')
-      navigate('/admin/dashboard')
+      // Force a page refresh to trigger AuthContext to reload
+      window.location.href = '/admin/dashboard'
     } catch (error: any) {
       console.error('Admin login error:', error)
       toast.error(error.message || 'Failed to sign in')
