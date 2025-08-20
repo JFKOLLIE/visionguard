@@ -234,27 +234,27 @@ export function HomePage() {
             </div>
           </div>
 
-          {/* Clinical Evidence */}
+          {/* Customer Success Stories */}
           <div className="mt-16 bg-gradient-to-r from-blue-600 to-teal-600 rounded-3xl p-12 text-white">
             <div className="text-center mb-8">
-              <h3 className="text-3xl font-bold mb-4">📊 Clinical Evidence: Anti-Blue Light Technology Works</h3>
-              <p className="text-xl opacity-90">Based on Harvard Medical School and American Optometric Association research</p>
+              <h3 className="text-3xl font-bold mb-4">👥 Join Thousands Who've Transformed Their Digital Life</h3>
+              <p className="text-xl opacity-90">Real results from real customers who chose eye protection</p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
               <div className="bg-white bg-opacity-20 rounded-xl p-6">
-                <div className="text-5xl font-bold mb-2">89%</div>
-                <div className="text-lg font-semibold">Reduction in Digital Eye Strain</div>
-                <div className="text-sm opacity-80">Within 7 days of using anti-blue light glasses</div>
+                <div className="text-5xl font-bold mb-2">12+</div>
+                <div className="text-lg font-semibold">Hours Comfortable Screen Time</div>
+                <div className="text-sm opacity-80">Work all day without eye fatigue</div>
               </div>
               <div className="bg-white bg-opacity-20 rounded-xl p-6">
-                <div className="text-5xl font-bold mb-2">67%</div>
-                <div className="text-lg font-semibold">Better Sleep Quality</div>
-                <div className="text-sm opacity-80">Users fall asleep 23 minutes faster on average</div>
+                <div className="text-5xl font-bold mb-2">30min</div>
+                <div className="text-lg font-semibold">Faster Sleep</div>
+                <div className="text-sm opacity-80">Fall asleep naturally after screen time</div>
               </div>
               <div className="bg-white bg-opacity-20 rounded-xl p-6">
-                <div className="text-5xl font-bold mb-2">73%</div>
-                <div className="text-lg font-semibold">Fewer Screen Headaches</div>
-                <div className="text-sm opacity-80">Significant reduction in computer-related migraines</div>
+                <div className="text-5xl font-bold mb-2">90%</div>
+                <div className="text-lg font-semibold">Fewer Headaches</div>
+                <div className="text-sm opacity-80">Say goodbye to screen-induced pain</div>
               </div>
             </div>
           </div>
@@ -266,15 +266,15 @@ export function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <div className="inline-flex items-center px-4 py-2 bg-blue-100 text-blue-700 rounded-full text-sm font-semibold mb-4">
-              🔍 SCIENCE-BACKED EYE PROTECTION
+              ✨ PREMIUM COLLECTION
             </div>
             <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
-              <span className="text-blue-600">Anti-Blue Light Glasses</span> That Actually Work
+              Choose Your <span className="text-blue-600">Perfect Style</span>
             </h2>
             <p className="text-2xl text-gray-600 max-w-4xl mx-auto">
-              Choose from our <span className="text-blue-600 font-bold">medically-approved collection</span> of 
-              anti-blue light glasses. Each frame features <span className="text-green-600 font-bold">advanced filtering technology</span> 
-              that blocks 50-65% of harmful blue light wavelengths.
+              Five stunning frame styles, all featuring the same premium blue light protection technology. 
+              <span className="text-blue-600 font-bold">Every pair is $39.99</span> with 
+              <span className="text-green-600 font-bold">free worldwide shipping</span>.
             </p>
           </div>
 
@@ -282,45 +282,45 @@ export function HomePage() {
           <div className="mb-16 bg-white rounded-3xl p-8 shadow-lg">
             <div className="text-center mb-8">
               <h3 className="text-3xl font-bold text-gray-900 mb-4">
-                🎥 See Anti-Blue Light Technology in Action
+                🎥 Experience the Blue Light Protection Difference
               </h3>
               <p className="text-xl text-gray-600 mb-6">
-                Watch how blue light blocking glasses filter harmful screen light and protect your eyes
+                See how our premium anti-blue light glasses protect your eyes and transform your digital experience
               </p>
             </div>
             
             <div className="relative max-w-4xl mx-auto mb-8">
               <div className="aspect-w-16 aspect-h-9 rounded-2xl overflow-hidden shadow-2xl">
                 <div className="relative w-full h-0" style={{paddingBottom: '56.25%'}}>
-                  <iframe
-                    src="https://www.youtube.com/embed/qa-MczSpIQw?rel=0&modestbranding=1&autoplay=0"
-                    title="Blue Light Blocking Glasses Demonstration"
-                    frameBorder="0"
-                    allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowFullScreen
-                    className="absolute top-0 left-0 w-full h-full rounded-2xl"
-                  ></iframe>
+                  <video
+                    src="/videos/blue-light-glasses-demo.mp4"
+                    controls
+                    className="absolute top-0 left-0 w-full h-full rounded-2xl object-cover"
+                    poster="/images/hero-main-blue-light-glasses.png"
+                  >
+                    Your browser does not support the video tag.
+                  </video>
                 </div>
               </div>
             </div>
             
             <div className="bg-gradient-to-br from-blue-500 to-purple-600 rounded-2xl p-6 text-white text-center">
-              <h4 className="text-xl font-bold mb-4">What You'll Learn in This Video:</h4>
+              <h4 className="text-xl font-bold mb-4">What You'll Discover:</h4>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
                 <div className="bg-white bg-opacity-10 rounded-lg p-4">
-                  <div className="text-3xl mb-2">📱</div>
-                  <div className="text-sm font-semibold">Screen Light Filtering Test</div>
-                  <div className="text-xs opacity-80 mt-1">See the difference in real-time</div>
+                  <div className="text-3xl mb-2">😌</div>
+                  <div className="text-sm font-semibold">All-Day Comfort</div>
+                  <div className="text-xs opacity-80 mt-1">Work without eye strain</div>
                 </div>
                 <div className="bg-white bg-opacity-10 rounded-lg p-4">
-                  <div className="text-3xl mb-2">🔬</div>
-                  <div className="text-sm font-semibold">Scientific Analysis</div>
-                  <div className="text-xs opacity-80 mt-1">Professional testing methods</div>
+                  <div className="text-3xl mb-2">😴</div>
+                  <div className="text-sm font-semibold">Better Sleep</div>
+                  <div className="text-xs opacity-80 mt-1">Fall asleep faster naturally</div>
                 </div>
                 <div className="bg-white bg-opacity-10 rounded-lg p-4">
-                  <div className="text-3xl mb-2">🛡️</div>
-                  <div className="text-xs font-semibold">Eye Protection Benefits</div>
-                  <div className="text-xs opacity-80 mt-1">Proven strain reduction</div>
+                  <div className="text-3xl mb-2">🎯</div>
+                  <div className="text-sm font-semibold">Enhanced Focus</div>
+                  <div className="text-xs opacity-80 mt-1">Stay productive longer</div>
                 </div>
               </div>
             </div>
