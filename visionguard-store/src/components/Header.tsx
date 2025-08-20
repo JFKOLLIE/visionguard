@@ -32,18 +32,18 @@ export function Header() {
             <Link to="/" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">
               Home
             </Link>
-            <button onClick={() => scrollToSection('products')} className="text-gray-700 hover:text-blue-600 font-medium transition-colors">
+            <Link to="/#products" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">
               Products
-            </button>
-            <button onClick={() => scrollToSection('benefits')} className="text-gray-700 hover:text-blue-600 font-medium transition-colors">
+            </Link>
+            <Link to="/#benefits" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">
               Benefits
-            </button>
-            <button onClick={() => scrollToSection('reviews')} className="text-gray-700 hover:text-blue-600 font-medium transition-colors">
+            </Link>
+            <Link to="/#reviews" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">
               Reviews
-            </button>
-            <button onClick={() => scrollToSection('contact')} className="text-gray-700 hover:text-blue-600 font-medium transition-colors">
+            </Link>
+            <Link to="/#contact" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">
               Contact
-            </button>
+            </Link>
 
           </nav>
 
@@ -79,30 +79,34 @@ export function Header() {
               >
                 Home
               </Link>
-              <button 
-                onClick={() => { scrollToSection('products'); setIsMenuOpen(false); }}
-                className="text-gray-700 hover:text-blue-600 font-medium transition-colors text-left"
+              <Link 
+                to="/#products"
+                className="text-gray-700 hover:text-blue-600 font-medium transition-colors"
+                onClick={() => setIsMenuOpen(false)}
               >
                 Products
-              </button>
-              <button 
-                onClick={() => { scrollToSection('benefits'); setIsMenuOpen(false); }}
-                className="text-gray-700 hover:text-blue-600 font-medium transition-colors text-left"
+              </Link>
+              <Link 
+                to="/#benefits"
+                className="text-gray-700 hover:text-blue-600 font-medium transition-colors"
+                onClick={() => setIsMenuOpen(false)}
               >
                 Benefits
-              </button>
-              <button 
-                onClick={() => { scrollToSection('reviews'); setIsMenuOpen(false); }}
-                className="text-gray-700 hover:text-blue-600 font-medium transition-colors text-left"
+              </Link>
+              <Link 
+                to="/#reviews"
+                className="text-gray-700 hover:text-blue-600 font-medium transition-colors"
+                onClick={() => setIsMenuOpen(false)}
               >
                 Reviews
-              </button>
-              <button 
-                onClick={() => { scrollToSection('contact'); setIsMenuOpen(false); }}
-                className="text-gray-700 hover:text-blue-600 font-medium transition-colors text-left"
+              </Link>
+              <Link 
+                to="/#contact"
+                className="text-gray-700 hover:text-blue-600 font-medium transition-colors"
+                onClick={() => setIsMenuOpen(false)}
               >
                 Contact
-              </button>
+              </Link>
 
             </nav>
           </div>

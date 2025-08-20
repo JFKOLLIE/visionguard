@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 import { Star, ShoppingCart, Eye, Moon, Monitor, Clock, Shield, Truck, RotateCcw, Mail, Phone } from 'lucide-react'
 import { supabase, Product, Review } from '@/lib/supabase'
 import { useCart } from '@/contexts/CartContext'
@@ -10,6 +10,7 @@ export function HomePage() {
   const [reviews, setReviews] = useState<Review[]>([])
   const [loading, setLoading] = useState(true)
   const { addToCart } = useCart()
+  const location = useLocation()
 
   useEffect(() => {
     async function fetchData() {
@@ -43,6 +44,20 @@ export function HomePage() {
 
     fetchData()
   }, [])
+
+  // Handle hash-based navigation
+  useEffect(() => {
+    if (location.hash) {
+      const sectionId = location.hash.substring(1) // Remove the '#' prefix
+      const element = document.getElementById(sectionId)
+      if (element) {
+        // Small delay to ensure the page is fully loaded
+        setTimeout(() => {
+          element.scrollIntoView({ behavior: 'smooth' })
+        }, 100)
+      }
+    }
+  }, [location.hash])
 
   const handleAddToCart = (product: Product) => {
     addToCart(product)
@@ -91,7 +106,7 @@ export function HomePage() {
                   onClick={() => scrollToSection('products')}
                   className="bg-gradient-to-r from-blue-600 to-teal-600 text-white px-10 py-5 rounded-xl font-bold text-xl hover:from-blue-700 hover:to-teal-700 transition-all shadow-lg transform hover:scale-105"
                 >
-                  🛡️ Get Eye Protection - Only $29.99
+                  🛡️ Get Eye Protection - Only $39.99
                 </button>
                 <button 
                   onClick={() => scrollToSection('benefits')}
