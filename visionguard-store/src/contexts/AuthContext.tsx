@@ -1,24 +1,24 @@
 import React, { createContext, useContext, useEffect, useState, ReactNode } from 'react'
-import { supabase } from '@/lib/supabase'
 
 type User = {
   id: string
   email: string
-  role?: string
+  role: string
 }
 
 type AuthContextType = {
   user: User | null
   loading: boolean
-  signIn: (email: string, password: string) => Promise<any>
-  signOut: () => Promise<any>
+  signIn: (email: string, password: string) => Promise<{ success: boolean; error?: string }>
+  signOut: () => Promise<void>
   isAdmin: boolean
 }
 
 const AuthContext = createContext<AuthContextType | undefined>(undefined)
 
-// Admin emails - in production, this would be managed through database roles
-const ADMIN_EMAILS = ['admin@visionguardglasses.store', 'support@visionguardglasses.store']
+// Simple, reliable admin credentials
+const ADMIN_EMAIL = 'admin@visionguardglasses.store'
+const ADMIN_PASSWORD = 'admin123'
 
 export function AuthProvider({ children }: { children: ReactNode }) {
   const [user, setUser] = useState<User | null>(null)
@@ -26,87 +26,79 @@ export function AuthProvider({ children }: { children: ReactNode }) {
 
   // Load user on mount (one-time check)
   useEffect(() => {
-    async function loadUser() {
-      setLoading(true)
+    const loadUser = () => {
       try {
-        // First check for admin session in localStorage
-        const adminSession = localStorage.getItem('admin_session')
-        const adminUser = localStorage.getItem('admin_user')
+        // Check for admin session in localStorage
+        const adminSession = localStorage.getItem('visionguard_admin_session')
         
-        if (adminSession && adminUser) {
-          try {
-            const sessionData = JSON.parse(adminSession)
-            const userData = JSON.parse(adminUser)
-            
-            // Check if session is still valid (not expired)
-            if (sessionData.expires_at && new Date(sessionData.expires_at) > new Date()) {
-              setUser({
-                id: userData.id,
-                email: userData.email,
-                role: 'admin'
-              })
-              setLoading(false)
-              return
-            } else {
-              // Session expired, clean up
-              localStorage.removeItem('admin_session')
-              localStorage.removeItem('admin_user')
-            }
-          } catch (error) {
-            console.error('Error parsing admin session:', error)
-            localStorage.removeItem('admin_session')
-            localStorage.removeItem('admin_user')
+        if (adminSession) {
+          const sessionData = JSON.parse(adminSession)
+          
+          // Check if session is still valid (24 hour expiry)
+          const expiryTime = new Date(sessionData.created_at)
+          expiryTime.setHours(expiryTime.getHours() + 24)
+          
+          if (expiryTime > new Date() && sessionData.email === ADMIN_EMAIL) {
+            setUser({
+              id: 'admin-user',
+              email: sessionData.email,
+              role: 'admin'
+            })
+          } else {
+            // Session expired or invalid, clean up
+            localStorage.removeItem('visionguard_admin_session')
+            setUser(null)
           }
+        } else {
+          setUser(null)
         }
-        
-        // Fallback to regular Supabase auth if no admin session
-        const { data: { user } } = await supabase.auth.getUser()
-        if (user) {
-          setUser({
-            id: user.id,
-            email: user.email || '',
-            role: ADMIN_EMAILS.includes(user.email || '') ? 'admin' : 'user'
-          })
-        }
+      } catch (error) {
+        console.error('Error loading user session:', error)
+        localStorage.removeItem('visionguard_admin_session')
+        setUser(null)
       } finally {
         setLoading(false)
       }
     }
+    
     loadUser()
-
-    // Set up auth listener - KEEP SIMPLE, avoid any async operations in callback
-    const { data: { subscription } } = supabase.auth.onAuthStateChange(
-      (_event, session) => {
-        // NEVER use any async operations in callback
-        if (session?.user) {
-          setUser({
-            id: session.user.id,
-            email: session.user.email || '',
-            role: ADMIN_EMAILS.includes(session.user.email || '') ? 'admin' : 'user'
-          })
-        } else {
-          setUser(null)
-        }
-        setLoading(false)
-      }
-    )
-
-    return () => subscription.unsubscribe()
   }, [])
 
-  // Auth methods
-  async function signIn(email: string, password: string) {
-    return await supabase.auth.signInWithPassword({ email, password })
+  // Simple admin sign-in method
+  async function signIn(email: string, password: string): Promise<{ success: boolean; error?: string }> {
+    try {
+      // Simple credential check
+      if (email === ADMIN_EMAIL && password === ADMIN_PASSWORD) {
+        const sessionData = {
+          email: ADMIN_EMAIL,
+          created_at: new Date().toISOString()
+        }
+        
+        localStorage.setItem('visionguard_admin_session', JSON.stringify(sessionData))
+        
+        setUser({
+          id: 'admin-user',
+          email: ADMIN_EMAIL,
+          role: 'admin'
+        })
+        
+        return { success: true }
+      } else {
+        return { success: false, error: 'Invalid credentials' }
+      }
+    } catch (error) {
+      console.error('Sign-in error:', error)
+      return { success: false, error: 'Sign-in failed' }
+    }
   }
 
-  async function signOut() {
-    // Clear admin session data
-    localStorage.removeItem('admin_session')
-    localStorage.removeItem('admin_user')
-    
-    const result = await supabase.auth.signOut()
-    setUser(null)
-    return result
+  async function signOut(): Promise<void> {
+    try {
+      localStorage.removeItem('visionguard_admin_session')
+      setUser(null)
+    } catch (error) {
+      console.error('Sign-out error:', error)
+    }
   }
 
   const isAdmin = user?.role === 'admin'
