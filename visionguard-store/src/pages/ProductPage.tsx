@@ -1,9 +1,45 @@
 import React, { useEffect, useState } from 'react'
 import { useParams, Link } from 'react-router-dom'
-import { Star, ShoppingCart, Shield, Truck, RotateCcw, Eye, ArrowLeft } from 'lucide-react'
+import { Star, ShoppingCart, Shield, Truck, RotateCcw, Eye, ArrowLeft, ChevronLeft, ChevronRight } from 'lucide-react'
 import { supabase, Product, Review } from '@/lib/supabase'
 import { useCart } from '@/contexts/CartContext'
 import toast from 'react-hot-toast'
+
+// Define product image galleries
+const productImageGalleries: Record<string, string[]> = {
+  "Classic Black Frame Blue Light Glasses": [
+    "/images/classic-black-frame.jpg",
+    "/images/classic-black-side.png",
+    "/images/classic-black-lifestyle.png",
+    "/images/classic-black-bundle.png"
+  ],
+  "Oversized Clear Frame Blue Light Glasses": [
+    "/images/modern-clear-frame.jpg",
+    "/images/oversized-clear-front.png",
+    "/images/oversized-clear-side.png",
+    "/images/oversized-clear-lifestyle.png",
+    "/images/oversized-clear-bundle.png"
+  ],
+  "Round Vintage Frame Blue Light Glasses": [
+    "/images/round-frame-vintage.jpg",
+    "/images/round-vintage-front.png",
+    "/images/round-vintage-side.png",
+    "/images/round-vintage-lifestyle.png",
+    "/images/round-vintage-detail.png"
+  ],
+  "Rectangular Professional Blue Light Glasses": [
+    "/images/rectangular-men.jpg",
+    "/images/rectangular-professional-front.png",
+    "/images/rectangular-professional-side.png",
+    "/images/rectangular-professional-lifestyle.png"
+  ],
+  "Premium Metal Frame Blue Light Glasses": [
+    "/images/metal-frame-premium.jpg",
+    "/images/metal-frame-premium-front.png",
+    "/images/metal-frame-premium-side.png",
+    "/images/metal-frame-premium-lifestyle.png"
+  ]
+}
 
 export function ProductPage() {
   const { id } = useParams<{ id: string }>()
@@ -11,7 +47,10 @@ export function ProductPage() {
   const [reviews, setReviews] = useState<Review[]>([])
   const [loading, setLoading] = useState(true)
   const [quantity, setQuantity] = useState(1)
+  const [currentImageIndex, setCurrentImageIndex] = useState(0)
   const { addToCart } = useCart()
+
+  const productImages = product ? productImageGalleries[product.name] || [product.image_url] : []
 
   useEffect(() => {
     async function fetchProduct() {
@@ -62,6 +101,18 @@ export function ProductPage() {
     }
   }
 
+  const nextImage = () => {
+    setCurrentImageIndex((prev) => (prev + 1) % productImages.length)
+  }
+
+  const previousImage = () => {
+    setCurrentImageIndex((prev) => (prev - 1 + productImages.length) % productImages.length)
+  }
+
+  const selectImage = (index: number) => {
+    setCurrentImageIndex(index)
+  }
+
   const averageRating = reviews.length > 0 
     ? reviews.reduce((sum, review) => sum + review.rating, 0) / reviews.length 
     : 0
@@ -110,13 +161,62 @@ export function ProductPage() {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-16">
-          {/* Product Image */}
+          {/* Product Image Gallery */}
           <div className="bg-white rounded-xl p-8 shadow-sm">
-            <img 
-              src={product.image_url}
-              alt={product.name}
-              className="w-full h-96 object-cover rounded-lg"
-            />
+            {/* Main Image */}
+            <div className="relative mb-6">
+              <img 
+                src={productImages[currentImageIndex]}
+                alt={`${product.name} - View ${currentImageIndex + 1}`}
+                className="w-full h-96 object-cover rounded-lg"
+              />
+              
+              {/* Navigation Arrows */}
+              {productImages.length > 1 && (
+                <>
+                  <button
+                    onClick={previousImage}
+                    className="absolute left-2 top-1/2 transform -translate-y-1/2 bg-white bg-opacity-80 hover:bg-opacity-100 rounded-full p-2 shadow-lg transition-all"
+                  >
+                    <ChevronLeft className="h-5 w-5 text-gray-700" />
+                  </button>
+                  <button
+                    onClick={nextImage}
+                    className="absolute right-2 top-1/2 transform -translate-y-1/2 bg-white bg-opacity-80 hover:bg-opacity-100 rounded-full p-2 shadow-lg transition-all"
+                  >
+                    <ChevronRight className="h-5 w-5 text-gray-700" />
+                  </button>
+                  
+                  {/* Image Counter */}
+                  <div className="absolute bottom-2 right-2 bg-black bg-opacity-50 text-white px-2 py-1 rounded text-sm">
+                    {currentImageIndex + 1} / {productImages.length}
+                  </div>
+                </>
+              )}
+            </div>
+            
+            {/* Thumbnail Gallery */}
+            {productImages.length > 1 && (
+              <div className="grid grid-cols-4 gap-2">
+                {productImages.map((image, index) => (
+                  <button
+                    key={index}
+                    onClick={() => selectImage(index)}
+                    className={`relative rounded-lg overflow-hidden border-2 transition-all ${
+                      index === currentImageIndex 
+                        ? 'border-blue-500 ring-2 ring-blue-200' 
+                        : 'border-gray-200 hover:border-gray-300'
+                    }`}
+                  >
+                    <img 
+                      src={image}
+                      alt={`${product.name} thumbnail ${index + 1}`}
+                      className="w-full h-16 object-cover"
+                    />
+                  </button>
+                ))}
+              </div>
+            )}
           </div>
 
           {/* Product Details */}
@@ -247,70 +347,57 @@ export function ProductPage() {
         {/* Reviews Section */}
         <div className="bg-white rounded-xl p-8 shadow-sm">
           <div className="flex items-center justify-between mb-8">
-            <h2 className="text-2xl font-bold text-gray-900">Customer Reviews</h2>
-            <div className="text-right">
-              <div className="text-2xl font-bold text-blue-600">{averageRating.toFixed(1)}/5</div>
-              <div className="flex items-center space-x-1">
-                {[...Array(5)].map((_, i) => (
-                  <Star 
-                    key={i} 
-                    className={`h-4 w-4 ${
-                      i < Math.floor(averageRating) ? 'text-yellow-400 fill-current' : 'text-gray-300'
-                    }`} 
-                  />
-                ))}
+            <h2 className="text-2xl font-bold text-gray-900">
+              Customer Reviews ({reviews.length})
+            </h2>
+            {averageRating > 0 && (
+              <div className="flex items-center space-x-2">
+                <div className="flex items-center space-x-1">
+                  {[...Array(5)].map((_, i) => (
+                    <Star 
+                      key={i} 
+                      className={`h-4 w-4 ${
+                        i < Math.floor(averageRating) ? 'text-yellow-400 fill-current' : 'text-gray-300'
+                      }`} 
+                    />
+                  ))}
+                </div>
+                <span className="text-gray-600">{averageRating.toFixed(1)}</span>
               </div>
-              <div className="text-sm text-gray-600">{reviews.length} reviews</div>
-            </div>
+            )}
           </div>
 
-          {reviews.length > 0 ? (
-            <div className="space-y-6">
-              {reviews.map((review) => (
-                <div key={review.id} className="border-b border-gray-200 pb-6 last:border-b-0">
-                  <div className="flex items-start justify-between mb-2">
-                    <div className="flex items-center space-x-2">
-                      <span className="font-semibold text-gray-900">{review.customer_name}</span>
-                      {review.verified_purchase && (
-                        <span className="bg-green-100 text-green-800 px-2 py-1 rounded text-xs">
-                          Verified Purchase
-                        </span>
-                      )}
-                    </div>
-                    <div className="flex items-center space-x-1">
-                      {[...Array(5)].map((_, i) => (
-                        <Star 
-                          key={i} 
-                          className={`h-4 w-4 ${
-                            i < review.rating ? 'text-yellow-400 fill-current' : 'text-gray-300'
-                          }`} 
-                        />
-                      ))}
-                    </div>
-                  </div>
-                  <p className="text-gray-700 leading-relaxed">{review.review_text}</p>
-                  <p className="text-sm text-gray-500 mt-2">
-                    {new Date(review.created_at).toLocaleDateString()}
-                  </p>
-                </div>
-              ))}
-            </div>
-          ) : (
+          {reviews.length === 0 ? (
             <div className="text-center py-8">
               <p className="text-gray-600">No reviews yet. Be the first to review this product!</p>
             </div>
+          ) : (
+            <div className="space-y-6">
+              {reviews.map((review) => (
+                <div key={review.id} className="border-b pb-6 last:border-b-0">
+                  <div className="flex items-center justify-between mb-2">
+                    <div className="flex items-center space-x-2">
+                      <span className="font-semibold text-gray-900">{review.customer_name}</span>
+                      <div className="flex items-center space-x-1">
+                        {[...Array(5)].map((_, i) => (
+                          <Star 
+                            key={i} 
+                            className={`h-3 w-3 ${
+                              i < review.rating ? 'text-yellow-400 fill-current' : 'text-gray-300'
+                            }`} 
+                          />
+                        ))}
+                      </div>
+                    </div>
+                    <span className="text-sm text-gray-500">
+                      {new Date(review.created_at).toLocaleDateString()}
+                    </span>
+                  </div>
+                  <p className="text-gray-700">{review.review_text}</p>
+                </div>
+              ))}
+            </div>
           )}
-        </div>
-
-        {/* Back to Products */}
-        <div className="mt-12 text-center">
-          <Link 
-            to="/"
-            className="inline-flex items-center space-x-2 text-blue-600 hover:text-blue-700 font-semibold"
-          >
-            <ArrowLeft className="h-4 w-4" />
-            <span>Back to Products</span>
-          </Link>
         </div>
       </div>
     </div>
