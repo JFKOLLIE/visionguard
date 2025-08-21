@@ -1,4 +1,5 @@
 import React, { createContext, useContext, useEffect, useState, ReactNode } from 'react'
+import { verifyAdminCredentials, isAdminSetupComplete, getStoredAdminEmail } from '@/lib/adminAuth'
 
 type User = {
   id: string
@@ -16,9 +17,7 @@ type AuthContextType = {
 
 const AuthContext = createContext<AuthContextType | undefined>(undefined)
 
-// Simple, reliable admin credentials
-const ADMIN_EMAIL = 'admin@visionguardglasses.store'
-const ADMIN_PASSWORD = 'admin123'
+
 
 export function AuthProvider({ children }: { children: ReactNode }) {
   const [user, setUser] = useState<User | null>(null)
@@ -28,17 +27,25 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   useEffect(() => {
     const loadUser = () => {
       try {
+        // Check if admin setup is complete
+        if (!isAdminSetupComplete()) {
+          setUser(null)
+          setLoading(false)
+          return
+        }
+
         // Check for admin session in localStorage
         const adminSession = localStorage.getItem('visionguard_admin_session')
         
         if (adminSession) {
           const sessionData = JSON.parse(adminSession)
+          const storedAdminEmail = getStoredAdminEmail()
           
           // Check if session is still valid (24 hour expiry)
           const expiryTime = new Date(sessionData.created_at)
           expiryTime.setHours(expiryTime.getHours() + 24)
           
-          if (expiryTime > new Date() && sessionData.email === ADMIN_EMAIL) {
+          if (expiryTime > new Date() && sessionData.email === storedAdminEmail && storedAdminEmail) {
             setUser({
               id: 'admin-user',
               email: sessionData.email,
@@ -64,13 +71,20 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     loadUser()
   }, [])
 
-  // Simple admin sign-in method
+  // Dynamic admin sign-in method
   async function signIn(email: string, password: string): Promise<{ success: boolean; error?: string }> {
     try {
-      // Simple credential check
-      if (email === ADMIN_EMAIL && password === ADMIN_PASSWORD) {
+      // Check if admin setup is complete
+      if (!isAdminSetupComplete()) {
+        return { success: false, error: 'Admin setup not complete' }
+      }
+
+      // Verify credentials against stored values
+      const isValid = await verifyAdminCredentials(email, password)
+      
+      if (isValid) {
         const sessionData = {
-          email: ADMIN_EMAIL,
+          email: email,
           created_at: new Date().toISOString()
         }
         
@@ -78,7 +92,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
         
         setUser({
           id: 'admin-user',
-          email: ADMIN_EMAIL,
+          email: email,
           role: 'admin'
         })
         

@@ -1,46 +1,65 @@
 import React, { useState, useEffect } from 'react'
-import { useNavigate, Link } from 'react-router-dom'
-import { Eye, EyeOff, Lock, Mail, Shield } from 'lucide-react'
-import { useAuth } from '@/contexts/AuthContext'
-import { isAdminSetupComplete } from '@/lib/adminAuth'
+import { useNavigate } from 'react-router-dom'
+import { Eye, EyeOff, Lock, Mail, Shield, CheckCircle } from 'lucide-react'
+import { storeAdminCredentials, isAdminSetupComplete } from '@/lib/adminAuth'
 import toast from 'react-hot-toast'
 
-export function AdminLoginPage() {
+export function AdminSetupPage() {
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
+  const [confirmPassword, setConfirmPassword] = useState('')
   const [loading, setLoading] = useState(false)
   const [showPassword, setShowPassword] = useState(false)
-  const { signIn, user, isAdmin } = useAuth()
+  const [showConfirmPassword, setShowConfirmPassword] = useState(false)
   const navigate = useNavigate()
 
-  // Redirect if already logged in as admin or setup not complete
+  // Redirect if setup is already complete
   useEffect(() => {
-    if (!isAdminSetupComplete()) {
-      navigate('/admin/setup')
-      return
+    if (isAdminSetupComplete()) {
+      navigate('/admin/login')
     }
-    
-    if (user && isAdmin) {
-      navigate('/admin/dashboard')
+  }, [navigate])
+
+  const validateForm = () => {
+    if (!email || !password || !confirmPassword) {
+      toast.error('Please fill in all fields')
+      return false
     }
-  }, [user, isAdmin, navigate])
+
+    if (!email.includes('@')) {
+      toast.error('Please enter a valid email address')
+      return false
+    }
+
+    if (password.length < 8) {
+      toast.error('Password must be at least 8 characters long')
+      return false
+    }
+
+    if (password !== confirmPassword) {
+      toast.error('Passwords do not match')
+      return false
+    }
+
+    return true
+  }
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
+    
+    if (!validateForm()) {
+      return
+    }
+
     setLoading(true)
 
     try {
-      const result = await signIn(email, password)
-      
-      if (result.success) {
-        toast.success('Successfully signed in!')
-        navigate('/admin/dashboard')
-      } else {
-        toast.error(result.error || 'Invalid credentials')
-      }
+      await storeAdminCredentials(email, password)
+      toast.success('Admin credentials set up successfully!')
+      navigate('/admin/login')
     } catch (error) {
-      console.error('Login error:', error)
-      toast.error('Login failed. Please try again.')
+      console.error('Setup error:', error)
+      toast.error('Failed to set up admin credentials. Please try again.')
     } finally {
       setLoading(false)
     }
@@ -54,16 +73,16 @@ export function AdminLoginPage() {
             <div className="bg-blue-600 rounded-full p-3 w-16 h-16 mx-auto mb-4 flex items-center justify-center">
               <Shield className="h-8 w-8 text-white" />
             </div>
-            <h2 className="text-3xl font-bold text-gray-900">Admin Login</h2>
+            <h2 className="text-3xl font-bold text-gray-900">Admin Setup</h2>
             <p className="mt-2 text-sm text-gray-600">
-              Sign in to access the admin dashboard
+              Set up your admin credentials for VisionGuard
             </p>
           </div>
 
           <form onSubmit={handleSubmit} className="space-y-6">
             <div>
               <label htmlFor="email" className="block text-sm font-medium text-gray-700">
-                Email Address
+                Admin Email Address
               </label>
               <div className="mt-1 relative">
                 <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
@@ -78,7 +97,7 @@ export function AdminLoginPage() {
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   className="block w-full pl-10 pr-3 py-2 border border-gray-300 rounded-md leading-5 bg-white placeholder-gray-500 focus:outline-none focus:placeholder-gray-400 focus:ring-1 focus:ring-blue-500 focus:border-blue-500"
-                  placeholder="Enter your email"
+                  placeholder="Enter your admin email"
                   disabled={loading}
                 />
               </div>
@@ -86,7 +105,7 @@ export function AdminLoginPage() {
 
             <div>
               <label htmlFor="password" className="block text-sm font-medium text-gray-700">
-                Password
+                Admin Password
               </label>
               <div className="mt-1 relative">
                 <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
@@ -96,12 +115,12 @@ export function AdminLoginPage() {
                   id="password"
                   name="password"
                   type={showPassword ? 'text' : 'password'}
-                  autoComplete="current-password"
+                  autoComplete="new-password"
                   required
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}
                   className="block w-full pl-10 pr-10 py-2 border border-gray-300 rounded-md leading-5 bg-white placeholder-gray-500 focus:outline-none focus:placeholder-gray-400 focus:ring-1 focus:ring-blue-500 focus:border-blue-500"
-                  placeholder="Enter your password"
+                  placeholder="Create a secure password (min 8 characters)"
                   disabled={loading}
                 />
                 <button
@@ -120,6 +139,53 @@ export function AdminLoginPage() {
             </div>
 
             <div>
+              <label htmlFor="confirmPassword" className="block text-sm font-medium text-gray-700">
+                Confirm Password
+              </label>
+              <div className="mt-1 relative">
+                <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                  <Lock className="h-5 w-5 text-gray-400" />
+                </div>
+                <input
+                  id="confirmPassword"
+                  name="confirmPassword"
+                  type={showConfirmPassword ? 'text' : 'password'}
+                  autoComplete="new-password"
+                  required
+                  value={confirmPassword}
+                  onChange={(e) => setConfirmPassword(e.target.value)}
+                  className="block w-full pl-10 pr-10 py-2 border border-gray-300 rounded-md leading-5 bg-white placeholder-gray-500 focus:outline-none focus:placeholder-gray-400 focus:ring-1 focus:ring-blue-500 focus:border-blue-500"
+                  placeholder="Confirm your password"
+                  disabled={loading}
+                />
+                <button
+                  type="button"
+                  className="absolute inset-y-0 right-0 pr-3 flex items-center"
+                  onClick={() => setShowConfirmPassword(!showConfirmPassword)}
+                  disabled={loading}
+                >
+                  {showConfirmPassword ? (
+                    <EyeOff className="h-5 w-5 text-gray-400 hover:text-gray-600" />
+                  ) : (
+                    <Eye className="h-5 w-5 text-gray-400 hover:text-gray-600" />
+                  )}
+                </button>
+              </div>
+            </div>
+
+            <div className="bg-blue-50 border border-blue-200 rounded-md p-4">
+              <div className="flex items-center">
+                <CheckCircle className="h-5 w-5 text-blue-400" />
+                <div className="ml-3">
+                  <p className="text-sm text-blue-800">
+                    <strong>Security Note:</strong> Your credentials will be securely stored and encrypted. 
+                    Make sure to use a strong password that you can remember.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div>
               <button
                 type="submit"
                 disabled={loading}
@@ -128,23 +194,14 @@ export function AdminLoginPage() {
                 {loading ? (
                   <div className="flex items-center">
                     <div className="animate-spin rounded-full h-4 w-4 border-b-2 border-white mr-2"></div>
-                    Signing in...
+                    Setting up...
                   </div>
                 ) : (
-                  'Sign In'
+                  'Complete Admin Setup'
                 )}
               </button>
             </div>
           </form>
-
-          <div className="mt-6 text-center">
-            <Link 
-              to="/" 
-              className="text-sm text-blue-600 hover:text-blue-500"
-            >
-              ← Back to store
-            </Link>
-          </div>
         </div>
       </div>
     </div>

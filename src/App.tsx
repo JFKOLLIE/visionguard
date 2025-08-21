@@ -12,6 +12,8 @@ import { CheckoutPage } from '@/pages/CheckoutPage'
 import { SuccessPage } from '@/pages/SuccessPage'
 import { AdminLoginPage } from '@/pages/AdminLoginPage'
 import { AdminDashboardPage } from '@/pages/AdminDashboardPage'
+import { AdminSetupPage } from '@/pages/AdminSetupPage'
+import { AdminSettingsPage } from '@/pages/AdminSettingsPage'
 import './App.css'
 
 function App() {
@@ -22,8 +24,10 @@ function App() {
           <div className="min-h-screen bg-white flex flex-col">
             <Routes>
               {/* Admin Routes */}
+              <Route path="/admin/setup" element={<AdminSetupPage />} />
               <Route path="/admin/login" element={<AdminLoginPage />} />
               <Route path="/admin/dashboard" element={<AdminDashboardPage />} />
+              <Route path="/admin/settings" element={<AdminSettingsPage />} />
               
               {/* Main Store Routes */}
               <Route path="/*" element={

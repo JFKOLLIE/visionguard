@@ -14,7 +14,8 @@ import {
   Calendar,
   Mail,
   Phone,
-  MapPin
+  MapPin,
+  Settings
 } from 'lucide-react'
 import { supabase } from '@/lib/supabase'
 import { useAuth } from '@/contexts/AuthContext'
@@ -237,6 +238,13 @@ export function AdminDashboardPage() {
             </div>
             <div className="flex items-center space-x-4">
               <span className="text-sm text-gray-600">Welcome, {user?.email}</span>
+              <Link 
+                to="/admin/settings"
+                className="flex items-center space-x-1 text-gray-600 hover:text-gray-700"
+              >
+                <Settings className="h-4 w-4" />
+                <span>Settings</span>
+              </Link>
               <Link 
                 to="/"
                 className="text-blue-600 hover:text-blue-700 text-sm font-medium"
