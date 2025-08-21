@@ -1,0 +1,1222 @@
+> > > > > > > > [main 5c3267d] Initialize VisionGuard - Premium Blue Light Glasses E-Commerce Store
+ 1220 files changed, 278 insertions(+), 16883 deletions(-)
+ delete mode 100755 .browser_screenshots/visual_feedback_20250820_061626.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250820_062312.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250820_062342.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250820_062408.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250820_062440.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250820_062523.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250820_062554.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250820_062630.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250820_062712.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250820_062741.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250820_062811.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250820_062837.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250820_062913.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250820_062941.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250820_063009.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250820_063057.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250820_063137.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250820_063221.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250820_063247.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250820_063317.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250820_111316.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250820_111446.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250820_111540.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250820_111617.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250820_111728.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250820_111838.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250820_111905.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250820_111956.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250820_112037.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250820_112107.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250820_112142.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250820_112507.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250820_112559.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250820_112700.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250820_114717.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250820_114814.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250820_114852.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250820_114924.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250820_115530.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250820_115601.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250820_115659.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250820_120246.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250820_120322.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250820_120710.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250820_120933.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250820_121118.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250820_124848.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250820_201813.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250820_201852.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250820_201914.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250820_201950.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250820_202124.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250820_202236.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250820_202308.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250820_202329.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250820_202352.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250820_202426.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250820_202452.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250820_202519.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250820_202634.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250820_202704.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250820_202734.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250820_202812.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250820_202842.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250820_203105.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250820_203207.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250820_203715.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250820_203746.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250820_203817.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250820_203907.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250820_203926.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250820_204009.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250820_204050.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250820_204202.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250820_204249.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250820_204407.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250820_204438.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250820_204534.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250820_204610.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250820_205507.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250820_205529.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250820_205836.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250820_225103.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250820_230630.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250820_230708.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250820_230739.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250820_232222.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250820_232248.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250820_232307.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250820_232330.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250820_232358.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250820_232422.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250820_232441.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250820_232517.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250820_232537.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250820_232614.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250820_232648.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250820_232913.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250820_232945.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250820_233014.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250820_233050.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250820_233124.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250820_233151.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250820_233218.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250820_233241.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250820_233319.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250820_233347.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250821_060810.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250821_060833.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250821_060857.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250821_060916.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250821_060954.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250821_061015.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250821_061044.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250821_061303.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250821_061334.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250821_061356.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250821_061502.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250821_065250.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250821_065446.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250821_065523.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250821_070110.png
+ delete mode 100755 .browser_screenshots/visual_feedback_20250821_070242.png
+ delete mode 100755 .python-version
+ delete mode 100644 README.docx
+ mode change 100644 => 100755 README.md
+ delete mode 100644 README.pdf
+ delete mode 100755 VisionGuard_Complete_Product_Update_Report.md
+ delete mode 100755 VisionGuard_Final_Deployment.md
+ delete mode 100755 VisionGuard_Fixes_Implementation_Report.md
+ delete mode 100755 VisionGuard_Store_Credentials.md
+ delete mode 100755 admin_login_test_report.md
+ delete mode 100755 aliexpress_blue_light_glasses_research.md
+ delete mode 100755 aliexpress_research_report.md
+ delete mode 100755 blue_light_glasses_testing_report.docx
+ delete mode 100755 blue_light_glasses_testing_report.md
+ delete mode 100755 blue_light_glasses_testing_report.pdf
+ delete mode 100755 browser/browser_extension/error_capture/background.js
+ delete mode 100755 browser/browser_extension/error_capture/content.js
+ delete mode 100755 browser/browser_extension/error_capture/injector.js
+ delete mode 100755 browser/browser_extension/error_capture/manifest.json
+ delete mode 100755 browser/extracted_content/visionguard_login_page_details.json
+ delete mode 100755 browser/global_browser.py
+ delete mode 100755 browser/screenshots/admin_login_after_second_attempt.png
+ delete mode 100755 browser/screenshots/admin_login_attempt.png
+ delete mode 100755 browser/screenshots/admin_login_before_submit.png
+ delete mode 100755 browser/screenshots/after_add_to_cart_retry.png
+ delete mode 100755 browser/screenshots/after_signin_click.png
+ delete mode 100755 browser/screenshots/aliexpress_after_verification_attempt.png
+ delete mode 100755 browser/screenshots/aliexpress_security_page.png
+ delete mode 100755 browser/screenshots/aliexpress_security_verification.png
+ delete mode 100755 browser/screenshots/aliexpress_verification_page.png
+ delete mode 100755 browser/screenshots/all_5_products_visible.png
+ delete mode 100755 browser/screenshots/all_5_variants_display.png
+ delete mode 100755 browser/screenshots/benefits_navigation_test.png
+ delete mode 100755 browser/screenshots/benefits_section_test.png
+ delete mode 100755 browser/screenshots/blue_light_glasses_products_page.png
+ delete mode 100755 browser/screenshots/business_details_middle.png
+ delete mode 100755 browser/screenshots/business_details_reviews.png
+ delete mode 100755 browser/screenshots/cart_empty_bug_confirmed.png
+ delete mode 100755 browser/screenshots/cart_page_detailed.png
+ delete mode 100755 browser/screenshots/cart_page_scrolled.png
+ delete mode 100755 browser/screenshots/cart_page_second_test.png
+ delete mode 100755 browser/screenshots/cart_persistence_test.png
+ delete mode 100755 browser/screenshots/checkout_completed.png
+ delete mode 100755 browser/screenshots/checkout_form_current_state.png
+ delete mode 100755 browser/screenshots/checkout_page_final.png
+ delete mode 100755 browser/screenshots/contact_navigation_test.png
+ delete mode 100755 browser/screenshots/contact_section_test.png
+ delete mode 100755 browser/screenshots/devtools_attempt2.png
+ delete mode 100755 browser/screenshots/devtools_opened.png
+ delete mode 100755 browser/screenshots/enter_key_login_attempt.png
+ delete mode 100755 browser/screenshots/footer_details.png
+ delete mode 100755 browser/screenshots/full_page_bottom_view.png
+ delete mode 100755 browser/screenshots/hero_section.png
+ delete mode 100755 browser/screenshots/hero_section_price_verification.png
+ delete mode 100755 browser/screenshots/home_navigation_test.png
+ delete mode 100755 browser/screenshots/login_attempt_2_result.png
+ delete mode 100755 browser/screenshots/login_page_initial.png
+ delete mode 100755 browser/screenshots/login_result_state.png
+ delete mode 100755 browser/screenshots/logo_link_test_final.png
+ delete mode 100755 browser/screenshots/navigation_testing_complete.png
+ delete mode 100755 browser/screenshots/page_content_after_scroll.png
+ delete mode 100755 browser/screenshots/page_content_bottom_section.png
+ delete mode 100755 browser/screenshots/page_content_lower_section.png
+ delete mode 100755 browser/screenshots/page_content_mid_section.png
+ delete mode 100755 browser/screenshots/page_content_pricing_search.png
+ delete mode 100755 browser/screenshots/page_content_very_bottom.png
+ delete mode 100755 browser/screenshots/pricing_verification_39_99.png
+ delete mode 100755 browser/screenshots/product1_gallery_initial_state.png
+ delete mode 100755 browser/screenshots/product1_gallery_left_arrow_clicked.png
+ delete mode 100755 browser/screenshots/product1_gallery_right_arrow_clicked.png
+ delete mode 100755 browser/screenshots/product1_gallery_thumbnail2_clicked.png
+ delete mode 100755 browser/screenshots/product1_gallery_thumbnail3_clicked.png
+ delete mode 100755 browser/screenshots/product3_gallery_initial_state.png
+ delete mode 100755 browser/screenshots/product3_gallery_right_arrow_clicked.png
+ delete mode 100755 browser/screenshots/product3_gallery_thumbnail2_clicked.png
+ delete mode 100755 browser/screenshots/product3_gallery_thumbnail4_clicked.png
+ delete mode 100755 browser/screenshots/product_listings_section.png
+ delete mode 100755 browser/screenshots/product_page_retry.png
+ delete mode 100755 browser/screenshots/product_video_section.png
+ delete mode 100755 browser/screenshots/products_navigation_test.png
+ delete mode 100755 browser/screenshots/products_section_pricing.png
+ delete mode 100755 browser/screenshots/reviews_navigation_test.png
+ delete mode 100755 browser/screenshots/reviews_section_test.png
+ delete mode 100755 browser/screenshots/second_item_added.png
+ delete mode 100755 browser/screenshots/shopping_cart_test.png
+ delete mode 100755 browser/screenshots/video_section.png
+ delete mode 100755 browser/screenshots/video_test.png
+ delete mode 100755 browser/user_data/BrowserMetrics-spare.pma
+ delete mode 100755 browser/user_data/Default/Account Web Data
+ delete mode 100755 browser/user_data/Default/Account Web Data-journal
+ delete mode 100755 browser/user_data/Default/Affiliation Database
+ delete mode 100755 browser/user_data/Default/Affiliation Database-journal
+ delete mode 100755 browser/user_data/Default/AutofillStrikeDatabase/LOCK
+ delete mode 100755 browser/user_data/Default/AutofillStrikeDatabase/LOG
+ delete mode 100755 browser/user_data/Default/AutofillStrikeDatabase/LOG.old
+ delete mode 100755 browser/user_data/Default/BrowsingTopicsSiteData
+ delete mode 100755 browser/user_data/Default/BrowsingTopicsSiteData-journal
+ delete mode 100755 browser/user_data/Default/BrowsingTopicsState
+ delete mode 100755 browser/user_data/Default/BudgetDatabase/LOCK
+ delete mode 100755 browser/user_data/Default/BudgetDatabase/LOG
+ delete mode 100755 browser/user_data/Default/BudgetDatabase/LOG.old
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/00840f877922bebf_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/00c2ba1338bfff4d_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/01ba4fff12c45600_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/01c965d873c0c0c3_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/02c770200b7a2a50_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/02c913ae2439f56f_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/032563a61f89b038_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/03a671f3f6121dd2_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/043c67ada3ee4c90_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/05459bd4dfdce2b9_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/073a56ffd4ad035e_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/08502b71418f0a52_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/08dd0b7f3781cfb6_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/0ab90c65c189224e_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/0ae097b83310c8a0_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/0b4824a386d4b780_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/0dc14ff7468ac112_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/0ec5643f9d2c7eb1_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/0ffa461ee200437d_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/119284e13df16cbd_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/121c3c308567ee0b_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/1547c5de760d7394_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/185005cac5de99cb_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/18530efbe6535d95_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/18711f256cf1f878_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/18fde012bc73fef6_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/197f0100f7e2e8d0_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/19964fa1592651de_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/1a0604d77df4b1e7_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/1a4e7f27a4bda187_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/1b7650b2ee8fbada_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/1b7e46077ad5eac1_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/1c3e9471585c5002_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/1d47d521def0219b_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/1e055cb4e033b9fd_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/1f32e22641a71cbe_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/234919a5c3fafa2c_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/235d2eb49a2af582_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/237ffaff5b5c7d49_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/253e74cea4831eb0_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/26ae1655ef0412b6_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/276112c090a9389e_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/280bd751968ecfc5_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/289653c339025c9e_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/28a76583c07fcb85_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/2946903b6330ea93_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/29ef917ebdd6cd05_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/2b9a5a1e74105a41_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/2e16f34ae3a50b96_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/2e926d9affb468fe_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/2eb79c96539eb013_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/2ef3aa25ff58993c_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/300e7d3b38fd9bab_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/30319de695f5654a_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/3099cb4b62dcfaef_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/313acb8e01d087c6_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/31a2ef920b52e0c9_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/31d09a9492937c5b_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/3253553cda73fef4_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/327d2377ea6433bd_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/3290463299ba1e98_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/32962cd4403a3fc4_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/344705b4bb35125c_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/35421fe899413160_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/3599054e1fd68e3f_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/364aa821a5707bcf_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/367fa04f88fa0c33_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/37ab458447f9d31a_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/384e7163e12cfc3e_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/385aa3d370bc5ebb_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/38643f9ca86d1a02_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/3aa2489dae66d32e_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/3ad9466b1f7305b4_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/3addca36fe9ce731_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/3af760b2eba57e5e_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/3b1d128ea948f4d8_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/3b395c8493791a8c_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/3b5b38b8e0537746_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/3b7b062b2be3b28f_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/3bba83149b870521_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/3bdca67aa1194a81_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/3d441402b8d2c29f_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/3dbefb0587fd86f9_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/3e4d76c8b500dce5_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/3f456bc60a4945b4_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/3f7374dcdb381c22_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/409408a62f4c8b4d_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/416540c01ae9b4fc_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/41a428d9bacc14ca_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/41c13fe3be73ad52_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/42465e5c08467e94_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/4294184261267489_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/42e3b3f1f7d9aa19_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/444d850c45dd59a1_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/465d32a87d7e7601_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/4723c765049a7e6c_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/4927626c98e33f62_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/4954e23c7dc3aa6c_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/4b6879ca63634f28_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/4c49b485394e5d8c_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/4dbe64027f00cb98_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/4e1aef8e2ff3fe60_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/4e760c42cb31ba9b_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/4ed357f44cdd7195_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/4f84d007fc01c737_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/4fe5b705cbd96fd3_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/5015c447f2dc34bd_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/504baaa09bb2a988_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/50dd73be8276f850_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/5302b36c74bca506_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/56acc676e96b9f53_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/571e8166ceeee88f_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/578ed56141cbe18e_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/58b7ae8e768f2d0a_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/58c9431996c8d427_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/599197ee0662877e_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/5a9578ed2d4a8830_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/5ca40b861f99fe55_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/5cda60ce224a29d4_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/5ce97bcd0203765a_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/5d65e714edbb6fe0_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/5df2ee10b7064657_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/5e7a729d4f4d7bba_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/5f2ef128e08e362f_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/5f54e689ac68ba98_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/5f67d768efd2dce0_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/61300c8fa261967f_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/6196cfc7aa7c8810_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/6232f9c038838daf_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/6318559793f83057_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/6625d0eb0835e9da_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/666ccb24c18b27c7_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/679ff05dd3f8d691_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/67bf58fc18be4f0a_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/67d28e88700a9922_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/69b52ca89da2eeb1_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/6ad6e9490fa808f5_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/6aee206f89353d8e_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/6b00c94b07019e94_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/6c500f9d9dbb591a_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/6d259b00e64d75a8_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/741b60c98230d831_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/7447b9807db40f89_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/74cd194e6c9adc6a_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/74d96cff9a9ffcc6_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/77322d757decaedd_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/77c7c8a30182c601_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/78675595a29c8a9f_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/78a63ddb621ced5b_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/79bb92f22504d18b_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/7b827694e4bc2f34_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/7c3be49924ac4ccf_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/7ce39d4df475b529_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/7d66cbd2717d6443_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/7e8289589804830e_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/7ebc2f674a339c63_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/80becdbbb8d5828e_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/8100d76341a6dc8f_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/829a0142cc882090_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/83e79c1dd2bdc6d6_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/840a9ff08f7f89c6_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/842cf875132bc104_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/84beca39084970dc_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/84de99634d4130f1_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/8660394a9baef2e4_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/86e6fa5e62e71cb8_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/8955ab670cd20441_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/8aec2ee67bcf656d_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/8c6ccb769238ac9a_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/8cf91233e31dc0ff_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/8e32fd9848432fe6_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/8ef1eec539a72f40_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/90186ca429456609_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/90988e63868288a1_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/90b400db50fef65b_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/92fd0029c8924263_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/9528f183e57c3c70_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/95aa25f8556674b1_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/968fb9174ea761c3_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/96f466422c28045f_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/9707112053edf8bd_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/9707112053edf8bd_s
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/97945f7b655f530b_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/9907e66f7b05eaeb_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/9a91da7337f64a30_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/9ae4d4cd2cbc4f9a_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/9ae83384a8bd4a2e_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/9aea5bd69e2e9bc9_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/9b98b42d45f05c7c_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/9ba1ef0fe6818f40_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/9bfb0d9fe90a522d_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/9c8557439f30ae3c_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/9d3acb082046c1b4_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/9e777a290d1efc93_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/9eca8ed05df740f9_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/9fdf046481e38daf_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/a071fe691c157118_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/a0e0d45e57a15bad_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/a17d22df291c597f_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/a2ce5d0dab538e97_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/a53675ea4ad6fa52_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/a5b119a99e6388bb_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/a6d7d092f45dca2d_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/a93445d19e35e4e9_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/a9481e659d626672_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/a9568769a7ad663f_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/a96423b822d3ab58_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/aa2dd188382e6cf2_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/aa7d98c90430b3bb_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/ac5e69578d3c6179_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/aca710dd208ca501_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/ad379f4115c01895_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/adbbb9c585178df2_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/afdd817f2c83f11f_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/aff18f59930ab3b4_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/affe7f758b10c3c1_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/b0919ec05e7bac22_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/b0ffbc4f40f845d8_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/b1efbcbca394b3ea_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/b2860388d6f29475_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/b3388522abfe1c29_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/b4bb02adada7cd17_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/b753bd09bb07f43b_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/b7a6c82613c36827_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/b8afb437714cad2d_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/b9100dfc468a3deb_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/b968ef2fc0a61861_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/ba6dfec69cdf9c86_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/ba89c7bd38751394_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/bae7992c6c2be8ad_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/bb0caa22cedb0843_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/bb3989064bdd2384_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/bc57050ec7243bf4_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/bc67111c0c29f00b_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/bdb754426d849f5f_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/bdd29955ec9351a4_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/be0fbfdad9615779_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/bf739a14d0dce51a_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/bfe221af13d46fc7_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/c06595a5dc46fec0_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/c08b9376cca879f4_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/c0e8a29caa20cad8_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/c27c415a224c0f41_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/c300d6229ba0d013_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/c3229c6a658e689b_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/c4b4b419762772f8_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/c61c9629b38afcfd_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/c627f2aa7894c484_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/c687389e36c7fc74_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/c687389e36c7fc74_s
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/c6f8a9ac76da9fea_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/c7a8a68e8f8bee1f_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/c99e69dd18e5f616_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/ca40901a3d6ca9ec_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/ca52dda615e95e9e_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/cb7ade5bcca7aac8_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/cbed61dac66e860b_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/cc2b9a652e2a91c7_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/cc6c57ff80ab097e_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/cdf40ee28bf4cd78_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/ce91da197e4c9de2_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/cef23341c5955e50_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/cf85a9fa8541f8eb_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/d1875e5fb0ef99a8_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/d4450061049c122d_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/d6e21a1ffbb69904_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/d8a6a4feded9d789_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/d8c4095efb0a9917_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/d9bae8779e9ac01b_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/d9d3974c772dacd2_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/da095ad74ae218ad_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/da1e4fdcabb019a4_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/da327a56c6b89c79_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/da327a56c6b89c79_s
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/dc6b81eadf05c702_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/dc976ca320b52b0e_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/dcd977d85be73993_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/dd7d828f32609078_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/de2b55ff2294393b_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/de5df01ca4779a2b_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/dfb413c13f76be35_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/dfe4c57d7671a0e8_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/e0290ee21a763b22_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/e28f941398408132_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/e55b289d31fba3fa_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/e6f24294e84da1d3_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/e7565898e4415a4c_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/e808b1641e7fe872_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/e81053db14fb4aa5_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/e898bde5a728bd48_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/e8f41ba0396089c8_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/e974d67308f9d749_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/e9acd0dda6519e1b_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/e9fb3f6505b0ec79_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/eb6cb4e883da4a9b_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/ec05502190454f9f_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/ec3bd6b1e90a6e27_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/ec7d1e9760337853_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/ec9f44fb4839a541_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/ed46ef86faa7fe79_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/ed5152d08612b2ae_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/ed77670a08e0e22c_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/eda7714fc5b2a455_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/eeceb3b77fa9b20b_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/f02008b94218b029_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/f10db965227f0f8d_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/f1bbc6d903899957_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/f2d7793d8e5a23e4_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/f4c193ca8c0a89de_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/f4e98b6a119433ea_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/f5943baa9480b61c_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/f6e37c5bc8326763_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/f7178ab6cedbbf81_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/f9095123606f6c84_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/f918e88613958476_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/fc08d59580f884fe_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/fc8ad5a31326bccd_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/fce1c2acbf8b352f_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/fd53d457ed4e09b8_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/fd860aea9e743a0d_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/fe1e70f3a530dc98_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/fecbc8b7349378b5_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/ff2a43629fde38cd_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/ff50fa3f03b081e0_0
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/index
+ delete mode 100755 browser/user_data/Default/Cache/Cache_Data/index-dir/the-real-index
+ delete mode 100755 browser/user_data/Default/ClientCertificates/LOCK
+ delete mode 100755 browser/user_data/Default/ClientCertificates/LOG
+ delete mode 100755 browser/user_data/Default/ClientCertificates/LOG.old
+ delete mode 100755 browser/user_data/Default/Code Cache/js/02898881fcc82aaf_0
+ delete mode 100755 browser/user_data/Default/Code Cache/js/06e40803f03a90be_0
+ delete mode 100755 browser/user_data/Default/Code Cache/js/0a09d699f2206a60_0
+ delete mode 100755 browser/user_data/Default/Code Cache/js/0efdd1080343d142_0
+ delete mode 100755 browser/user_data/Default/Code Cache/js/10472fa7c97637ab_0
+ delete mode 100755 browser/user_data/Default/Code Cache/js/1115d2300dc5b149_0
+ delete mode 100755 browser/user_data/Default/Code Cache/js/122bd6b7c26926ef_0
+ delete mode 100755 browser/user_data/Default/Code Cache/js/149b131bcafe7563_0
+ delete mode 100755 browser/user_data/Default/Code Cache/js/15b62b15ca54d5eb_0
+ delete mode 100755 browser/user_data/Default/Code Cache/js/16047d17990257e0_0
+ delete mode 100755 browser/user_data/Default/Code Cache/js/1cbaa3cfb4b02c15_0
+ delete mode 100755 browser/user_data/Default/Code Cache/js/1edff0e872d57526_0
+ delete mode 100755 browser/user_data/Default/Code Cache/js/2337a6f7ddd380f3_0
+ delete mode 100755 browser/user_data/Default/Code Cache/js/2769c10226724d5c_0
+ delete mode 100755 browser/user_data/Default/Code Cache/js/28d59fc6269a2437_0
+ delete mode 100755 browser/user_data/Default/Code Cache/js/29fccf50272f2124_0
+ delete mode 100755 browser/user_data/Default/Code Cache/js/2a00740f0f1fc8be_0
+ delete mode 100755 browser/user_data/Default/Code Cache/js/3093d5e7a29a56db_0
+ delete mode 100755 browser/user_data/Default/Code Cache/js/338098b3a2a8008a_0
+ delete mode 100755 browser/user_data/Default/Code Cache/js/35e9e8d2427b3988_0
+ delete mode 100755 browser/user_data/Default/Code Cache/js/3a7a053f81b93a41_0
+ delete mode 100755 browser/user_data/Default/Code Cache/js/4294d530d63ff212_0
+ delete mode 100755 browser/user_data/Default/Code Cache/js/46f9f91111238cdc_0
+ delete mode 100755 browser/user_data/Default/Code Cache/js/48812c1a156e6368_0
+ delete mode 100755 browser/user_data/Default/Code Cache/js/488339d23ef9e360_0
+ delete mode 100755 browser/user_data/Default/Code Cache/js/4a54cac0ea633aaf_0
+ delete mode 100755 browser/user_data/Default/Code Cache/js/4b310901c4dffb5c_0
+ delete mode 100755 browser/user_data/Default/Code Cache/js/4bc9abb2d38c8816_0
+ delete mode 100755 browser/user_data/Default/Code Cache/js/4e5ec6671229929d_0
+ delete mode 100755 browser/user_data/Default/Code Cache/js/4fe9369a3d7a9df0_0
+ delete mode 100755 browser/user_data/Default/Code Cache/js/5141c5038f3432f8_0
+ delete mode 100755 browser/user_data/Default/Code Cache/js/52d0ce999e7d78c5_0
+ delete mode 100755 browser/user_data/Default/Code Cache/js/551039906504fac1_0
+ delete mode 100755 browser/user_data/Default/Code Cache/js/564675fa8ca781f5_0
+ delete mode 100755 browser/user_data/Default/Code Cache/js/59325438a923e6fd_0
+ delete mode 100755 browser/user_data/Default/Code Cache/js/5cb464928941ea49_0
+ delete mode 100755 browser/user_data/Default/Code Cache/js/63f6ff5f4c017c26_0
+ delete mode 100755 browser/user_data/Default/Code Cache/js/655e056a057a0ca7_0
+ delete mode 100755 browser/user_data/Default/Code Cache/js/66822a05eb4df5fe_0
+ delete mode 100755 browser/user_data/Default/Code Cache/js/67cbf5a0fd933da9_0
+ delete mode 100755 browser/user_data/Default/Code Cache/js/71205404c3f3617c_0
+ delete mode 100755 browser/user_data/Default/Code Cache/js/72b05f666af7a753_0
+ delete mode 100755 browser/user_data/Default/Code Cache/js/73f1eca090810cf5_0
+ delete mode 100755 browser/user_data/Default/Code Cache/js/740b703c2bf2584e_0
+ delete mode 100755 browser/user_data/Default/Code Cache/js/741a0d8914662fb0_0
+ delete mode 100755 browser/user_data/Default/Code Cache/js/785b4ac915ff5582_0
+ delete mode 100755 browser/user_data/Default/Code Cache/js/78c7e7f5202ad32d_0
+ delete mode 100755 browser/user_data/Default/Code Cache/js/7f0b46253b8a02ec_0
+ delete mode 100755 browser/user_data/Default/Code Cache/js/7fb205618cd813cc_0
+ delete mode 100755 browser/user_data/Default/Code Cache/js/853eb2541dc81ab6_0
+ delete mode 100755 browser/user_data/Default/Code Cache/js/866f4e7fba14a2ec_0
+ delete mode 100755 browser/user_data/Default/Code Cache/js/86c4242cc27477bd_0
+ delete mode 100755 browser/user_data/Default/Code Cache/js/86d24a63b5aadf86_0
+ delete mode 100755 browser/user_data/Default/Code Cache/js/8800e0d668935ce6_0
+ delete mode 100755 browser/user_data/Default/Code Cache/js/8946478f2cd81651_0
+ delete mode 100755 browser/user_data/Default/Code Cache/js/8c63a9dcb957b6d8_0
+ delete mode 100755 browser/user_data/Default/Code Cache/js/8f46b72c858d0b13_0
+ delete mode 100755 browser/user_data/Default/Code Cache/js/926abd09c00521c1_0
+ delete mode 100755 browser/user_data/Default/Code Cache/js/9410c11bbaeacc28_0
+ delete mode 100755 browser/user_data/Default/Code Cache/js/952e7a3692949155_0
+ delete mode 100755 browser/user_data/Default/Code Cache/js/9798cb219f7d0f8d_0
+ delete mode 100755 browser/user_data/Default/Code Cache/js/a172d27fe42ace6f_0
+ delete mode 100755 browser/user_data/Default/Code Cache/js/a1e63eb2bbedf463_0
+ delete mode 100755 browser/user_data/Default/Code Cache/js/a260894d7c569f82_0
+ delete mode 100755 browser/user_data/Default/Code Cache/js/a4821327f3052cb2_0
+ delete mode 100755 browser/user_data/Default/Code Cache/js/a6e90c30acce51ad_0
+ delete mode 100755 browser/user_data/Default/Code Cache/js/ad9bdc4db9571b8c_0
+ delete mode 100755 browser/user_data/Default/Code Cache/js/ae42dbcc39b9e2fd_0
+ delete mode 100755 browser/user_data/Default/Code Cache/js/aeb1e57f52c46c2a_0
+ delete mode 100755 browser/user_data/Default/Code Cache/js/afb3e2216fec1de0_0
+ delete mode 100755 browser/user_data/Default/Code Cache/js/b0abf476d060c99a_0
+ delete mode 100755 browser/user_data/Default/Code Cache/js/b2617c3b0de689b4_0
+ delete mode 100755 browser/user_data/Default/Code Cache/js/b2a9b4855498e9e9_0
+ delete mode 100755 browser/user_data/Default/Code Cache/js/b7ef57908ad0f7b7_0
+ delete mode 100755 browser/user_data/Default/Code Cache/js/bb08d5894b3a1adb_0
+ delete mode 100755 browser/user_data/Default/Code Cache/js/bce3e001add29686_0
+ delete mode 100755 browser/user_data/Default/Code Cache/js/beb7880d52dd3908_0
+ delete mode 100755 browser/user_data/Default/Code Cache/js/bfff0e25ea05f9c0_0
+ delete mode 100755 browser/user_data/Default/Code Cache/js/c19d7eb919e778fc_0
+ delete mode 100755 browser/user_data/Default/Code Cache/js/c1c440c6533ad353_0
+ delete mode 100755 browser/user_data/Default/Code Cache/js/c66a8b9b775462d2_0
+ delete mode 100755 browser/user_data/Default/Code Cache/js/c877a1f2b9a9b794_0
+ delete mode 100755 browser/user_data/Default/Code Cache/js/c9a1003033c511bd_0
+ delete mode 100755 browser/user_data/Default/Code Cache/js/c9a4bc866723f398_0
+ delete mode 100755 browser/user_data/Default/Code Cache/js/cc7aa77315b76b3c_0
+ delete mode 100755 browser/user_data/Default/Code Cache/js/cce51a81784465d2_0
+ delete mode 100755 browser/user_data/Default/Code Cache/js/d21a0f43b75beb8e_0
+ delete mode 100755 browser/user_data/Default/Code Cache/js/d353840658998b45_0
+ delete mode 100755 browser/user_data/Default/Code Cache/js/d99b9ebce19d7364_0
+ delete mode 100755 browser/user_data/Default/Code Cache/js/da432ed5c30ff259_0
+ delete mode 100755 browser/user_data/Default/Code Cache/js/da952bd3ae61e295_0
+ delete mode 100755 browser/user_data/Default/Code Cache/js/daaceb110c621cbd_0
+ delete mode 100755 browser/user_data/Default/Code Cache/js/e143bc1dd4873ffc_0
+ delete mode 100755 browser/user_data/Default/Code Cache/js/e7e79f7c59517cb0_0
+ delete mode 100755 browser/user_data/Default/Code Cache/js/e9530b029c2ae9c1_0
+ delete mode 100755 browser/user_data/Default/Code Cache/js/ee1f4b097e9437f4_0
+ delete mode 100755 browser/user_data/Default/Code Cache/js/f69732d3db2e1166_0
+ delete mode 100755 browser/user_data/Default/Code Cache/js/f97feef67c0d9175_0
+ delete mode 100755 browser/user_data/Default/Code Cache/js/fdcd4342f0e6b141_0
+ delete mode 100755 browser/user_data/Default/Code Cache/js/ff03c109a3f149a1_0
+ delete mode 100755 browser/user_data/Default/Code Cache/js/index
+ delete mode 100755 browser/user_data/Default/Code Cache/js/index-dir/the-real-index
+ delete mode 100755 browser/user_data/Default/Code Cache/wasm/index
+ delete mode 100755 browser/user_data/Default/Code Cache/wasm/index-dir/the-real-index
+ delete mode 100755 browser/user_data/Default/Cookies
+ delete mode 100755 browser/user_data/Default/Cookies-journal
+ delete mode 100755 browser/user_data/Default/DIPS
+ delete mode 100755 browser/user_data/Default/DIPS-shm
+ delete mode 100755 browser/user_data/Default/DIPS-wal
+ delete mode 100755 browser/user_data/Default/DawnGraphiteCache/data_0
+ delete mode 100755 browser/user_data/Default/DawnGraphiteCache/data_1
+ delete mode 100755 browser/user_data/Default/DawnGraphiteCache/data_2
+ delete mode 100755 browser/user_data/Default/DawnGraphiteCache/data_3
+ delete mode 100755 browser/user_data/Default/DawnGraphiteCache/index
+ delete mode 100755 browser/user_data/Default/DawnWebGPUCache/data_0
+ delete mode 100755 browser/user_data/Default/DawnWebGPUCache/data_1
+ delete mode 100755 browser/user_data/Default/DawnWebGPUCache/data_2
+ delete mode 100755 browser/user_data/Default/DawnWebGPUCache/data_3
+ delete mode 100755 browser/user_data/Default/DawnWebGPUCache/index
+ delete mode 100755 browser/user_data/Default/Download Service/EntryDB/LOCK
+ delete mode 100755 browser/user_data/Default/Download Service/EntryDB/LOG
+ delete mode 100755 browser/user_data/Default/Download Service/EntryDB/LOG.old
+ delete mode 100755 browser/user_data/Default/Extension Rules/000003.log
+ delete mode 100755 browser/user_data/Default/Extension Rules/CURRENT
+ delete mode 100755 browser/user_data/Default/Extension Rules/LOCK
+ delete mode 100755 browser/user_data/Default/Extension Rules/LOG
+ delete mode 100755 browser/user_data/Default/Extension Rules/LOG.old
+ delete mode 100755 browser/user_data/Default/Extension Rules/MANIFEST-000001
+ delete mode 100755 browser/user_data/Default/Extension Scripts/000003.log
+ delete mode 100755 browser/user_data/Default/Extension Scripts/CURRENT
+ delete mode 100755 browser/user_data/Default/Extension Scripts/LOCK
+ delete mode 100755 browser/user_data/Default/Extension Scripts/LOG
+ delete mode 100755 browser/user_data/Default/Extension Scripts/LOG.old
+ delete mode 100755 browser/user_data/Default/Extension Scripts/MANIFEST-000001
+ delete mode 100755 browser/user_data/Default/Extension State/000003.log
+ delete mode 100755 browser/user_data/Default/Extension State/CURRENT
+ delete mode 100755 browser/user_data/Default/Extension State/LOCK
+ delete mode 100755 browser/user_data/Default/Extension State/LOG
+ delete mode 100755 browser/user_data/Default/Extension State/LOG.old
+ delete mode 100755 browser/user_data/Default/Extension State/MANIFEST-000001
+ delete mode 100755 browser/user_data/Default/Favicons
+ delete mode 100755 browser/user_data/Default/Favicons-journal
+ delete mode 100755 browser/user_data/Default/Feature Engagement Tracker/AvailabilityDB/LOCK
+ delete mode 100755 browser/user_data/Default/Feature Engagement Tracker/AvailabilityDB/LOG
+ delete mode 100755 browser/user_data/Default/Feature Engagement Tracker/AvailabilityDB/LOG.old
+ delete mode 100755 browser/user_data/Default/Feature Engagement Tracker/EventDB/LOCK
+ delete mode 100755 browser/user_data/Default/Feature Engagement Tracker/EventDB/LOG
+ delete mode 100755 browser/user_data/Default/Feature Engagement Tracker/EventDB/LOG.old
+ delete mode 100755 browser/user_data/Default/GCM Store/Encryption/000003.log
+ delete mode 100755 browser/user_data/Default/GCM Store/Encryption/CURRENT
+ delete mode 100755 browser/user_data/Default/GCM Store/Encryption/LOCK
+ delete mode 100755 browser/user_data/Default/GCM Store/Encryption/LOG
+ delete mode 100755 browser/user_data/Default/GCM Store/Encryption/LOG.old
+ delete mode 100755 browser/user_data/Default/GCM Store/Encryption/MANIFEST-000001
+ delete mode 100755 browser/user_data/Default/GPUCache/data_0
+ delete mode 100755 browser/user_data/Default/GPUCache/data_1
+ delete mode 100755 browser/user_data/Default/GPUCache/data_2
+ delete mode 100755 browser/user_data/Default/GPUCache/data_3
+ delete mode 100755 browser/user_data/Default/GPUCache/index
+ delete mode 100755 browser/user_data/Default/History
+ delete mode 100755 browser/user_data/Default/History-journal
+ delete mode 100755 browser/user_data/Default/LOCK
+ delete mode 100755 browser/user_data/Default/LOG
+ delete mode 100755 browser/user_data/Default/LOG.old
+ delete mode 100755 browser/user_data/Default/Local Storage/leveldb/000004.log
+ delete mode 100755 browser/user_data/Default/Local Storage/leveldb/000005.ldb
+ delete mode 100755 browser/user_data/Default/Local Storage/leveldb/CURRENT
+ delete mode 100755 browser/user_data/Default/Local Storage/leveldb/LOCK
+ delete mode 100755 browser/user_data/Default/Local Storage/leveldb/LOG
+ delete mode 100755 browser/user_data/Default/Local Storage/leveldb/LOG.old
+ delete mode 100755 browser/user_data/Default/Local Storage/leveldb/MANIFEST-000001
+ delete mode 100755 browser/user_data/Default/Login Data
+ delete mode 100755 browser/user_data/Default/Login Data For Account
+ delete mode 100755 browser/user_data/Default/Login Data For Account-journal
+ delete mode 100755 browser/user_data/Default/Login Data-journal
+ delete mode 100755 browser/user_data/Default/MediaDeviceSalts
+ delete mode 100755 browser/user_data/Default/MediaDeviceSalts-journal
+ delete mode 100755 browser/user_data/Default/Network Action Predictor
+ delete mode 100755 browser/user_data/Default/Network Action Predictor-journal
+ delete mode 100755 browser/user_data/Default/Network Persistent State
+ delete mode 100755 browser/user_data/Default/PersistentOriginTrials/LOCK
+ delete mode 100755 browser/user_data/Default/PersistentOriginTrials/LOG
+ delete mode 100755 browser/user_data/Default/PersistentOriginTrials/LOG.old
+ delete mode 100755 browser/user_data/Default/Preferences
+ delete mode 100755 browser/user_data/Default/PreferredApps
+ delete mode 100755 browser/user_data/Default/README
+ delete mode 100755 browser/user_data/Default/Reporting and NEL
+ delete mode 100755 browser/user_data/Default/Reporting and NEL-journal
+ delete mode 100755 browser/user_data/Default/SCT Auditing Pending Reports
+ delete mode 100755 browser/user_data/Default/Safe Browsing Cookies
+ delete mode 100755 browser/user_data/Default/Safe Browsing Cookies-journal
+ delete mode 100755 browser/user_data/Default/Secure Preferences
+ delete mode 100755 browser/user_data/Default/Segmentation Platform/SegmentInfoDB/LOCK
+ delete mode 100755 browser/user_data/Default/Segmentation Platform/SegmentInfoDB/LOG
+ delete mode 100755 browser/user_data/Default/Segmentation Platform/SegmentInfoDB/LOG.old
+ delete mode 100755 browser/user_data/Default/Segmentation Platform/SignalDB/LOCK
+ delete mode 100755 browser/user_data/Default/Segmentation Platform/SignalDB/LOG
+ delete mode 100755 browser/user_data/Default/Segmentation Platform/SignalDB/LOG.old
+ delete mode 100755 browser/user_data/Default/Segmentation Platform/SignalStorageConfigDB/LOCK
+ delete mode 100755 browser/user_data/Default/Segmentation Platform/SignalStorageConfigDB/LOG
+ delete mode 100755 browser/user_data/Default/Segmentation Platform/SignalStorageConfigDB/LOG.old
+ delete mode 100755 browser/user_data/Default/Service Worker/Database/000003.log
+ delete mode 100755 browser/user_data/Default/Service Worker/Database/CURRENT
+ delete mode 100755 browser/user_data/Default/Service Worker/Database/LOCK
+ delete mode 100755 browser/user_data/Default/Service Worker/Database/LOG
+ delete mode 100755 browser/user_data/Default/Service Worker/Database/LOG.old
+ delete mode 100755 browser/user_data/Default/Service Worker/Database/MANIFEST-000001
+ delete mode 100755 browser/user_data/Default/Service Worker/ScriptCache/2cc80dabc69f58b6_0
+ delete mode 100755 browser/user_data/Default/Service Worker/ScriptCache/2cc80dabc69f58b6_1
+ delete mode 100755 browser/user_data/Default/Service Worker/ScriptCache/index
+ delete mode 100755 browser/user_data/Default/Service Worker/ScriptCache/index-dir/the-real-index
+ delete mode 100755 browser/user_data/Default/Session Storage/000003.log
+ delete mode 100755 browser/user_data/Default/Session Storage/CURRENT
+ delete mode 100755 browser/user_data/Default/Session Storage/LOCK
+ delete mode 100755 browser/user_data/Default/Session Storage/LOG
+ delete mode 100755 browser/user_data/Default/Session Storage/LOG.old
+ delete mode 100755 browser/user_data/Default/Session Storage/MANIFEST-000001
+ delete mode 100755 browser/user_data/Default/Sessions/Session_13400115365096873
+ delete mode 100755 browser/user_data/Default/Sessions/Tabs_13400175029625653
+ delete mode 100755 browser/user_data/Default/Sessions/Tabs_13400201270894018
+ delete mode 100755 browser/user_data/Default/Shared Dictionary/cache/index
+ delete mode 100755 browser/user_data/Default/Shared Dictionary/cache/index-dir/the-real-index
+ delete mode 100755 browser/user_data/Default/Shared Dictionary/db
+ delete mode 100755 browser/user_data/Default/Shared Dictionary/db-journal
+ delete mode 100755 browser/user_data/Default/SharedStorage
+ delete mode 100755 browser/user_data/Default/SharedStorage-wal
+ delete mode 100755 browser/user_data/Default/Shortcuts
+ delete mode 100755 browser/user_data/Default/Shortcuts-journal
+ delete mode 100755 browser/user_data/Default/Site Characteristics Database/000003.log
+ delete mode 100755 browser/user_data/Default/Site Characteristics Database/CURRENT
+ delete mode 100755 browser/user_data/Default/Site Characteristics Database/LOCK
+ delete mode 100755 browser/user_data/Default/Site Characteristics Database/LOG
+ delete mode 100755 browser/user_data/Default/Site Characteristics Database/LOG.old
+ delete mode 100755 browser/user_data/Default/Site Characteristics Database/MANIFEST-000001
+ delete mode 100755 browser/user_data/Default/Sync Data/LevelDB/000003.log
+ delete mode 100755 browser/user_data/Default/Sync Data/LevelDB/CURRENT
+ delete mode 100755 browser/user_data/Default/Sync Data/LevelDB/LOCK
+ delete mode 100755 browser/user_data/Default/Sync Data/LevelDB/LOG
+ delete mode 100755 browser/user_data/Default/Sync Data/LevelDB/LOG.old
+ delete mode 100755 browser/user_data/Default/Sync Data/LevelDB/MANIFEST-000001
+ delete mode 100755 browser/user_data/Default/Top Sites
+ delete mode 100755 browser/user_data/Default/Top Sites-journal
+ delete mode 100755 browser/user_data/Default/TransportSecurity
+ delete mode 100755 browser/user_data/Default/Trust Tokens
+ delete mode 100755 browser/user_data/Default/Trust Tokens-journal
+ delete mode 100755 browser/user_data/Default/VideoDecodeStats/LOCK
+ delete mode 100755 browser/user_data/Default/VideoDecodeStats/LOG
+ delete mode 100755 browser/user_data/Default/VideoDecodeStats/LOG.old
+ delete mode 100755 browser/user_data/Default/Web Data
+ delete mode 100755 browser/user_data/Default/Web Data-journal
+ delete mode 100755 browser/user_data/Default/WebStorage/5/CacheStorage/index.txt
+ delete mode 100755 browser/user_data/Default/WebStorage/5/IndexedDB/indexeddb.leveldb/000004.log
+ delete mode 100755 browser/user_data/Default/WebStorage/5/IndexedDB/indexeddb.leveldb/000005.ldb
+ delete mode 100755 browser/user_data/Default/WebStorage/5/IndexedDB/indexeddb.leveldb/CURRENT
+ delete mode 100755 browser/user_data/Default/WebStorage/5/IndexedDB/indexeddb.leveldb/LOCK
+ delete mode 100755 browser/user_data/Default/WebStorage/5/IndexedDB/indexeddb.leveldb/LOG
+ delete mode 100755 browser/user_data/Default/WebStorage/5/IndexedDB/indexeddb.leveldb/LOG.old
+ delete mode 100755 browser/user_data/Default/WebStorage/5/IndexedDB/indexeddb.leveldb/MANIFEST-000001
+ delete mode 100755 browser/user_data/Default/WebStorage/QuotaManager
+ delete mode 100755 browser/user_data/Default/WebStorage/QuotaManager-journal
+ delete mode 100755 browser/user_data/Default/chrome_cart_db/LOCK
+ delete mode 100755 browser/user_data/Default/chrome_cart_db/LOG
+ delete mode 100755 browser/user_data/Default/chrome_cart_db/LOG.old
+ delete mode 100755 browser/user_data/Default/commerce_subscription_db/LOCK
+ delete mode 100755 browser/user_data/Default/commerce_subscription_db/LOG
+ delete mode 100755 browser/user_data/Default/commerce_subscription_db/LOG.old
+ delete mode 100755 browser/user_data/Default/discounts_db/LOCK
+ delete mode 100755 browser/user_data/Default/discounts_db/LOG
+ delete mode 100755 browser/user_data/Default/discounts_db/LOG.old
+ delete mode 100755 browser/user_data/Default/heavy_ad_intervention_opt_out.db
+ delete mode 100755 browser/user_data/Default/heavy_ad_intervention_opt_out.db-journal
+ delete mode 100755 browser/user_data/Default/optimization_guide_hint_cache_store/LOCK
+ delete mode 100755 browser/user_data/Default/optimization_guide_hint_cache_store/LOG
+ delete mode 100755 browser/user_data/Default/optimization_guide_hint_cache_store/LOG.old
+ delete mode 100755 browser/user_data/Default/parcel_tracking_db/LOCK
+ delete mode 100755 browser/user_data/Default/parcel_tracking_db/LOG
+ delete mode 100755 browser/user_data/Default/parcel_tracking_db/LOG.old
+ delete mode 100755 browser/user_data/Default/passkey_enclave_state
+ delete mode 100755 browser/user_data/Default/shared_proto_db/000003.log
+ delete mode 100755 browser/user_data/Default/shared_proto_db/CURRENT
+ delete mode 100755 browser/user_data/Default/shared_proto_db/LOCK
+ delete mode 100755 browser/user_data/Default/shared_proto_db/LOG
+ delete mode 100755 browser/user_data/Default/shared_proto_db/LOG.old
+ delete mode 100755 browser/user_data/Default/shared_proto_db/MANIFEST-000001
+ delete mode 100755 browser/user_data/Default/shared_proto_db/metadata/000003.log
+ delete mode 100755 browser/user_data/Default/shared_proto_db/metadata/CURRENT
+ delete mode 100755 browser/user_data/Default/shared_proto_db/metadata/LOCK
+ delete mode 100755 browser/user_data/Default/shared_proto_db/metadata/LOG
+ delete mode 100755 browser/user_data/Default/shared_proto_db/metadata/LOG.old
+ delete mode 100755 browser/user_data/Default/shared_proto_db/metadata/MANIFEST-000001
+ delete mode 100755 browser/user_data/Default/trusted_vault.pb
+ delete mode 100755 browser/user_data/Dictionaries/en-US-10-1.bdic
+ delete mode 100755 browser/user_data/GrShaderCache/data_0
+ delete mode 100755 browser/user_data/GrShaderCache/data_1
+ delete mode 100755 browser/user_data/GrShaderCache/data_2
+ delete mode 100755 browser/user_data/GrShaderCache/data_3
+ delete mode 100755 browser/user_data/GrShaderCache/index
+ delete mode 100755 browser/user_data/GraphiteDawnCache/data_0
+ delete mode 100755 browser/user_data/GraphiteDawnCache/data_1
+ delete mode 100755 browser/user_data/GraphiteDawnCache/data_2
+ delete mode 100755 browser/user_data/GraphiteDawnCache/data_3
+ delete mode 100755 browser/user_data/GraphiteDawnCache/index
+ delete mode 100755 browser/user_data/Last Version
+ delete mode 100755 browser/user_data/Local State
+ delete mode 100755 browser/user_data/ShaderCache/data_0
+ delete mode 100755 browser/user_data/ShaderCache/data_1
+ delete mode 100755 browser/user_data/ShaderCache/data_2
+ delete mode 100755 browser/user_data/ShaderCache/data_3
+ delete mode 100755 browser/user_data/ShaderCache/index
+ delete mode 100755 browser/user_data/Variations
+ delete mode 100755 browser/user_data/component_crx_cache/metadata.json
+ delete mode 100755 browser/user_data/extensions_crx_cache/metadata.json
+ delete mode 100755 browser/user_data/first_party_sets.db
+ delete mode 100755 browser/user_data/first_party_sets.db-journal
+ delete mode 100755 browser/user_data/segmentation_platform/ukm_db
+ delete mode 100755 browser/user_data/segmentation_platform/ukm_db-wal
+ delete mode 100755 charts/advertising_costs.png
+ delete mode 100755 charts/consumer_delivery_preferences.png
+ delete mode 100755 charts/dropshipping_market_growth.png
+ delete mode 100755 charts/market_analysis_comparison.png
+ delete mode 100755 charts/product_categories.png
+ delete mode 100755 charts/product_evaluation_analysis.png
+ delete mode 100755 charts/profit_margin_comparison.png
+ delete mode 100755 charts/seasonal_trends.png
+ delete mode 100755 charts/success_factors.png
+ delete mode 100755 code/create_dropshipping_visualizations.py
+ delete mode 100755 code/product_evaluation.py
+ rename visionguard-store/components.json => components.json (100%)
+ delete mode 100755 deploy_url.txt
+ delete mode 100755 docs/health_wellness_trends_2025.md
+ delete mode 100755 docs/home_lifestyle_trends_2025.md
+ delete mode 100755 docs/product_selection_plan.md
+ delete mode 100755 docs/research_plan_dropshipping.md
+ delete mode 100755 docs/research_plan_dropshipping_2025.md
+ delete mode 100755 docs/research_plan_eco_sustainable_dropshipping_2025.md
+ delete mode 100755 docs/research_plan_health_wellness_dropshipping_2025.md
+ delete mode 100755 docs/research_plan_home_lifestyle_trends_2025.md
+ delete mode 100755 docs/research_plan_tech_gadgets_2025.md
+ delete mode 100755 docs/tech_gadgets_trends_2025.md
+ rename visionguard-store/eslint.config.js => eslint.config.js (100%)
+ delete mode 100755 external_api/__init__.py
+ delete mode 100755 external_api/data_sources/__init__.py
+ delete mode 100755 external_api/data_sources/base.py
+ delete mode 100755 external_api/data_sources/booking_source.py
+ delete mode 100755 external_api/data_sources/client.py
+ delete mode 100755 external_api/data_sources/commodities_source.py
+ delete mode 100755 external_api/data_sources/metal_source.py
+ delete mode 100755 external_api/data_sources/patents_source.py
+ delete mode 100755 external_api/data_sources/pinterest_source.py
+ delete mode 100755 external_api/data_sources/scholar_source.py
+ delete mode 100755 external_api/data_sources/tripadvisor_source.py
+ delete mode 100755 external_api/data_sources/twitter_source.py
+ delete mode 100755 external_api/data_sources/yahoo_source.py
+ delete mode 100755 external_api/function_utils.py
+ delete mode 100755 external_api/mcp_function_list.json
+ delete mode 100755 extract/accio_chinese_gadgets_2025.json
+ delete mode 100755 extract/accio_gadget_trends_2025.json
+ delete mode 100755 extract/alibaba_bestsellers.json
+ delete mode 100755 extract/alibaba_supplier_verification.json
+ delete mode 100755 extract/alibaba_trending.json
+ delete mode 100755 extract/aliexpress_alibaba_comparison.json
+ delete mode 100755 extract/aliexpress_bestsellers.json
+ delete mode 100755 extract/aliexpress_bestsellers_dropship.json
+ delete mode 100755 extract/aliexpress_suppliers.json
+ delete mode 100755 extract/aliexpress_trending.json
+ delete mode 100755 extract/alternative_marketing_strategies.json
+ delete mode 100755 extract/amzscout_wellness_products.json
+ delete mode 100755 extract/autods_dropshipping_guide.json
+ delete mode 100755 extract/autods_home_decor.json
+ delete mode 100755 extract/autods_products_guide.json
+ delete mode 100755 extract/autods_tech_gadgets_2025.json
+ delete mode 100755 extract/beauty_gadgets_trends_2025.json
+ delete mode 100755 extract/beauty_products_2025.json
+ delete mode 100755 extract/blue_light_glasses_analysis.json
+ delete mode 100755 extract/blue_light_market_data.json
+ delete mode 100755 extract/cartcoders_electronics_dropshipping.json
+ delete mode 100755 extract/cjdropshipping_aliexpress_trends.json
+ delete mode 100755 extract/compact_products.json
+ delete mode 100755 extract/consumer_behavior_psychology.json
+ delete mode 100755 extract/consumer_delivery_patience.json
+ delete mode 100755 extract/consumer_delivery_preferences.json
+ delete mode 100755 extract/consumer_sustainability_trends.json
+ delete mode 100755 extract/dropshipping_market_overview.json
+ delete mode 100755 extract/dropshipping_profitability_2025.json
+ delete mode 100755 extract/dropshipping_statistics_2025.json
+ delete mode 100755 extract/dropshipping_sustainability.json
+ delete mode 100755 extract/dsers_tech_products_guide.json
+ delete mode 100755 extract/eco_consumer_stats.json
+ delete mode 100755 extract/eco_suppliers.json
+ delete mode 100755 extract/electronics_products.json
+ delete mode 100755 extract/eu_regulations.json
+ delete mode 100755 extract/extract_aliexpress_product_info.json
+ delete mode 100755 extract/failure_analysis.json
+ delete mode 100755 extract/fitness_products_2025.json
+ delete mode 100755 extract/gen_z_demographics.json
+ delete mode 100755 extract/health_wellness_products.json
+ delete mode 100755 extract/home_organization_trends.json
+ delete mode 100755 extract/kitchen_products_2025.json
+ delete mode 100755 extract/low_competition_niches_2025.json
+ delete mode 100755 extract/market_projections.json
+ delete mode 100755 extract/market_saturation_analysis.json
+ delete mode 100755 extract/marketing_strategies.json
+ delete mode 100755 extract/mckinsey_consumer_trends.json
+ delete mode 100755 extract/mckinsey_wellness_trends.json
+ delete mode 100755 extract/niche_products_2025.json
+ delete mode 100755 extract/niches_to_avoid.json
+ delete mode 100755 extract/pet_products_2025.json
+ delete mode 100755 extract/portable_air_purifier_trends.json
+ delete mode 100755 extract/portable_massager_market.json
+ delete mode 100755 extract/problem_solving_products.json
+ delete mode 100755 extract/product_categories_2025.json
+ delete mode 100755 extract/profit_margins_guide.json
+ delete mode 100755 extract/profit_margins_home_decor.json
+ delete mode 100755 extract/profitable_niches_low_competition.json
+ delete mode 100755 extract/radii_ces_chinese_gadgets.json
+ delete mode 100755 extract/salehoo_aliexpress_bestsellers.json
+ delete mode 100755 extract/salehoo_dropship_products.json
+ delete mode 100755 extract/seasonal_dropshipping_trends.json
+ delete mode 100755 extract/shipping_comparison.json
+ delete mode 100755 extract/shipping_expectations.json
+ delete mode 100755 extract/shopify_dropshipping_guide.json
+ delete mode 100755 extract/shopify_eco_products.json
+ delete mode 100755 extract/shopify_success_stories.json
+ delete mode 100755 extract/social_media_ad_costs_2025.json
+ delete mode 100755 extract/spocket_eco_dropshipping.json
+ delete mode 100755 extract/supplier_evaluation.json
+ delete mode 100755 extract/sustainable_packaging_report.json
+ delete mode 100755 extract/tech_gadgets_2025.json
+ delete mode 100755 extract/techstartups_pain_points.json
+ delete mode 100755 extract/tiktok_amazon_finds.json
+ delete mode 100755 extract/tiktok_design_trends.json
+ delete mode 100755 extract/tiktok_viral_products_2025.json
+ delete mode 100755 extract/top_wellness_products_2025.json
+ delete mode 100755 extract/tradelle_viral_products.json
+ delete mode 100755 extract/trending_must_haves_2025.json
+ delete mode 100755 extract/viral_products_2025.json
+ delete mode 100755 extract/viral_products_gen_z_2025.json
+ delete mode 100755 extract/viral_tiktok_products.json
+ delete mode 100755 extract/wired_viral_tiktok_gadgets.json
+ delete mode 100755 extract/wireless_earbuds_profits.json
+ delete mode 100755 imgs/before_after_eyes_7.jpg
+ delete mode 100755 imgs/black-gold-round-metal-frame-blue-light-blocking-glasses.jpg
+ delete mode 100755 imgs/black_rectangular_mens_glasses_white_background_ecommerce.jpg
+ delete mode 100755 imgs/black_round_vintage_blue_light_glasses_white_background.jpg
+ delete mode 100755 imgs/black_round_vintage_blue_light_glasses_white_background.jpg_85
+ delete mode 100755 imgs/blue_light_glasses_before_after_spectrum_infographic.jpg
+ delete mode 100755 imgs/blue_light_glasses_screen_reflection_eye.jpg
+ delete mode 100755 imgs/blue_light_glasses_vs_regular_computer_screen_reflection_comparison.jpg
+ delete mode 100755 imgs/classic_black_frame_blue_light_glasses_white_background.jpg
+ delete mode 100755 imgs/classic_black_frame_blue_light_glasses_white_background.jpg_de
+ delete mode 100755 imgs/classic_black_frame_blue_light_glasses_white_background.jpg_fb
+ delete mode 100755 imgs/classic_black_round_blue_light_glasses_case_white_background.jpg
+ delete mode 100755 imgs/comfortable_working_4.jpeg
+ delete mode 100755 imgs/comfortable_working_6.jpg
+ delete mode 100755 imgs/eye_strain_before_6.jpg
+ delete mode 100755 imgs/eye_strain_before_7.jpg
+ delete mode 100755 imgs/female-gamer-blue-light-glasses-gaming-setup.jpg
+ delete mode 100755 imgs/female_gamer_blue_light_glasses_headset_gaming.jpg
+ delete mode 100755 imgs/gunnar_premium_black_gaming_blue_light_glasses.jpg
+ delete mode 100755 imgs/happy_man_working_laptop_glasses_home_office.jpg
+ delete mode 100755 imgs/image_meta.json
+ delete mode 100755 imgs/man-blue-light-glasses-working-computer-comfortable.jpg
+ delete mode 100755 imgs/man-blue-light-glasses-working-laptop-home-office.jpg
+ delete mode 100755 imgs/modern-clear-frame-blue-light-glasses-transparent-white-background.jpg
+ delete mode 100755 imgs/modern-clear-transparent-frame-blue-light-glasses-ecommerce.jpg
+ delete mode 100755 imgs/modern-clear-transparent-frame-blue-light-glasses-white-background-ecommerce.jpg
+ delete mode 100755 imgs/modern-clear-transparent-frame-glasses-white-background.jpg
+ delete mode 100755 imgs/modern_clear_transparent_frame_glasses_white_background.jpg
+ delete mode 100755 imgs/oversized-clear-frame-unisex-blue-light-glasses-white-background.jpg
+ delete mode 100755 imgs/oversized_unisex_brown_frame_glasses_ecommerce.jpg
+ delete mode 100755 imgs/oversized_unisex_tortoiseshell_blue_light_glasses_white_background.jpg
+ delete mode 100755 imgs/premium-black-blue-light-gaming-glasses.jpg
+ delete mode 100755 imgs/premium-black-metal-frame-blue-light-glasses-set-white-background.jpg
+ delete mode 100755 imgs/premium-metal-aviator-blue-light-glasses-white-background-ecommerce.jpg
+ delete mode 100755 imgs/premium_black_blue_light_gaming_glasses.jpg
+ delete mode 100755 imgs/premium_black_gaming_blue_light_glasses.jpg
+ delete mode 100755 imgs/premium_metal_frame_blue_light_glasses_ecommerce.jpg
+ delete mode 100755 imgs/premium_metal_round_gold_black_glasses_white_background.jpg
+ delete mode 100755 imgs/professional-mens-rectangular-glasses-white-background.jpg
+ delete mode 100755 imgs/professional-rectangular-blue-light-glasses-men.jpg
+ delete mode 100755 imgs/professional_classic_black_frame_blue_light_glasses.jpg
+ delete mode 100755 imgs/professional_mens_rectangular_blue_light_glasses.jpg
+ delete mode 100755 imgs/professional_rectangular_blue_light_glasses_men.jpg
+ delete mode 100755 imgs/round-vintage-blue-light-glasses-black-gold-white-background.jpg
+ delete mode 100755 imgs/round_gold_vintage_blue_light_glasses_white_background.jpg
+ delete mode 100755 imgs/round_vintage_black_blue_light_glasses_white_background.jpg
+ delete mode 100755 imgs/stylish-cat-eye-blue-light-glasses-woman-white-background.jpg
+ delete mode 100755 imgs/stylish-womens-cat-eye-blue-light-glasses-white-background.jpg
+ delete mode 100755 imgs/stylish_cat_eye_blue_light_glasses_women_black_clear.jpg
+ delete mode 100755 imgs/woman_blue_light_glasses_reflection_filter_demonstration.jpg
+ delete mode 100755 imgs/young-boy-blue-light-glasses-laptop-concentration.jpg
+ rename visionguard-store/index.html => index.html (100%)
+ delete mode 100755 memory/research_results.json
+ delete mode 100755 memory/todo_meta.json
+ delete mode 100755 memory/url_source_meta.json
+ delete mode 100755 navigation_testing_report.md
+ rename visionguard-store/package.json => package.json (100%)
+ rename visionguard-store/pnpm-lock.yaml => pnpm-lock.yaml (100%)
+ rename visionguard-store/postcss.config.js => postcss.config.js (100%)
+ delete mode 100755 product_analysis/selected_product_analysis.md
+ delete mode 100755 product_evaluation_results.csv
+ rename {visionguard-store/public => public}/images/aliexpress-product-main.avif (100%)
+ rename {imgs => public/images}/blue-light-glasses-computer-screen-reflection-eye-close-up.jpg (100%)
+ rename {imgs => public/images}/blue_light_glasses_collection_diverse_styles_frames.jpg (100%)
+ rename {imgs => public/images}/blue_light_glasses_collection_multi_style_frames.jpg (100%)
+ rename {imgs => public/images}/blue_light_glasses_collection_multiple_styles_madison_avenue.jpg (100%)
+ rename {visionguard-store/public => public}/images/cat-eye-women.jpg (100%)
+ rename classic-black-bundle.png => public/images/classic-black-bundle.png (100%)
+ rename {visionguard-store/public => public}/images/classic-black-frame.jpg (100%)
+ rename classic-black-lifestyle.png => public/images/classic-black-lifestyle.png (100%)
+ rename classic-black-side.png => public/images/classic-black-side.png (100%)
+ rename {imgs => public/images}/day_night_blue_light_blocking_glasses_styles.jpg (100%)
+ rename {imgs => public/images}/digital_eye_strain_computer_worker_tired_eyes_before_blue_light_glasses.jpg (100%)
+ rename {visionguard-store/public => public}/images/eye_strain_before_3.jpg (100%)
+ rename {imgs => public/images}/gamer_blue_light_glasses_arcade_setup_neon_lights.jpg (100%)
+ rename {imgs => public/images}/gamer_blue_light_glasses_gaming_setup.jpg (100%)
+ rename {visionguard-store/public => public}/images/gaming-premium.jpg (100%)
+ rename {imgs => public/images}/gaming_lifestyle_6.jpg (100%)
+ rename {imgs => public/images}/glasses_collection_8.jpg (100%)
+ rename {imgs => public/images}/happy-man-computer-blue-light-glasses.jpg (100%)
+ rename {imgs => public/images}/happy-professional-man-glasses-working-laptop-office.jpg (100%)
+ rename {visionguard-store/public => public}/images/hero-main-blue-light-glasses.png (100%)
+ rename {imgs => public/images}/hero_glasses_5.jpeg (100%)
+ rename {visionguard-store/public => public}/images/image_meta.json (100%)
+ rename {imgs => public/images}/man-digital-eye-strain-computer-worker-tired-eyes.jpg (100%)
+ rename {imgs => public/images}/man_blue_light_glasses_before_after_eye_comfort.jpg (100%)
+ rename {imgs => public/images}/man_digital_eye_strain_computer_tired_eyes.jpg (100%)
+ rename metal-frame-premium-front.png => public/images/metal-frame-premium-front.png (100%)
+ rename metal-frame-premium-lifestyle.png => public/images/metal-frame-premium-lifestyle.png (100%)
+ rename metal-frame-premium-side.png => public/images/metal-frame-premium-side.png (100%)
+ rename {visionguard-store/public => public}/images/metal-frame-premium.jpg (100%)
+ rename {visionguard-store/public => public}/images/modern-clear-frame.jpg (100%)
+ rename {imgs => public/images}/modern_blue_light_blocking_glasses_black_clear_frames.jpg (100%)
+ rename {imgs => public/images}/modern_blue_light_glasses_ecommerce_hero.jpg (100%)
+ rename {imgs => public/images}/modern_tortoise_shell_glasses_e-commerce_hero.jpg (100%)
+ rename oversized-clear-bundle.png => public/images/oversized-clear-bundle.png (100%)
+ rename oversized-clear-front.png => public/images/oversized-clear-front.png (100%)
+ rename oversized-clear-lifestyle.png => public/images/oversized-clear-lifestyle.png (100%)
+ rename oversized-clear-side.png => public/images/oversized-clear-side.png (100%)
+ rename {visionguard-store/public => public}/images/oversized-unisex.jpg (100%)
+ rename {imgs => public/images}/person-blue-light-glasses-working-laptop-comfortable-lifestyle.jpg (100%)
+ rename {imgs => public/images}/professional_man_digital_eye_strain_red_eyes_computer.jpg (100%)
+ rename {visionguard-store/public => public}/images/rectangular-men.jpg (100%)
+ rename rectangular-professional-front.png => public/images/rectangular-professional-front.png (100%)
+ rename rectangular-professional-lifestyle.png => public/images/rectangular-professional-lifestyle.png (100%)
+ rename rectangular-professional-side.png => public/images/rectangular-professional-side.png (100%)
+ rename {visionguard-store/public => public}/images/round-frame-vintage.jpg (100%)
+ rename round-vintage-detail.png => public/images/round-vintage-detail.png (100%)
+ rename round-vintage-front.png => public/images/round-vintage-front.png (100%)
+ rename round-vintage-lifestyle.png => public/images/round-vintage-lifestyle.png (100%)
+ rename round-vintage-side.png => public/images/round-vintage-side.png (100%)
+ rename {imgs => public/images}/young_woman_digital_eye_strain_computer_fatigue.jpg (100%)
+ rename {imgs => public/images}/young_woman_digital_eye_strain_computer_fatigue_office.jpg (100%)
+ rename {visionguard-store/public => public}/use.txt (100%)
+ rename {visionguard-store/public => public}/videos/blue-light-glasses-demo.mp4 (100%)
+ delete mode 100755 pyproject.toml
+ delete mode 100755 research/market_analysis_2025.md
+ delete mode 100755 research/sourcing_analysis.md
+ delete mode 100755 research/trending_products_2025.md
+ delete mode 100755 shell_output_save/@stripe_stripe-js_1755644490.txt
+ delete mode 100755 shell_output_save/build_1755637269.txt
+ delete mode 100755 shell_output_save/build_1755642126.txt
+ delete mode 100755 shell_output_save/build_1755643020.txt
+ delete mode 100755 shell_output_save/build_1755644285.txt
+ delete mode 100755 shell_output_save/build_1755644852.txt
+ delete mode 100755 shell_output_save/build_1755659490.txt
+ delete mode 100755 shell_output_save/build_1755660248.txt
+ delete mode 100755 shell_output_save/build_1755660637.txt
+ delete mode 100755 shell_output_save/build_1755662058.txt
+ delete mode 100755 shell_output_save/build_1755662361.txt
+ delete mode 100755 shell_output_save/build_1755692234.txt
+ delete mode 100755 shell_output_save/build_1755693358.txt
+ delete mode 100755 shell_output_save/build_1755701987.txt
+ delete mode 100755 shell_output_save/build_1755703294.txt
+ delete mode 100755 shell_output_save/build_1755727568.txt
+ delete mode 100755 shell_output_save/main_1755746969.txt
+ rename {visionguard-store/src => src}/App.css (100%)
+ rename {visionguard-store/src => src}/App.tsx (100%)
+ rename {visionguard-store/src => src}/components/CheckoutForm.tsx (100%)
+ rename {visionguard-store/src => src}/components/ErrorBoundary.tsx (100%)
+ rename {visionguard-store/src => src}/components/Footer.tsx (100%)
+ rename {visionguard-store/src => src}/components/Header.tsx (100%)
+ rename {visionguard-store/src => src}/contexts/AuthContext.tsx (100%)
+ rename {visionguard-store/src => src}/contexts/CartContext.tsx (100%)
+ rename {visionguard-store/src => src}/hooks/use-mobile.tsx (100%)
+ rename {visionguard-store/src => src}/index.css (100%)
+ rename {visionguard-store/src => src}/lib/supabase.ts (100%)
+ rename {visionguard-store/src => src}/lib/utils.ts (100%)
+ rename {visionguard-store/src => src}/main.tsx (100%)
+ rename {visionguard-store/src => src}/pages/AdminDashboardPage.tsx (100%)
+ rename {visionguard-store/src => src}/pages/AdminLoginPage.tsx (100%)
+ rename {visionguard-store/src => src}/pages/CartPage.tsx (100%)
+ rename {visionguard-store/src => src}/pages/CheckoutPage.tsx (100%)
+ rename {visionguard-store/src => src}/pages/HomePage.tsx (100%)
+ rename {visionguard-store/src => src}/pages/ProductPage.tsx (100%)
+ rename {visionguard-store/src => src}/pages/SuccessPage.tsx (100%)
+ rename {visionguard-store/src => src}/vite-env.d.ts (100%)
+ delete mode 100755 sub_tasks/task_summary_github_code_push.docx
+ delete mode 100755 sub_tasks/task_summary_github_code_push.md
+ delete mode 100755 sub_tasks/task_summary_github_code_push.pdf
+ delete mode 100755 sub_tasks/task_summary_visionguard_pricing_navigation_fixes.docx
+ delete mode 100755 sub_tasks/task_summary_visionguard_pricing_navigation_fixes.md
+ delete mode 100755 sub_tasks/task_summary_visionguard_pricing_navigation_fixes.pdf
+ delete mode 100755 supabase/functions/admin-login/index.ts
+ delete mode 100755 supabase/functions/confirm-payment/index.ts
+ delete mode 100755 supabase/functions/create-payment-intent/index.ts
+ delete mode 100755 supabase/functions/send-order-confirmation/index.ts
+ delete mode 100755 supabase/functions/update-product/index.ts
+ delete mode 100755 supabase/product_images_table.sql
+ delete mode 100755 supabase/product_update.sql
+ delete mode 100755 supabase/tables/admin_users.sql
+ delete mode 100755 supabase/tables/customers.sql
+ delete mode 100755 supabase/tables/order_items.sql
+ delete mode 100755 supabase/tables/orders.sql
+ delete mode 100755 supabase/tables/products.sql
+ delete mode 100755 supabase/tables/reviews.sql
+ rename visionguard-store/tailwind.config.js => tailwind.config.js (100%)
+ rename visionguard-store/tsconfig.app.json => tsconfig.app.json (100%)
+ rename visionguard-store/tsconfig.json => tsconfig.json (100%)
+ rename visionguard-store/tsconfig.node.json => tsconfig.node.json (100%)
+ delete mode 100755 user_input_files/267958793084.mp4
+ delete mode 100755 user_input_files/image.png
+ delete mode 100755 user_input_files/main image blue light.png
+ delete mode 100755 uv.lock
+ delete mode 100755 visionguard-store/README.md
+ delete mode 100755 visionguard-store/public/images/blue-light-glasses-computer-screen-reflection-eye-close-up.jpg
+ delete mode 100755 visionguard-store/public/images/blue_light_glasses_collection_diverse_styles_frames.jpg
+ delete mode 100755 visionguard-store/public/images/blue_light_glasses_collection_multi_style_frames.jpg
+ delete mode 100755 visionguard-store/public/images/blue_light_glasses_collection_multiple_styles_madison_avenue.jpg
+ delete mode 100755 visionguard-store/public/images/classic-black-bundle.png
+ delete mode 100755 visionguard-store/public/images/classic-black-lifestyle.png
+ delete mode 100755 visionguard-store/public/images/classic-black-side.png
+ delete mode 100755 visionguard-store/public/images/day_night_blue_light_blocking_glasses_styles.jpg
+ delete mode 100755 visionguard-store/public/images/digital_eye_strain_computer_worker_tired_eyes_before_blue_light_glasses.jpg
+ delete mode 100755 visionguard-store/public/images/gamer_blue_light_glasses_arcade_setup_neon_lights.jpg
+ delete mode 100755 visionguard-store/public/images/gamer_blue_light_glasses_gaming_setup.jpg
+ delete mode 100755 visionguard-store/public/images/gaming_lifestyle_6.jpg
+ delete mode 100755 visionguard-store/public/images/glasses_collection_8.jpg
+ delete mode 100755 visionguard-store/public/images/happy-man-computer-blue-light-glasses.jpg
+ delete mode 100755 visionguard-store/public/images/happy-professional-man-glasses-working-laptop-office.jpg
+ delete mode 100755 visionguard-store/public/images/hero_glasses_5.jpeg
+ delete mode 100755 visionguard-store/public/images/man-digital-eye-strain-computer-worker-tired-eyes.jpg
+ delete mode 100755 visionguard-store/public/images/man_blue_light_glasses_before_after_eye_comfort.jpg
+ delete mode 100755 visionguard-store/public/images/man_digital_eye_strain_computer_tired_eyes.jpg
+ delete mode 100755 visionguard-store/public/images/metal-frame-premium-front.png
+ delete mode 100755 visionguard-store/public/images/metal-frame-premium-lifestyle.png
+ delete mode 100755 visionguard-store/public/images/metal-frame-premium-side.png
+ delete mode 100755 visionguard-store/public/images/modern_blue_light_blocking_glasses_black_clear_frames.jpg
+ delete mode 100755 visionguard-store/public/images/modern_blue_light_glasses_ecommerce_hero.jpg
+ delete mode 100755 visionguard-store/public/images/modern_tortoise_shell_glasses_e-commerce_hero.jpg
+ delete mode 100755 visionguard-store/public/images/oversized-clear-bundle.png
+ delete mode 100755 visionguard-store/public/images/oversized-clear-front.png
+ delete mode 100755 visionguard-store/public/images/oversized-clear-lifestyle.png
+ delete mode 100755 visionguard-store/public/images/oversized-clear-side.png
+ delete mode 100755 visionguard-store/public/images/person-blue-light-glasses-working-laptop-comfortable-lifestyle.jpg
+ delete mode 100755 visionguard-store/public/images/professional_man_digital_eye_strain_red_eyes_computer.jpg
+ delete mode 100755 visionguard-store/public/images/rectangular-professional-front.png
+ delete mode 100755 visionguard-store/public/images/rectangular-professional-lifestyle.png
+ delete mode 100755 visionguard-store/public/images/rectangular-professional-side.png
+ delete mode 100755 visionguard-store/public/images/round-vintage-detail.png
+ delete mode 100755 visionguard-store/public/images/round-vintage-front.png
+ delete mode 100755 visionguard-store/public/images/round-vintage-lifestyle.png
+ delete mode 100755 visionguard-store/public/images/round-vintage-side.png
+ delete mode 100755 visionguard-store/public/images/young_woman_digital_eye_strain_computer_fatigue.jpg
+ delete mode 100755 visionguard-store/public/images/young_woman_digital_eye_strain_computer_fatigue_office.jpg
+ delete mode 100755 visionguard_storefront_test_report.md
+ delete mode 100755 visionguard_testing_report.md
+ rename visionguard-store/vite.config.ts => vite.config.ts (100%)
