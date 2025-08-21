@@ -1,0 +1,41 @@
+{
+  "todos": {
+    "Coordinator": {
+      "1": {
+        "id": "1",
+        "content": "Remove hardcoded admin credentials from AuthContext",
+        "details": "Remove ADMIN_EMAIL and ADMIN_PASSWORD constants from AuthContext.tsx and implement dynamic credential checking",
+        "status": "pending",
+        "priority": "high"
+      },
+      "2": {
+        "id": "2",
+        "content": "Create secure admin setup system",
+        "details": "1. Create AdminSetupPage for initial credential setup\n2. Implement secure password hashing/storage\n3. Add setup completion tracking\n4. Redirect to setup if no admin exists",
+        "status": "pending",
+        "priority": "high"
+      },
+      "3": {
+        "id": "3",
+        "content": "Update admin login page",
+        "details": "1. Remove demo credentials display\n2. Remove pre-filled credentials\n3. Update UI to not show sensitive information\n4. Implement secure login flow",
+        "status": "pending",
+        "priority": "high"
+      },
+      "4": {
+        "id": "4",
+        "content": "Enhance admin dashboard security",
+        "details": "1. Ensure no passwords are displayed\n2. Add option to change admin credentials\n3. Implement secure session management",
+        "status": "pending",
+        "priority": "medium"
+      },
+      "5": {
+        "id": "5",
+        "content": "Push changes to GitHub",
+        "details": "Commit and push all security improvements to the VisionGuard repository using the existing GitHub token",
+        "status": "pending",
+        "priority": "low"
+      }
+    }
+  }
+}
