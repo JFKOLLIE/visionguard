@@ -27,13 +27,6 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   useEffect(() => {
     const loadUser = () => {
       try {
-        // Check if admin setup is complete
-        if (!isAdminSetupComplete()) {
-          setUser(null)
-          setLoading(false)
-          return
-        }
-
         // Check for admin session in localStorage
         const adminSession = localStorage.getItem('visionguard_admin_session')
         
